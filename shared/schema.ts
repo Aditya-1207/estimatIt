@@ -91,9 +91,7 @@ export const searchSSRItemsSchema = z.object({
   limit: z.number().optional().default(10),
 });
 
-export const createBOQItemSchema = insertBOQItemSchema.extend({
-  projectId: z.string().min(1),
-});
+export const createBOQItemSchema = insertBOQItemSchema;
 
 export const updateProjectSchema = z.object({
   name: z.string().optional(),

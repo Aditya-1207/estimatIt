@@ -150,6 +150,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   app.post("/api/boq-items", async (req, res) => {
     try {
+      console.log("BOQ Item request body:", JSON.stringify(req.body, null, 2));
       const itemData = createBOQItemSchema.parse(req.body);
       const item = await storage.createBOQItem(itemData);
       
@@ -167,8 +168,13 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(item);
     } catch (error) {
       if (error instanceof z.ZodError) {
-        res.status(400).json({ message: "Invalid BOQ item data" });
+        console.error("Zod validation error:", error.errors);
+        res.status(400).json({ 
+          message: "Invalid BOQ item data",
+          errors: error.errors 
+        });
       } else {
+        console.error("BOQ creation error:", error);
         res.status(500).json({ message: "Failed to create BOQ item" });
       }
     }
