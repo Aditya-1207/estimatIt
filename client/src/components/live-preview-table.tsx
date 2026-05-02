@@ -1,44 +1,48 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useToast } from "@/hooks/use-toast";
-import { Trash2, TableProperties, FileBarChart } from "lucide-react";
+import { Trash2, TableProperties, FileBarChart, Pencil } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
 import type { BOQItem, Project } from "@shared/schema";
 
 interface LivePreviewTableProps {
   project: Project;
+  onEditItem: (item: BOQItem) => void;
 }
 
-export default function LivePreviewTable({ project }: LivePreviewTableProps) {
+export default function LivePreviewTable({ project, onEditItem }: LivePreviewTableProps) {
   const { toast } = useToast();
   const queryClient = useQueryClient();
 
   const { data: boqItems = [], isLoading } = useQuery<BOQItem[]>({
     queryKey: ["/api/boq-items", project.id],
     queryFn: async () => {
-      const response = await fetch(`/api/boq-items/${project.id}`);
-      if (!response.ok) throw new Error("Failed to fetch BOQ items");
-      return response.json();
+      const res = await fetch(`/api/boq-items/${project.id}`);
+      if (!res.ok) throw new Error("Failed to fetch BOQ items");
+      return res.json();
     },
   });
 
   const deleteMutation = useMutation({
     mutationFn: async (itemId: number) => {
-      const response = await apiRequest("DELETE", `/api/boq-items/${itemId}`);
-      return response.json();
+      const res = await apiRequest("DELETE", `/api/boq-items/${itemId}`);
+      return res.json();
     },
     onSuccess: () => {
       toast({ title: "Item removed" });
       queryClient.invalidateQueries({ queryKey: ["/api/boq-items", project.id] });
     },
-    onError: () => {
-      toast({ title: "Could not delete item", variant: "destructive" });
-    },
+    onError: () => toast({ title: "Could not delete item", variant: "destructive" }),
   });
+
+  const handleDelete = (item: BOQItem) => {
+    if (!window.confirm(`Remove "${item.description}"?`)) return;
+    deleteMutation.mutate(item.id);
+  };
 
   const totalAmount = boqItems.reduce((sum, item) => sum + item.amount, 0);
 
-  const fmtINR = (val: number) =>
-    val.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const fmtINR = (v: number) =>
+    v.toLocaleString("en-IN", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
   return (
     <div className="bg-white rounded-2xl card-shadow overflow-hidden flex flex-col">
@@ -51,17 +55,11 @@ export default function LivePreviewTable({ project }: LivePreviewTableProps) {
           <h2 className="text-base font-bold text-gray-900">Bill of Quantities</h2>
         </div>
         <div className="flex items-center gap-3 text-sm">
-          <span className="text-gray-500">
-            Items:{" "}
-            <span className="font-bold text-gray-900">{boqItems.length}</span>
-          </span>
+          <span className="text-gray-500">Items: <span className="font-bold text-gray-900">{boqItems.length}</span></span>
           {boqItems.length > 0 && (
             <>
               <span className="text-gray-300">|</span>
-              <span className="text-gray-500">
-                Total:{" "}
-                <span className="font-bold text-blue-600">₹{fmtINR(totalAmount)}</span>
-              </span>
+              <span className="text-gray-500">Total: <span className="font-bold text-blue-600">₹{fmtINR(totalAmount)}</span></span>
             </>
           )}
         </div>
@@ -81,7 +79,7 @@ export default function LivePreviewTable({ project }: LivePreviewTableProps) {
             </div>
             <p className="text-base font-semibold text-gray-700">No items yet</p>
             <p className="text-sm text-gray-500 max-w-xs">
-              Use the form on the left to search the SSR database and add items to your BOQ
+              Use the form on the left to search the SSR database and add items
             </p>
           </div>
         ) : (
@@ -95,7 +93,7 @@ export default function LivePreviewTable({ project }: LivePreviewTableProps) {
                   <th className="px-4 py-3 text-right text-xs font-semibold text-gray-500 uppercase tracking-wider w-20">Qty</th>
                   <th className="px-4 py-3 text-right text-xs font-semibold text-gray-500 uppercase tracking-wider w-28">Rate (₹)</th>
                   <th className="px-4 py-3 text-right text-xs font-semibold text-gray-500 uppercase tracking-wider w-32">Amount (₹)</th>
-                  <th className="px-4 py-3 text-center text-xs font-semibold text-gray-500 uppercase tracking-wider w-14"></th>
+                  <th className="px-4 py-3 text-center text-xs font-semibold text-gray-500 uppercase tracking-wider w-20">Actions</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
@@ -106,9 +104,7 @@ export default function LivePreviewTable({ project }: LivePreviewTableProps) {
                       <p className="font-medium text-gray-900 leading-snug">{item.description}</p>
                       <div className="flex items-center gap-2 mt-0.5">
                         {item.itemCode && (
-                          <span className="text-xs bg-blue-100 text-blue-700 font-medium px-1.5 py-0.5 rounded">
-                            {item.itemCode}
-                          </span>
+                          <span className="text-xs bg-blue-100 text-blue-700 font-medium px-1.5 py-0.5 rounded">{item.itemCode}</span>
                         )}
                         {item.remarks && (
                           <span className="text-xs text-gray-400 truncate max-w-[180px]">{item.remarks}</span>
@@ -119,15 +115,24 @@ export default function LivePreviewTable({ project }: LivePreviewTableProps) {
                     <td className="px-4 py-3.5 text-right text-gray-700 tabular-nums">{item.quantity.toFixed(2)}</td>
                     <td className="px-4 py-3.5 text-right text-gray-700 tabular-nums">{fmtINR(item.rate)}</td>
                     <td className="px-4 py-3.5 text-right font-bold text-gray-900 tabular-nums">{fmtINR(item.amount)}</td>
-                    <td className="px-4 py-3.5 text-center">
-                      <button
-                        onClick={() => deleteMutation.mutate(item.id)}
-                        disabled={deleteMutation.isPending}
-                        className="opacity-0 group-hover:opacity-100 transition-opacity w-7 h-7 rounded-lg flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-red-50"
-                        title="Remove item"
-                      >
-                        <Trash2 className="w-4 h-4" />
-                      </button>
+                    <td className="px-4 py-3.5">
+                      <div className="flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <button
+                          onClick={() => onEditItem(item)}
+                          className="w-7 h-7 rounded-lg flex items-center justify-center text-gray-400 hover:text-amber-600 hover:bg-amber-50 transition-colors"
+                          title="Edit item"
+                        >
+                          <Pencil className="w-3.5 h-3.5" />
+                        </button>
+                        <button
+                          onClick={() => handleDelete(item)}
+                          disabled={deleteMutation.isPending}
+                          className="w-7 h-7 rounded-lg flex items-center justify-center text-gray-400 hover:text-red-500 hover:bg-red-50 transition-colors"
+                          title="Remove item"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}
@@ -141,9 +146,7 @@ export default function LivePreviewTable({ project }: LivePreviewTableProps) {
       {boqItems.length > 0 && (
         <div className="border-t border-gray-100 px-6 py-4 bg-gray-50 flex items-center justify-between">
           <span className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Grand Total</span>
-          <span className="text-xl font-bold text-blue-600">
-            ₹{fmtINR(totalAmount)}
-          </span>
+          <span className="text-xl font-bold text-blue-600">₹{fmtINR(totalAmount)}</span>
         </div>
       )}
     </div>

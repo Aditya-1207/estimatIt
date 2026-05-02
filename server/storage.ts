@@ -30,6 +30,7 @@ export interface IStorage {
   deleteBOQItem(id: number): Promise<void>;
   
   // Projects
+  getProjects(): Promise<Project[]>;
   getProject(id: string): Promise<Project | undefined>;
   createProject(project: InsertProject): Promise<Project>;
   updateProject(id: string, project: Partial<Project>): Promise<Project>;
@@ -391,6 +392,12 @@ export class MemStorage implements IStorage {
   }
 
   // Projects
+  async getProjects(): Promise<Project[]> {
+    return Array.from(this.projects.values()).sort(
+      (a, b) => new Date(b.createdAt!).getTime() - new Date(a.createdAt!).getTime()
+    );
+  }
+
   async getProject(id: string): Promise<Project | undefined> {
     return this.projects.get(id);
   }

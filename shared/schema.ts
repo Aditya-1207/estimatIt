@@ -93,7 +93,19 @@ export const searchSSRItemsSchema = z.object({
 
 export const createBOQItemSchema = insertBOQItemSchema;
 
+export const updateBOQItemSchema = z.object({
+  description: z.string().min(1).optional(),
+  unit: z.string().min(1).optional(),
+  quantity: z.number().positive().optional(),
+  rate: z.number().nonnegative().optional(),
+  amount: z.number().nonnegative().optional(),
+  remarks: z.string().nullable().optional(),
+  itemCode: z.string().nullable().optional(),
+});
+
 export const updateProjectSchema = z.object({
   name: z.string().optional(),
   workOrderNo: z.string().optional(),
+  totalAmount: z.number().optional(),
+  itemCount: z.number().optional(),
 });

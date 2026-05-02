@@ -4,6 +4,7 @@ import { storage } from "./storage";
 import { 
   searchSSRItemsSchema, 
   createBOQItemSchema, 
+  updateBOQItemSchema,
   insertProjectSchema, 
   updateProjectSchema,
   insertSSRVersionSchema,
@@ -180,6 +181,30 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  app.put("/api/boq-items/:id", async (req, res) => {
+    try {
+      const itemId = parseInt(req.params.id);
+      const updates = updateBOQItemSchema.parse(req.body);
+      const updatedItem = await storage.updateBOQItem(itemId, updates);
+
+      // Recalculate project totals
+      const allItems = await storage.getBOQItems(updatedItem.projectId);
+      const totalAmount = allItems.reduce((sum, i) => sum + i.amount, 0);
+      await storage.updateProject(updatedItem.projectId, {
+        totalAmount,
+        itemCount: allItems.length,
+      });
+
+      res.json(updatedItem);
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        res.status(400).json({ message: "Invalid BOQ item data", errors: error.errors });
+      } else {
+        res.status(500).json({ message: "Failed to update BOQ item" });
+      }
+    }
+  });
+
   app.delete("/api/boq-items/:id", async (req, res) => {
     try {
       const itemId = parseInt(req.params.id);
@@ -208,6 +233,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // Projects routes
+  app.get("/api/projects", async (req, res) => {
+    try {
+      const projects = await storage.getProjects();
+      res.json(projects);
+    } catch (error) {
+      res.status(500).json({ message: "Failed to fetch projects" });
+    }
+  });
+
   app.get("/api/projects/:id", async (req, res) => {
     try {
       const { id } = req.params;
