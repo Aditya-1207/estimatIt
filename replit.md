@@ -100,6 +100,8 @@ This is a full-stack web application designed to help civil engineers in India p
 ```
 Changelog:
 - July 06, 2025. Initial setup
+- May 02, 2026. Full UI redesign — modern minimalist look with Inter font, large inputs (h-12), blue 600 primary palette, rounded-2xl cards with soft shadows, improved SSR dropdown UX, sticky header, blue SSR version banner, responsive layout
+- May 02, 2026. Fixed BOQ item validation bug — createBOQItemSchema simplified to equal insertBOQItemSchema
 ```
 
 ## User Preferences
