@@ -47,9 +47,19 @@ export default function Home() {
     try {
       const response = await fetch(`/api/export/excel/${currentProject.id}`);
       if (!response.ok) throw new Error("Export failed");
-      toast({ title: "Export ready", description: "Your BOQ has been exported successfully." });
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      const safeName = currentProject.name.replace(/[^a-zA-Z0-9_\- ]/g, "").replace(/\s+/g, "_");
+      a.download = `${safeName}_BOQ.xlsx`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      toast({ title: "Excel file downloaded", description: `${safeName}_BOQ.xlsx` });
     } catch {
-      toast({ title: "Export failed", description: "Could not export the file.", variant: "destructive" });
+      toast({ title: "Export failed", description: "Could not generate the Excel file.", variant: "destructive" });
     }
   };
 

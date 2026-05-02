@@ -111,7 +111,7 @@ export default function BOQInputForm({ project, onProjectUpdate }: BOQInputFormP
       amount: quantity * rate,
       remarks: formData.remarks || null,
       itemCode: formData.itemCode || null,
-      sequenceNumber: Date.now(),
+      sequenceNumber: Math.floor(Date.now() / 1000) % 2000000000,
     });
   };
 
