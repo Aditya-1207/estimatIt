@@ -208,24 +208,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.delete("/api/boq-items/:id", async (req, res) => {
     try {
       const itemId = parseInt(req.params.id);
-      const item = await storage.getBOQItems("").then(items => 
-        items.find(i => i.id === itemId)
-      );
-      
+      const item = await storage.getBOQItemById(itemId);
+
       if (!item) {
         return res.status(404).json({ message: "BOQ item not found" });
       }
-      
+
       await storage.deleteBOQItem(itemId);
-      
+
       // Update project totals
       const allItems = await storage.getBOQItems(item.projectId);
-      const totalAmount = allItems.reduce((sum, item) => sum + item.amount, 0);
+      const totalAmount = allItems.reduce((sum, i) => sum + i.amount, 0);
       await storage.updateProject(item.projectId, {
         totalAmount,
         itemCount: allItems.length,
       });
-      
+
       res.json({ message: "BOQ item deleted successfully" });
     } catch (error) {
       res.status(500).json({ message: "Failed to delete BOQ item" });

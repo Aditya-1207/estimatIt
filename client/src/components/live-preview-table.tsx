@@ -7,9 +7,10 @@ import type { BOQItem, Project } from "@shared/schema";
 interface LivePreviewTableProps {
   project: Project;
   onEditItem: (item: BOQItem) => void;
+  editingItem: BOQItem | null;
 }
 
-export default function LivePreviewTable({ project, onEditItem }: LivePreviewTableProps) {
+export default function LivePreviewTable({ project, onEditItem, editingItem }: LivePreviewTableProps) {
   const { toast } = useToast();
   const queryClient = useQueryClient();
 
@@ -97,29 +98,51 @@ export default function LivePreviewTable({ project, onEditItem }: LivePreviewTab
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
-                {boqItems.map((item, index) => (
-                  <tr key={item.id} className="hover:bg-blue-50/40 transition-colors group">
-                    <td className="px-4 py-3.5 text-gray-400 font-medium text-center">{index + 1}</td>
+                {boqItems.map((item, index) => {
+                  const isSelected = editingItem?.id === item.id;
+                  return (
+                  <tr
+                    key={item.id}
+                    className={`transition-colors group ${
+                      isSelected
+                        ? "bg-amber-50 border-l-4 border-l-amber-400"
+                        : "hover:bg-blue-50/40 border-l-4 border-l-transparent"
+                    }`}
+                  >
+                    <td className={`px-4 py-3.5 font-medium text-center ${isSelected ? "text-amber-600" : "text-gray-400"}`}>
+                      {index + 1}
+                    </td>
                     <td className="px-4 py-3.5">
-                      <p className="font-medium text-gray-900 leading-snug">{item.description}</p>
-                      <div className="flex items-center gap-2 mt-0.5">
-                        {item.itemCode && (
-                          <span className="text-xs bg-blue-100 text-blue-700 font-medium px-1.5 py-0.5 rounded">{item.itemCode}</span>
+                      <div className="flex items-center gap-2">
+                        {isSelected && (
+                          <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
                         )}
-                        {item.remarks && (
-                          <span className="text-xs text-gray-400 truncate max-w-[180px]">{item.remarks}</span>
-                        )}
+                        <div>
+                          <p className={`font-medium leading-snug ${isSelected ? "text-amber-900" : "text-gray-900"}`}>
+                            {item.description}
+                          </p>
+                          <div className="flex items-center gap-2 mt-0.5">
+                            {item.itemCode && (
+                              <span className={`text-xs font-medium px-1.5 py-0.5 rounded ${isSelected ? "bg-amber-100 text-amber-700" : "bg-blue-100 text-blue-700"}`}>
+                                {item.itemCode}
+                              </span>
+                            )}
+                            {item.remarks && (
+                              <span className="text-xs text-gray-400 truncate max-w-[180px]">{item.remarks}</span>
+                            )}
+                          </div>
+                        </div>
                       </div>
                     </td>
-                    <td className="px-4 py-3.5 text-center text-gray-600 font-medium">{item.unit}</td>
-                    <td className="px-4 py-3.5 text-right text-gray-700 tabular-nums">{item.quantity.toFixed(2)}</td>
-                    <td className="px-4 py-3.5 text-right text-gray-700 tabular-nums">{fmtINR(item.rate)}</td>
-                    <td className="px-4 py-3.5 text-right font-bold text-gray-900 tabular-nums">{fmtINR(item.amount)}</td>
+                    <td className={`px-4 py-3.5 text-center font-medium ${isSelected ? "text-amber-800" : "text-gray-600"}`}>{item.unit}</td>
+                    <td className={`px-4 py-3.5 text-right tabular-nums ${isSelected ? "text-amber-800" : "text-gray-700"}`}>{item.quantity.toFixed(2)}</td>
+                    <td className={`px-4 py-3.5 text-right tabular-nums ${isSelected ? "text-amber-800" : "text-gray-700"}`}>{fmtINR(item.rate)}</td>
+                    <td className={`px-4 py-3.5 text-right font-bold tabular-nums ${isSelected ? "text-amber-700" : "text-gray-900"}`}>{fmtINR(item.amount)}</td>
                     <td className="px-4 py-3.5">
-                      <div className="flex items-center justify-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <div className={`flex items-center justify-center gap-1 transition-opacity ${isSelected ? "opacity-100" : "opacity-0 group-hover:opacity-100"}`}>
                         <button
                           onClick={() => onEditItem(item)}
-                          className="w-7 h-7 rounded-lg flex items-center justify-center text-gray-400 hover:text-amber-600 hover:bg-amber-50 transition-colors"
+                          className={`w-7 h-7 rounded-lg flex items-center justify-center transition-colors ${isSelected ? "text-amber-600 bg-amber-100 hover:bg-amber-200" : "text-gray-400 hover:text-amber-600 hover:bg-amber-50"}`}
                           title="Edit item"
                         >
                           <Pencil className="w-3.5 h-3.5" />
@@ -135,7 +158,8 @@ export default function LivePreviewTable({ project, onEditItem }: LivePreviewTab
                       </div>
                     </td>
                   </tr>
-                ))}
+                  );
+                })}
               </tbody>
             </table>
           </div>

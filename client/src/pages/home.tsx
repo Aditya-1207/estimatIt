@@ -339,6 +339,7 @@ export default function Home() {
                 <LivePreviewTable
                   project={currentProject}
                   onEditItem={setEditingItem}
+                  editingItem={editingItem}
                 />
               </div>
             </div>

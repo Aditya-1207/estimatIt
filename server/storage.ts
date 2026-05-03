@@ -25,6 +25,7 @@ export interface IStorage {
   
   // BOQ Items
   getBOQItems(projectId: string): Promise<BOQItem[]>;
+  getBOQItemById(id: number): Promise<BOQItem | undefined>;
   createBOQItem(item: InsertBOQItem): Promise<BOQItem>;
   updateBOQItem(id: number, item: Partial<BOQItem>): Promise<BOQItem>;
   deleteBOQItem(id: number): Promise<void>;
@@ -360,6 +361,10 @@ export class MemStorage implements IStorage {
     return Array.from(this.boqItems.values())
       .filter(item => item.projectId === projectId)
       .sort((a, b) => a.sequenceNumber - b.sequenceNumber);
+  }
+
+  async getBOQItemById(id: number): Promise<BOQItem | undefined> {
+    return this.boqItems.get(id);
   }
 
   async createBOQItem(item: InsertBOQItem): Promise<BOQItem> {
