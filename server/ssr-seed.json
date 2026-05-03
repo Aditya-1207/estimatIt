@@ -1,0 +1,6099 @@
+[
+  {
+    "itemCode": "1.01",
+    "description": "Fixing chainage Stone /Bench mark Stone / Center Stone / Apex Stone in earth and all",
+    "unit": "nos",
+    "rate": 189,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.02",
+    "description": "Taking the trial pit for roads, alignment, C.D. Works in earth soil of all sorts, sands gravel",
+    "unit": "m³",
+    "rate": 482,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.03",
+    "description": "Taking the trial pit for roads, alignment, C.D. Works in earth soil of all sorts, sands",
+    "unit": "m³",
+    "rate": 520,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.04",
+    "description": "Taking the trial pit for roads, alignment, C.D. Works in Hard murum, including stacking",
+    "unit": "m³",
+    "rate": 631,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.05",
+    "description": "Taking the trial pit for roads, alignment, C.D. Works in Hard murum, including stacking",
+    "unit": "m³",
+    "rate": 706,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.06",
+    "description": "Taking the trial pit for roads, alignment, C.D. Works in Hard murum, and Boulders",
+    "unit": "m³",
+    "rate": 780,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.07",
+    "description": "Taking the trial pit for roads, alignment, C.D. Works in Hard murum, and Boulders",
+    "unit": "m³",
+    "rate": 984,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.08",
+    "description": "Fixing survey pegs in earth and all sorts Soil, Sand, Gravel, Soft Murum, etc. including",
+    "unit": "nos",
+    "rate": 12,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.09",
+    "description": "Reconnaisance Survey of Road alignment in plain country including taking three",
+    "unit": "km",
+    "rate": 2121,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.10",
+    "description": "Reconnaisance Survey of Road alignment in plain country including taking three",
+    "unit": "km",
+    "rate": 5414,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.11",
+    "description": "Reconnaissance Survey of a road alignment for new hilly road utilising exsisting forest",
+    "unit": "km",
+    "rate": 5711,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.12",
+    "description": "Reconnaissance Survey of road alignment for new hilly road utilising exsisting forest",
+    "unit": "km",
+    "rate": 5516,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.13",
+    "description": "Reconnaissance Survey of road alignment in hilly road utilising exsisting forest cart",
+    "unit": "km",
+    "rate": 3017,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.14",
+    "description": "Reconnaissance Survey of road alignment in hilly road utilising existing forest cart tracks",
+    "unit": "km",
+    "rate": 5888,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.15",
+    "description": "Detailed survey of road in plain country including chaining and levelling with cross",
+    "unit": "km",
+    "rate": 6505,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.16",
+    "description": "Detailed survey of road length where earthwork is partly done including chaining and",
+    "unit": "km",
+    "rate": 6094,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.19",
+    "description": "Providing and Fixing Wooden survey pegs including White washing etc. complete.",
+    "unit": "nos",
+    "rate": 52,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.20",
+    "description": "Carrying out catchment area traverse survey of minor stream (not traceable in toposheet)",
+    "unit": "km",
+    "rate": 3460,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.21",
+    "description": "Cutting down branches of trees , bushes etc. stacking the material neatly",
+    "unit": "km",
+    "rate": 8116,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.24",
+    "description": "Reconnaisance survey including study of sheets, maps etc. for alignment including 3",
+    "unit": "km",
+    "rate": 29252,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.25",
+    "description": "Preparation of detailed Plans and Estimates of road including typing in 5 copies, ammonia",
+    "unit": "km",
+    "rate": 16961,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.26",
+    "description": "Survey of C.D. works including taking L-section of Road, catchment area plan by",
+    "unit": "nos",
+    "rate": 16334,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.27",
+    "description": "Survey of Minor bridge including taking L section of existing road and two defined cross",
+    "unit": "nos",
+    "rate": 61343,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.30",
+    "description": "Survey of raised Causeway including reconnaissance, taking L section of existing road",
+    "unit": "nos",
+    "rate": 41465,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.31",
+    "description": "Preparation of detailed plans and estimates of Raise Causeway on the basis of the",
+    "unit": "nos",
+    "rate": 10461,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.32",
+    "description": "Complete survey of stream having catchment area upto 1 sq. mile including catchment",
+    "unit": "nos",
+    "rate": 8866,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.33",
+    "description": "Complete survey of stream having catchment area above 1 sq. Mile and upto 5 sq. Miles",
+    "unit": "nos",
+    "rate": 18724,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.34",
+    "description": "Reconnaissance survey of alignment in plain country for approaches to the",
+    "unit": "km",
+    "rate": 2255,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.35",
+    "description": "Fly levelling for carrying out bench mark.",
+    "unit": "km",
+    "rate": 1812,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.36",
+    "description": "Detailed survey of approaches including Chain and Compass survey along",
+    "unit": "km",
+    "rate": 4663,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.37",
+    "description": "Taking longitudinal section of streams extending upstream and downstream side of the",
+    "unit": "km",
+    "rate": 5655,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.38",
+    "description": "Demarcation of right of way (ROW) as per design using total station including calculation",
+    "unit": "km",
+    "rate": 9877,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.39",
+    "description": "Preparation of Land Acquisition proposal including collection of 7/12 and 8/A documents",
+    "unit": "km",
+    "rate": 27486,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.40",
+    "description": "Preparation of Land Acquisition proposal including collection of 7/12 and 8/A documents",
+    "unit": "km",
+    "rate": 20343,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.41",
+    "description": "Carrying of detailed topographic survey by using total station along the existing or new",
+    "unit": "km",
+    "rate": 46615,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.42",
+    "description": "Carrying of detailed topographic survey by using total station along the existing or new",
+    "unit": "km",
+    "rate": 43301,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.43",
+    "description": "Carrying of detailed topographic survey by using total station along the existing or new",
+    "unit": "km",
+    "rate": 59200,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.44",
+    "description": "Demarcation of Road boundry (ROW) including fixing the boundry stones of standard",
+    "unit": "km",
+    "rate": 41261,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.49",
+    "description": "Providing tun tappa core boxes of jungle wood of size1.25mx 0.35x 0.15m for",
+    "unit": "nos",
+    "rate": 5665,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.50",
+    "description": "Providing and maintaining temparory platform of bore location in river bed in upto 1M of",
+    "unit": "nos",
+    "rate": 13882,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.51",
+    "description": "Providing and maintaining temporary platform for erecting boring machined in river bed",
+    "unit": "nos",
+    "rate": 21267,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.52",
+    "description": "Providing and maintaining temparory platform for erecting boring machined in river bed",
+    "unit": "nos",
+    "rate": 21810,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.53",
+    "description": "Providing and maintaining temparory platform for inspection from one bank to another",
+    "unit": "nos",
+    "rate": 20033,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.54",
+    "description": "Conveying the boring machine and engine and all its accessories etc. to the site of the",
+    "unit": "km",
+    "rate": 68,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.56",
+    "description": "Providing detailed reports of the inspection logging of drilled hole by observing visual",
+    "unit": "nos",
+    "rate": 9680,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.58",
+    "description": "Preparing land plans and land schedule including carrying out plane table survey for",
+    "unit": "km",
+    "rate": 42184,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.59",
+    "description": "Geometrical design of road horizontal and vertical curves for design speed specified by",
+    "unit": "km",
+    "rate": 12738,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.60",
+    "description": "Transfering and taking out design on coordinates of baseline on ground using nails for",
+    "unit": "km",
+    "rate": 13115,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.61",
+    "description": "Preparation of roadway, drawing (Plan And Profile ) on computer by using Autocad of",
+    "unit": "km",
+    "rate": 11201,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.63",
+    "description": "Survey of C.D. works including taking L-Section of road, catchment area plan by Traverse",
+    "unit": "nos",
+    "rate": 10047,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.64",
+    "description": "Design of junctions including detail layout of traffic signs, informatory boards traffic",
+    "unit": "nos",
+    "rate": 29951,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.65",
+    "description": "Design of junctions including detail layout of traffic signs, informatory boards traffic",
+    "unit": "nos",
+    "rate": 16939,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.67",
+    "description": "Preparation of draft / Final Report comprising of technical, financial economic feasibility",
+    "unit": "nos",
+    "rate": 293450,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.68",
+    "description": "Preparation of Autocad drawing with colour print for Building / Bridge / Road/ CD Works",
+    "unit": "nos",
+    "rate": 9895,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.69",
+    "description": "Preparation of Autocad drawing with colour print for Building / Bridge / Road/ CD Works",
+    "unit": "nos",
+    "rate": 6097,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.70",
+    "description": "Preparation of Autocad drawing with colour print for Building / Bridge / Road/ CD Works",
+    "unit": "nos",
+    "rate": 4668,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.71",
+    "description": "Autocad drawing with colour print out for Building / Bridge / Road/ CD Works in",
+    "unit": "nos",
+    "rate": 146,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.72",
+    "description": "Autocad drawing with colour print out for Building / Bridge / Road/ CD Works in",
+    "unit": "nos",
+    "rate": 97,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.73",
+    "description": "Autocad drawing with colour print out for Building / Bridge / Road/ CD Works in",
+    "unit": "nos",
+    "rate": 73,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.74",
+    "description": "Autocad drawing with colour print out for Building / Bridge / Road/ CD Works in",
+    "unit": "nos",
+    "rate": 19,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.75",
+    "description": "Autocad drawing with colour print out for Building / Bridge / Road/ CD Works in",
+    "unit": "nos",
+    "rate": 13,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "1.78",
+    "description": "As directed by Providing of Jeep/vehicle for conveying surey material, Engineers, labours etc. complete",
+    "unit": "days",
+    "rate": 3630,
+    "category": "Road Survey & DPR"
+  },
+  {
+    "itemCode": "2.01",
+    "description": "Cutting down trees including trunks and branches with girths above 30cm to 60cm and",
+    "unit": "nos",
+    "rate": 511,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.02",
+    "description": "Cutting down trees including trunks and branches with girths above 60cm to 90cm and",
+    "unit": "nos",
+    "rate": 847,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.03",
+    "description": "Cutting down trees including trunks and branches with girths above 90cm to 180cm and",
+    "unit": "nos",
+    "rate": 1746,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.04",
+    "description": "Cutting down trees including trunks and branches with girths above 180cm to 270cm and",
+    "unit": "nos",
+    "rate": 2992,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.05",
+    "description": "Cutting down trees including trunks and branches with girths above 270cm to 450cm and",
+    "unit": "nos",
+    "rate": 3094,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.06",
+    "description": "Cutting down trees including trunks and branches with girths above 450cm and stacking",
+    "unit": "nos",
+    "rate": 3387,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.10",
+    "description": "Excavation for roadway in earth, soil of all sorts, sand, gravel or soft murum including",
+    "unit": "m³",
+    "rate": 300,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.11",
+    "description": "Excavation for roadway in earth, soil of all sorts, sand, gravel or soft murum including",
+    "unit": "m³",
+    "rate": 119,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.13",
+    "description": "Excavation for roadway in hard murum and boulder including dressing section to the",
+    "unit": "m³",
+    "rate": 139,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.14",
+    "description": "Excavation for roadway in soft rock, including dressing section to the required grade,",
+    "unit": "m³",
+    "rate": 177,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.15",
+    "description": "Excavation for roadway in hard rock by controlled blasting including dressing section to",
+    "unit": "m³",
+    "rate": 250,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.16",
+    "description": "Excavation for roadway in hard rock by wedging and chiselling or line drilling including",
+    "unit": "m³",
+    "rate": 1419,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.18",
+    "description": "Excavation for catch / side water gutter in all sorts of soils to the specified section",
+    "unit": "m³",
+    "rate": 119,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.20",
+    "description": "Excavation for catch / side water gutter in Hard murum and boulder strata to the specified",
+    "unit": "m³",
+    "rate": 139,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.21",
+    "description": "Excavation for catch / side water gutter in Soft rock strata to the specified section",
+    "unit": "m³",
+    "rate": 208,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.22",
+    "description": "Excavation for catch / side water gutters in Hard rock strata to the specified section",
+    "unit": "m³",
+    "rate": 1419,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.23",
+    "description": "Watering and compacting of embankment formed of materials obtained from the road",
+    "unit": "m³",
+    "rate": 91,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.24",
+    "description": "Watering and compacting of embankment formed of materials obtained from the road",
+    "unit": "m³",
+    "rate": 79,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.25",
+    "description": "Conveying materials obtained from road cutting including all lifts, laying in layers of",
+    "unit": "m³",
+    "rate": 195,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.26",
+    "description": "Conveying materials obtained from road cutting including all lifts, laying in layers of",
+    "unit": "m³",
+    "rate": 393,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.27",
+    "description": "Providing earth work in embankment with approved materials obtained from departmental",
+    "unit": "m³",
+    "rate": 225,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.28",
+    "description": "Providing earth work in embankment with approved materials obtained from other",
+    "unit": "m³",
+    "rate": 757,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.29a",
+    "description": "Supplying hard murum/ kankar at the road site, including conveying and stacking",
+    "unit": "m³",
+    "rate": 435,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.29b",
+    "description": "Supplying soft murum at the road site, including conveying and stacking complete.",
+    "unit": "m³",
+    "rate": 432,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.30",
+    "description": "Spreading hard murum/ soft murrum/ gravel or kankar for side width complete",
+    "unit": "m³",
+    "rate": 79,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.35",
+    "description": "Providing, laying and spreading soil on a prepared sub grade, pulverizing, mixing the",
+    "unit": "m³",
+    "rate": 596,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.36",
+    "description": "Providing, laying and spreading soil on a prepared sub grade, pulverizing, adding the",
+    "unit": "m³",
+    "rate": 818,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.37",
+    "description": "Laying and spreading available soil in the sub-grade on a prepared surface, pulverizing,",
+    "unit": "m³",
+    "rate": 536,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "2.39",
+    "description": "Construction of embankment with Flyash conforming to table 1 of IRC: SP: 58 - 2001",
+    "unit": "m³",
+    "rate": 156,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "3.01",
+    "description": "Construction of granular sub-base by providing close graded Material, mixing in a",
+    "unit": "m³",
+    "rate": 2039,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.02",
+    "description": "Construction of granular sub-base by providing close graded Material, mixing in a",
+    "unit": "m³",
+    "rate": 2039,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.03",
+    "description": "Construction of granular sub-base by providing close graded Material, mixing in a",
+    "unit": "m³",
+    "rate": 2039,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.04",
+    "description": "Construction of granular sub-base by providing close graded material, spreading in",
+    "unit": "m³",
+    "rate": 1804,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.05",
+    "description": "Construction of granular sub-base by providing close graded material, spreading in",
+    "unit": "m³",
+    "rate": 1804,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.06",
+    "description": "Construction of granular sub-base by providing close graded material, spreading in",
+    "unit": "m³",
+    "rate": 1804,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.07",
+    "description": "Lime, Fly ash Stabilized Soil Sub-Base -- Construction of Sub-base using lime - Fly ash",
+    "unit": "m³",
+    "rate": 1403,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.08a",
+    "description": "A) For Sub-base Course",
+    "unit": "m³",
+    "rate": 2447,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.08b",
+    "description": "B) For Base Course",
+    "unit": "m³",
+    "rate": 2351,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.10",
+    "description": "Dismantling of flexible pavements and disposal of dismantled materials up to a lead of",
+    "unit": "m³",
+    "rate": 430,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.11",
+    "description": "Dismantling of cement concrete pavement by mechanical means using pneumatic tools,",
+    "unit": "m³",
+    "rate": 1385,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.18",
+    "description": "Providing, laying, spreading and compacting stone aggregates of specific sizes to water",
+    "unit": "m³",
+    "rate": 2218,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.19",
+    "description": "Providing, laying, spreading and compacting stone aggregates of specific sizes to water",
+    "unit": "m³",
+    "rate": 2180,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.20",
+    "description": "Providing, laying, spreading and compacting stone aggregates of specific sizes to water",
+    "unit": "m³",
+    "rate": 2180,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.21",
+    "description": "Crushed Cement Concrete Sub-base / Base - Breaking and crushing of material obtained",
+    "unit": "m³",
+    "rate": 414,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.23",
+    "description": "Wet Mix Macadam -- Providing, laying, spreading and compacting graded stone",
+    "unit": "m³",
+    "rate": 2045,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.24",
+    "description": "Crusher Run Macadam Base -- Providing crushed stone aggregate, depositing on a",
+    "unit": "m³",
+    "rate": 1847,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.25",
+    "description": "Crusher Run Macadam Base -- Providing crushed stone aggregate, depositing on a",
+    "unit": "m³",
+    "rate": 1847,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.26",
+    "description": "Crusher Run Macadam Base -- Providing crushed stone aggregate, depositing on a",
+    "unit": "m³",
+    "rate": 2099,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.27",
+    "description": "Crusher Run Macadam Base -- Providing crushed stone aggregate, depositing on a",
+    "unit": "m³",
+    "rate": 2099,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.40",
+    "description": "BITUMINOUS MACADAM: Proving and laying bituminous macadam using crushed",
+    "unit": "m³",
+    "rate": 7644,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.42",
+    "description": "BITUMINOUS MACADAM:--Providing and laying bituminous macadam using crushed",
+    "unit": "m³",
+    "rate": 7295,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.44",
+    "description": "DENSE BITUMINOUS MACADAM: Proving and laying dense bituminous macadam",
+    "unit": "m³",
+    "rate": 9664,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.46",
+    "description": "DENSE BITUMINOUS MACADAM:--Providing and laying dense bituminous macadam",
+    "unit": "m³",
+    "rate": 9178,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.48",
+    "description": "BITUMINOUS CONCRETE:- Providing and laying bituminous concrete using crushed",
+    "unit": "m³",
+    "rate": 10599,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "3.50",
+    "description": "BITUMINOUS CONCRETE:--Providing and laying bituminous concrete using crushed",
+    "unit": "m³",
+    "rate": 10627,
+    "category": "Road Sub Base & Base Course"
+  },
+  {
+    "itemCode": "5.01",
+    "description": "Providing and laying in-situ M30 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7582,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.02",
+    "description": "Providing and laying in-situ M35 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7698,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.03",
+    "description": "Providing and laying in-situ M40 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7793,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.04",
+    "description": "Providing and laying in-situ M30 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7736,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.05",
+    "description": "Providing and laying in-situ M35 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7858,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.06",
+    "description": "Providing and laying in-situ M40 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7954,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.07",
+    "description": "Providing and laying in-situ M30 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7161,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.08",
+    "description": "Providing and laying in-situ M35 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7262,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.09",
+    "description": "Providing and laying in-situ M40 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7346,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.10",
+    "description": "Providing and laying in-situ M30 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7337,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.11",
+    "description": "Providing and laying in-situ M35 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7444,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.12",
+    "description": "Providing and laying in-situ M40 Grade unreinforced plain cement concrete pavement",
+    "unit": "m³",
+    "rate": 7529,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.13",
+    "description": "Construction of dry lean cement concrete Sub- base over a prepared sub-grade with",
+    "unit": "m³",
+    "rate": 3659,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.14",
+    "description": "Providing and fixing in position TMT FE 500, 32 mm dia dowel bars precoated with",
+    "unit": "nos",
+    "rate": 538,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.15",
+    "description": "Providing and fixing in position TMT FE 500, 25mm dia dowel bars precoated with",
+    "unit": "nos",
+    "rate": 394,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.16",
+    "description": "Providing and fixing in position TMT FE 500, tie bars precoated with anticorrosive epoxy",
+    "unit": "nos",
+    "rate": 306,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "5.22",
+    "description": "As directed by Providing and laying in situ cement concrete M -30 with tremix treatment for 200 mm",
+    "unit": "m³",
+    "rate": 8446,
+    "category": "Rigid Pavement (PQC)"
+  },
+  {
+    "itemCode": "6.05",
+    "description": "Painting letters upto 20 cm height complete brushes, coir brushers, dusting, cleaning,",
+    "unit": "nos",
+    "rate": 29,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.07",
+    "description": "Providing white and colour washing to road side trees in 2 coats in 2 bands of white and",
+    "unit": "nos",
+    "rate": 57,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.09",
+    "description": "Supplying and Fixing of Molded Shank Raised Pavement Markers / Cat's Eye made of",
+    "unit": "nos",
+    "rate": 366,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.10",
+    "description": "Providing and Fixing of Median Marker that are made of tough, high impact resistant,",
+    "unit": "nos",
+    "rate": 458,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.14",
+    "description": "Providing Vertical Delineator having wide angle cube corner micro prismatic non metallic",
+    "unit": "nos",
+    "rate": 2990,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.15",
+    "description": "Road Delineators: Supplying and installation of delineators (Roadway Indicators, Hazard",
+    "unit": "nos",
+    "rate": 822,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.16",
+    "description": "Providing and fixing steel pipe delineators of 10 cm. in diameter and total height of 130",
+    "unit": "nos",
+    "rate": 1006,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.18",
+    "description": "Supplying precast conventional reflective delinators on four sides for road signs",
+    "unit": "nos",
+    "rate": 415,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.19",
+    "description": "Fixing in position Cautionary/ Mandatory sign boards in ground with C C 1:4:8 block of",
+    "unit": "nos",
+    "rate": 975,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.20",
+    "description": "Fixing in position Road Junction/ Informatory Sign Board in ground with C.C.1:4:8 block",
+    "unit": "nos",
+    "rate": 1949,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.21",
+    "description": "Providing and fixing including conveyance charges upto a distance of 200 Km. precast",
+    "unit": "nos",
+    "rate": 545,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.25",
+    "description": "Supplying M.S. Angle iron frame for informatory sign boards of size 35 mm x 35 mm x 3 MORTH 801 One Running 411 175 mm welded and making neccesary holes required for fixing and painted with one coat of Metre epoxy primer and two coats epoxy finish paint etc. complete.Spec. No. : As per IRC-67, and M.O.R.T. and H. Circular No. RW/NH-33023/31/88 D.O.III Dated 2-5-1994 Road Furniture 6.26 MORTH 805 Providing and constructing Information Pillar of Brick Masonry in C.M. 1:6 of size 2.0 m x 0.23m x 1.",
+    "unit": "m²",
+    "rate": 801,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.36",
+    "description": "Providing and fixing board displaying information, such as 'Name of work, Tender cost,",
+    "unit": "nos",
+    "rate": 9963,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "6.37",
+    "description": "Providing and fixing R.C.C. precast cement concrete M-15 pedestal OF SIZE 0.75 X 0.75",
+    "unit": "nos",
+    "rate": 2008,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "7.11",
+    "description": "of overlay for existing B.T. surface with carrying out testing by Benkelman Beam",
+    "unit": "km",
+    "rate": 6378,
+    "category": "Road"
+  },
+  {
+    "itemCode": "7.21",
+    "description": "As directed by Providing and Constructing gabion structure 1 Meter high or required section made up of",
+    "unit": "m³",
+    "rate": 4309,
+    "category": "Road"
+  },
+  {
+    "itemCode": "7.22",
+    "description": "As directed by Providing and Constructing gabion structure 0.50 Meter high or required section made up",
+    "unit": "m³",
+    "rate": 4292,
+    "category": "Road"
+  },
+  {
+    "itemCode": "7.25",
+    "description": "Removal of telephone / Electric poles including excavation and dismantling of foundation",
+    "unit": "nos",
+    "rate": 371,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.03",
+    "description": "Restoration of rain cuts with soil, murum gravel or a mixture of these, clearing the loose",
+    "unit": "m³",
+    "rate": 199,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.06",
+    "description": "Repair to pot holes by removal of failed material, trimming the sides to vertical and",
+    "unit": "m³",
+    "rate": 8939,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.13",
+    "description": "RD Maintenance of Hume pipe Culvert by way of Clearing, Cleaning, Erosion repair, repairs",
+    "unit": "nos",
+    "rate": 2423,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.14",
+    "description": "RD Maintenance of road signs by way of cleaning and repainting of mandatory / requlatory /",
+    "unit": "km",
+    "rate": 4798,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.15",
+    "description": "RD Maintenance of Kilometer stones, and 200 metre by way of refiting of tilted stones",
+    "unit": "km",
+    "rate": 1086,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.16",
+    "description": "RD Cutting of branches of trees and shrubs from the road way or with in R.O.W including",
+    "unit": "nos",
+    "rate": 258,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.18",
+    "description": "RD Maintenance of guard stones/ boundry stones/ indicator stones by way of refiting of tilted",
+    "unit": "km",
+    "rate": 1081,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.29",
+    "description": "As Directed by Supply of self watering system Multi Stage Tree guard / Protctor 110 mm dia & total",
+    "unit": "nos",
+    "rate": 1290,
+    "category": "Road"
+  },
+  {
+    "itemCode": "8.30",
+    "description": "As Directed by Supply of self watering system tree guard in 110 mm dia, 1.80 mt height made up of",
+    "unit": "nos",
+    "rate": 1127,
+    "category": "Road"
+  },
+  {
+    "itemCode": "11.01",
+    "description": "CD 1 Providing rubble filling of trap/ granite/ quartzite gneiss stones for foundations including CD.1 Page.No. 159",
+    "unit": "m³",
+    "rate": 1701,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.02",
+    "description": "CD 3A Providing and laying in situ / ready mix cement concrete of M-10 proportion with trap/ CD.-3 Page.No. 160",
+    "unit": "m³",
+    "rate": 6061,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.03",
+    "description": "Providing & laying in situ cement concrete of M 10 proportion with trap/ granite/",
+    "unit": "m³",
+    "rate": 5728,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.04",
+    "description": "CD 3B Providing and laying in situ cement concrete of 1:4:8 proportion with trap/ granite/ CD.3 Page.No. 160",
+    "unit": "m³",
+    "rate": 5695,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.07",
+    "description": "CD 6 Providing uncoursed rubble trap /quartzite /gneiss stone masonary in cement mortar 1:5 CD.6 Page.No. 162",
+    "unit": "m³",
+    "rate": 5597,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.22",
+    "description": "CD 8 Providing cast in situ / ready mix block of M10 cement concrete with circular or other CD.8 Page.No. 163",
+    "unit": "m³",
+    "rate": 8321,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.24",
+    "description": "CD 27 Providing selected hard murum filling including laying in layers of 15 to 20cmwith CD.14 Page.No. 167",
+    "unit": "m³",
+    "rate": 660,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.25",
+    "description": "CD Providing and laying in situ / ready mix M-20 cement concrete of trap /granite /quartzite CD.15 Page.No. 168",
+    "unit": "m³",
+    "rate": 7225,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.27",
+    "description": "CD 27 Providing and fixing stream lined M-20 grade RCC guard stone including mild steel bar CD.20 Page.No. 169",
+    "unit": "nos",
+    "rate": 963,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.30",
+    "description": "CD Providing and casting in situ / ready mix PCC M15 grade of trap metal for coping to head Bd-E-7",
+    "unit": "m³",
+    "rate": 9106,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "11.31",
+    "description": "CD Providing and casting in situ / ready mix PCC M20 grade of trap metal for coping to head Bd-E-8",
+    "unit": "m³",
+    "rate": 9258,
+    "category": "Cross Drainage Works"
+  },
+  {
+    "itemCode": "12.02",
+    "description": "Excavation for foundation in earth, soils of all types, sand, gravel, soft murum including BR.3 Page One",
+    "unit": "m³",
+    "rate": 239,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.03",
+    "description": "Excavation for foundation in earth, soils of all types, sand, gravel, soft murum including BR.3 Page One",
+    "unit": "m³",
+    "rate": 90,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.04",
+    "description": "Excavation for foundation in hard murum including shoring and strutting, dewatering as BR.3 Page One",
+    "unit": "m³",
+    "rate": 241,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.06",
+    "description": "Excavation for foundation in hard murum and boulders including shoring and strutting, BR.3 Page One",
+    "unit": "m³",
+    "rate": 286,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.08",
+    "description": "Excavation for foundation in soft rock including shoring and strutting, dewatering as BR.3 Page One",
+    "unit": "m³",
+    "rate": 557,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.09",
+    "description": "Excavation for foundation in hard rock by blasting including shoring and strutting, BR.3 Page One",
+    "unit": "m³",
+    "rate": 1232,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.10",
+    "description": "Excavation for foundation in hard rock by controlled blasting including shoring and BR.3 Page One",
+    "unit": "m³",
+    "rate": 1328,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.11",
+    "description": "Excavation for foundation in hard rock by chiselling and wedging or line drilling BR-3 Page One",
+    "unit": "m³",
+    "rate": 1932,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.12",
+    "description": "Excavation for foundation in laterite rock including shoring and strutting, dewatering as BR.3 Page One",
+    "unit": "m³",
+    "rate": 1771,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.13",
+    "description": "Providing and fixing 25mm diameter steel anchor dowel in hard rock including drilling",
+    "unit": "nos",
+    "rate": 1674,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.25",
+    "description": "Providing and laying in situ / ready mix / ready mix M10 cement concrete of trap/ granite/ BR.5 Page One",
+    "unit": "m³",
+    "rate": 5593,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.27",
+    "description": "Providing uncoursed rubble stone masonry of trap/ granite/ quartzite/ gneiss metal in CM BR.6 Page One",
+    "unit": "m³",
+    "rate": 5022,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.29",
+    "description": "Providing and laying in situ / ready mix / ready mix CC M10 of trap/ granite/ quartzite/ BR.9 Page One",
+    "unit": "m³",
+    "rate": 5360,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.32",
+    "description": "Providing and laying in situ / ready mix / ready mix M20 RCC work with trap/ granite/ BR.13 Page One",
+    "unit": "m³",
+    "rate": 6976,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.34",
+    "description": "Providing and laying in situ / ready mix / ready mix M25 RCC work with trap/ granite/ BR.13 Page One",
+    "unit": "m³",
+    "rate": 7057,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.36",
+    "description": "and laying in situ / ready mix / ready mix M20 RCC work with trap/ granite/ BR.13 Page One",
+    "unit": "m³",
+    "rate": 6976,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.38",
+    "description": "and laying in situ / ready mix / ready mix M25 RCC work with trap/ granite/ BR.13 Page One",
+    "unit": "m³",
+    "rate": 7012,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.47",
+    "description": "Providing steel anchor dowel bars of 32 mm diameter and 4 m length at the base of the BR.16 Page One",
+    "unit": "nos",
+    "rate": 7859,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.48",
+    "description": "Providing steel anchor dowel bars of 32 mm diameter and 4 m length through steining of BR. 16 Page One",
+    "unit": "nos",
+    "rate": 8270,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.49",
+    "description": "Providing and laying in situ / ready mix / ready mix M15 CC of trap/ granite /quartzite BR.17 Page One",
+    "unit": "m³",
+    "rate": 6975,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.51",
+    "description": "Providing and laying in situ / ready mix M15 CC of trap/ granite /quartzite /gneiss metal BR.17 Page One",
+    "unit": "m³",
+    "rate": 7576,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.55",
+    "description": "a Providing and laying in situ / ready mix controlled grade of M15 of trap /granite /quartzite",
+    "unit": "m³",
+    "rate": 7472,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.57",
+    "description": "a Providing and laying in situ / ready mix controlled grade of M20 of trap /granite /quartzite",
+    "unit": "m³",
+    "rate": 7937,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.59",
+    "description": "a Providing and laying in situ / ready mix controlled grade of M25 of trap /granite /quartzite",
+    "unit": "m³",
+    "rate": 8019,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.67",
+    "description": ".a BR Providing and Constructing Temporary Island 16 m diameter for Construction of Well BR.7. P.One",
+    "unit": "nos",
+    "rate": 72953,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.68",
+    "description": ".a BR Providing and Constructing Temporary Island 12 m diameter for Construction of Well BR.7. P.One",
+    "unit": "nos",
+    "rate": 42308,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "12.70",
+    "description": "filling behind abutment, wing wall and return wall as per drawings and technical MORT and H 2200",
+    "unit": "m³",
+    "rate": 784,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "12.71",
+    "description": "filling behind abutment, wing wall and return wall as per drawings and technical MORT and H 2200",
+    "unit": "m³",
+    "rate": 1860,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "12.72",
+    "description": "and laying of filter media with granular materials/ stone crushed aggregates MORT and H 2200",
+    "unit": "m³",
+    "rate": 1212,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "14.02",
+    "description": "a Providing and joining 25 mm diameter MS / TMT FE 500 steel reinforcement bars by",
+    "unit": "nos",
+    "rate": 1225,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.03",
+    "description": "b Providing and joining 32 mm diameter MS /TMT FE 500 steel reinforcement bars by",
+    "unit": "nos",
+    "rate": 1427,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.04",
+    "description": "Providing welded joints for 25 mm and below diameter bars for steel reinforcement etc. BR.36 Page Number",
+    "unit": "nos",
+    "rate": 430,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.05",
+    "description": "Providing welded joints for 32 mm and below diameter bars for steel reinforcement etc. BR.36 Page Number",
+    "unit": "nos",
+    "rate": 438,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.07",
+    "description": "Providing and laying in situ / ready mix M-20 controlled cement concrete of trap/ granite/ BR.38(a) Page",
+    "unit": "m³",
+    "rate": 10346,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.15",
+    "description": "and laying in situ / ready mix M-25 controlled cement concrete of trap/ granite/ BR.38(b and c) Page",
+    "unit": "m³",
+    "rate": 11016,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.17",
+    "description": "and laying in situ / ready mix M-30 controlled cement concrete of trap/ granite/ BR.38(a) Page",
+    "unit": "m³",
+    "rate": 11122,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.19",
+    "description": "Providing and laying in situ / ready mix M-20 controlled cement concrete of trap/ granite/ BR.38(b and c) Page",
+    "unit": "m³",
+    "rate": 10710,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.27",
+    "description": "and laying in situ / ready mix M-25 controlled cement concrete of trap/ granite/ BR.38(b and c) Page",
+    "unit": "m³",
+    "rate": 11404,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.29",
+    "description": "and laying in situ / ready mix M-30 controlled cement concrete of trap/ granite/ BR.38(b and c) Page",
+    "unit": "m³",
+    "rate": 11514,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.32",
+    "description": "Providing copper plate expansion joints as per detailed drawing",
+    "unit": "nos",
+    "rate": 4484,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.34",
+    "description": "Providing and laying in situ / ready mix 1:4:8 cement concrete of trap /granite /quartzite B R.45 Page",
+    "unit": "m³",
+    "rate": 5272,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.36",
+    "description": "Providing trap/ granite/ quartzite/ gneiss rubble filling over haunches and arches including BR.46 Page",
+    "unit": "m³",
+    "rate": 947,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.39",
+    "description": "and laying in situ / ready mix M20 CC of trap/ granite/ quartzite/ gneiss metal BR.47(a) Page",
+    "unit": "m³",
+    "rate": 6538,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.41",
+    "description": "Providing vent holes 100mm diameter GI pipe in the slab and wearing course with iron BR.48 Page",
+    "unit": "nos",
+    "rate": 704,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.44",
+    "description": ".a BR Providing and laying in situ / ready mix M20 RCC of trap/ granite/ quartzite/ gneiss metal BR.50 Page",
+    "unit": "m³",
+    "rate": 9587,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.50",
+    "description": "Providing 100mm diameter GI water spouts as per detailed drawings in RCC slab and BR.55 Page Number",
+    "unit": "nos",
+    "rate": 1127,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.58",
+    "description": "and laying in PCC M15 grade leveling course below approach slab complete MORT and H 1700",
+    "unit": "m³",
+    "rate": 5976,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.59",
+    "description": "and laying of RCC in M30 grade approach slab including reinforcement and MORT and H 1500,",
+    "unit": "m³",
+    "rate": 11341,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.60",
+    "description": ", transporting and placing in position precast pretensioned concrete girders as MORT and H 1800,",
+    "unit": "m³",
+    "rate": 28781,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.61",
+    "description": "and applying two coat of water based cement paint to un plastered concrete MORT and H 2800, One Square 209 34 Structure surface after cleaning the surface of dirt, dust, oil, grease, efflorescence etc. complete. Metre (applying 1 litre paint on 2",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.69",
+    "description": "and laying boulders apron on river bed for protection against scour with stone MORT and H-2500",
+    "unit": "m³",
+    "rate": 1872,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.70",
+    "description": "and laying of boulder apron laid in wire crates made with 4 mm dia GI wire MORT and H-2500",
+    "unit": "m³",
+    "rate": 2634,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.71",
+    "description": "and laying of apron with cement concrete blocks of size 0.50X0.50X0.50m cast MORT and H-2500",
+    "unit": "m³",
+    "rate": 6453,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.72",
+    "description": "and laying pitching on slopes laid over prepared filter media including boulder MORT and H-2500",
+    "unit": "m³",
+    "rate": 1872,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.73",
+    "description": "and laying pitching on slopes laid over prepared filter media including boulder MORT and H-2500",
+    "unit": "m³",
+    "rate": 6288,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.74",
+    "description": "and laying filter material underneath pitching in slopes as per drawings and MORT and H-2500",
+    "unit": "m³",
+    "rate": 2506,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.76",
+    "description": "and laying rubble stone flooring laid in cement mortar 1:3 as per drawings and MORT and H 2500",
+    "unit": "m³",
+    "rate": 6671,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.77",
+    "description": "and laying cement concrete blocks of M15 grade flooring laid in cement mortar MORT and H 2500",
+    "unit": "m³",
+    "rate": 7813,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.78",
+    "description": "of dry rubble flooring at cross drainage works etc. complete. MORT and H 2500",
+    "unit": "m³",
+    "rate": 3719,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.79",
+    "description": "of stone masonry curtain wall in cement mortar 1:3 as per drawings and MORT and H 2500",
+    "unit": "m³",
+    "rate": 5900,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.81",
+    "description": "flexible apron of 100 cm thick comprising of loose stone boulders weighing not MORT and H ? 2500",
+    "unit": "m³",
+    "rate": 1985,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.86",
+    "description": "and laying cement concrete wearing coat M30 grade with batch mix type / MORT and H ? 2700",
+    "unit": "m³",
+    "rate": 13139,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "14.87",
+    "description": "and laying of reinforced cement concrete in M-30 grade approach slab / Rigid MORT and H ?",
+    "unit": "m³",
+    "rate": 8193,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "15.03",
+    "description": "for foundation of structure as per drawing and technical specifications M.O.R.T and H - 304",
+    "unit": "m³",
+    "rate": 819,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.05",
+    "description": "and filling annular space around footing in rock by using concrete of M15 grade M.O.R.T and H -",
+    "unit": "m³",
+    "rate": 5651,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.07",
+    "description": "and filling sand in foundation trenches / below Raft as per drawing and M.O.R.T and H -",
+    "unit": "m³",
+    "rate": 2656,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.09",
+    "description": "stone masonry work in cement mortar 1:3 in foundation with watering complete M.O.R.T and H -",
+    "unit": "m³",
+    "rate": 5823,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.11",
+    "description": "stone masonry work in cement mortar 1:3 in foundation with watering complete M.O.R.T and H -",
+    "unit": "m³",
+    "rate": 5593,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.13",
+    "description": "and laying PCC in M15 grade levelling course of 100 mm thick below pile cap M.O.R.T and H -",
+    "unit": "m³",
+    "rate": 5216,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.15",
+    "description": "class brick masonry work in 1:3 in sub structure complete with watering as MORT and H ?",
+    "unit": "m³",
+    "rate": 8101,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "15.128",
+    "description": ", placing and driving in position 6mm thick permanent MS liner up to required",
+    "unit": "mt",
+    "rate": 104593,
+    "category": "Bridge: Bored Pile"
+  },
+  {
+    "itemCode": "16.01",
+    "description": "and injecting epoxy grout including structuring of crack in the body of slab",
+    "unit": "kg",
+    "rate": 1381,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "16.07",
+    "description": "and laying in situ / ready mix M35 grade RCC jacketing work around the",
+    "unit": "m³",
+    "rate": 7734,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "16.09",
+    "description": "and injecting epoxy grout including structuring of cracks in the body of slab",
+    "unit": "nos",
+    "rate": 2766,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "17.05",
+    "description": "and Constructing Temporary Island 16 m diameter for Construction of Well MORT&H (5th",
+    "unit": "nos",
+    "rate": 94766,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.06",
+    "description": "and Constructing Temporary Island 16 m diameter for Construction of Well MORT&H (5th",
+    "unit": "nos",
+    "rate": 429090,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.14",
+    "description": "and laying in situ / ready mix M-20 cement concrete Trap/ Granite/ Quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7479,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.15",
+    "description": "and laying in situ / ready mix M-25 cement concrete Trap/ Granite/ Quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7726,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.16",
+    "description": "and laying in situ / ready mix M-30 cement concrete Trap/ Granite/ Quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7886,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.17",
+    "description": "and laying in situ / ready mix M-35 cement concrete Trap/ Granite/ Quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7973,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.18",
+    "description": "and laying in situ / ready mix M-20 cement concrete trap / granite / quartizite / MORT&H (5th",
+    "unit": "m³",
+    "rate": 7055,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.19",
+    "description": "and laying in situ / ready mix M-25 cement concrete trap / granite / quartizite / MORT&H (5th",
+    "unit": "m³",
+    "rate": 7131,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.20",
+    "description": "and laying in situ / ready mix M-30 cement concrete trap / granite / quartizite / MORT&H (5th",
+    "unit": "m³",
+    "rate": 7472,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.21",
+    "description": "and laying in situ / ready mix M-25 cement concrete of trap / granite / quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7568,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.22",
+    "description": "and laying in situ / ready mix M-30 cement concrete of trap / granite / quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7668,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.23",
+    "description": "and laying in situ / ready mix M-25 cement concrete of trap / granite / MORT&H (5th",
+    "unit": "m³",
+    "rate": 7664,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.24",
+    "description": "and laying in situ / ready mix M-30 cement concrete of trap / granite / MORT&H (5th",
+    "unit": "m³",
+    "rate": 7810,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.25",
+    "description": "and laying in situ / ready mix M-35 cement concrete of trap / granite / MORT&H (5th",
+    "unit": "m³",
+    "rate": 7589,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.26",
+    "description": "Sump pit in hard strata in wells as diercted or as shown in drawing including",
+    "unit": "m³",
+    "rate": 4450,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.27",
+    "description": "and filling in well with sand/ rubble and sand/ shingle and sand including MORT&H (5th",
+    "unit": "m³",
+    "rate": 1822,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "17.28",
+    "description": "and laying plain in situ / ready mix M-20 cement concrete of trap/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7454,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.29",
+    "description": "and laying plain in situ / ready mix M-25 cement concrete of trap/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7832,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.30",
+    "description": "and laying plain in situ / ready mix M-30 cement concrete of trap/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 7983,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.31",
+    "description": "and laying plain in situ / ready mix M-35 cement concrete of trap/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 8399,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.32",
+    "description": "and laying in situ / ready mix M-20 controlled reinforced cement concrete of MORT&H (5th",
+    "unit": "m³",
+    "rate": 6060,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.33",
+    "description": "and laying in situ / ready mix M-25 controlled reinforced cement concrete of MORT&H (5th",
+    "unit": "m³",
+    "rate": 6241,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.34",
+    "description": "and laying in situ / ready mix M-30 controlled reinforced cement concrete of MORT&H (5th",
+    "unit": "m³",
+    "rate": 6401,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.35",
+    "description": "and laying in situ / ready mix M-35 controlled reinforced cement concrete of MORT&H (5th",
+    "unit": "m³",
+    "rate": 6529,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.38",
+    "description": "and laying in situ / ready mix M-15 plain cement concrete of trap MORT&H (5th",
+    "unit": "m³",
+    "rate": 7519,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.39",
+    "description": "and laying in situ / ready mix M-20 plain cement concrete of trap MORT&H (5th",
+    "unit": "m³",
+    "rate": 8048,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.40",
+    "description": "Providing and laying in situ / ready mix M-25 plain cement concrete of trap",
+    "unit": "m³",
+    "rate": 8212,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.41",
+    "description": "Providing and laying in situ / ready mix M-30 plain cement concrete of trap",
+    "unit": "m³",
+    "rate": 8305,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.42",
+    "description": "Providing and laying in situ / ready mix M-35 plain cement concrete of trap",
+    "unit": "m³",
+    "rate": 9422,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.43",
+    "description": "and laying in situ / ready mix M-20 plain cement concrete of trap MORT&H (5th",
+    "unit": "m³",
+    "rate": 8776,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.44",
+    "description": "and laying in situ / ready mix M-25 plain cement concrete of trap MORT&H (5th",
+    "unit": "m³",
+    "rate": 8935,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.45",
+    "description": "and laying in situ / ready mix M-30 plain cement concrete of trap MORT&H (5th",
+    "unit": "m³",
+    "rate": 9176,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.46",
+    "description": "and laying in situ / ready mix M-35 plain cement concrete of trap MORT&H (5th",
+    "unit": "m³",
+    "rate": 9528,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.47",
+    "description": "and laying in situ / ready mix M-20 cement concrete of trap /granite/quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 8088,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.48",
+    "description": "and laying in situ / ready mix M-25 cement concrete of trap /granite/quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 8246,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.49",
+    "description": "and laying in situ / ready mix M-30 cement concrete of trap /granite/quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 8487,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.50",
+    "description": "and laying in situ / ready mix M-35 cement concrete of trap /granite/quartzite/ MORT&H (5th",
+    "unit": "m³",
+    "rate": 8854,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.51",
+    "description": "trap/granite/quartzite/gneiss rubble filling over haunches and arches including MORT&H (5th",
+    "unit": "m³",
+    "rate": 1165,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.52",
+    "description": "and laying in situ / ready mix controlled M-20 cement concrete of of trap / MORT&H(5th",
+    "unit": "m³",
+    "rate": 7913,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.53",
+    "description": "and laying in situ / ready mix controlled M-25 cement concrete of of trap / MORT&H(5th",
+    "unit": "m³",
+    "rate": 8783,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.54",
+    "description": "and laying in situ / ready mix controlled M-30 cement concrete of of trap / MORT&H(5th",
+    "unit": "m³",
+    "rate": 9039,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.55",
+    "description": "and laying in situ / ready mix controlled M-35 cement concrete of of trap / MORT&H(5th",
+    "unit": "m³",
+    "rate": 9574,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.56",
+    "description": "and placing Cage Unit, with 12 m Dia of each cage in the unit, for each support MORT&H (5th",
+    "unit": "nos",
+    "rate": 570219,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.57",
+    "description": "and placing Cage Unit, with 12 m Dia of each cage in the unit, for each support MORT&H (5th",
+    "unit": "nos",
+    "rate": 1589289,
+    "category": "Bridge: Substructure"
+  },
+  {
+    "itemCode": "17.65",
+    "description": "and cutting bending, hooking, laying in position and tying HCRM/ CRS for Specifications :",
+    "unit": "mt",
+    "rate": 91565,
+    "category": "Bridge: Superstructure"
+  },
+  {
+    "itemCode": "17.66",
+    "description": "and dressing of the R.C.C. piles upto 0.60 meter including cleaning Specifications :",
+    "unit": "nos",
+    "rate": 683,
+    "category": "Bridge: Well Foundation"
+  },
+  {
+    "itemCode": "18.01",
+    "description": "Providing factory made hydraulically pressed mechanically vibrated and compacted",
+    "unit": "nos",
+    "rate": 3722,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "18.02",
+    "description": "Providing factory made hydraulically pressed mechanically vibrated and compacted",
+    "unit": "nos",
+    "rate": 3823,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "18.03",
+    "description": "Providing factory made hydraulically pressed mechanically vibrated and compacted",
+    "unit": "nos",
+    "rate": 3944,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "18.04",
+    "description": "Providing factory made hydraulically pressed mechanically vibrated and compacted",
+    "unit": "nos",
+    "rate": 4940,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "18.05",
+    "description": "Providing factory made hydraulically pressed mechanically vibrated and compacted",
+    "unit": "nos",
+    "rate": 5047,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "18.06",
+    "description": "Providing factory made hydraulically pressed mechanically vibrated and compacted",
+    "unit": "nos",
+    "rate": 5128,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "18.08",
+    "description": "Providing Lifting, transportation and placing activities of precast arch units and sockets",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Arch Bridge"
+  },
+  {
+    "itemCode": "19.02",
+    "description": "epoxy mortor with quartz sand with proportion epoxy concrete sand 1:6 for",
+    "unit": "m³",
+    "rate": 271760,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "19.05",
+    "description": "and working inside steel cages for crocodile including handling the same with",
+    "unit": "nos",
+    "rate": 694858,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.06",
+    "description": "Inspection : Underwater inspection cum video graph shall be arranged by",
+    "unit": "nos",
+    "rate": 164185,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.07",
+    "description": "Inspection : Underwater inspection cum video graph shall be arranged by",
+    "unit": "nos",
+    "rate": 85276,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.10",
+    "description": "Crack Sealing/Filling using underwater Epoxy mortar : Under water Epoxy",
+    "unit": "kg",
+    "rate": 2292,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.11",
+    "description": "P/Fixing the Nozzle for high pressure underwater epoxy grout: Drilling hole",
+    "unit": "nos",
+    "rate": 1089,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.13",
+    "description": "fixing of dowel rod of 16 mm dia in the river bed for 400 mm depth @ 1000",
+    "unit": "nos",
+    "rate": 4679,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.14",
+    "description": "fixing of shear links of 12 mm dia in the periphery of the well wall for 100 mm",
+    "unit": "nos",
+    "rate": 888,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.15",
+    "description": "Filling of concrete encasing of grade M35 around the periphery of the pier of",
+    "unit": "m³",
+    "rate": 96335,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.18",
+    "description": "Sealing/Filling using epoxy mortar: Base and hardener of the high strength repair",
+    "unit": "kg",
+    "rate": 1341,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.19",
+    "description": "and Fixing of 12 mm nozzle in the crack portion @ 500 c/c including material,",
+    "unit": "nos",
+    "rate": 335,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.20",
+    "description": "Repairing of honeycombs and minor damages with Polymer Modified Morter",
+    "unit": "kg",
+    "rate": 164,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.22",
+    "description": "Boulder to the cavity area of 75-200mm in size includes the cost of hire",
+    "unit": "m³",
+    "rate": 4587,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.23",
+    "description": "filling of Micro-concrete and 10 mm aggreagate ( 1:1) including scarificial",
+    "unit": "m³",
+    "rate": 115871,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.24",
+    "description": "Grounting of nozzles with Low Viscosity Epoxy grout including material,",
+    "unit": "kg",
+    "rate": 1659,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.30",
+    "description": "and fixing carbon fiber anchor including drilling hole in the base concrete",
+    "unit": "nos",
+    "rate": 536,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.37",
+    "description": "of concrete pedestal up to required height including cutting reinforcement by",
+    "unit": "nos",
+    "rate": 19425,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.38",
+    "description": "of concrete pedestal up to required height using electrical breakers including",
+    "unit": "nos",
+    "rate": 5122,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.41",
+    "description": "existing damaged Drainage Water Spout and providing 100mm diameter",
+    "unit": "nos",
+    "rate": 3399,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.42",
+    "description": "and fixing additional reinforcement to replace the corroded diameter of",
+    "unit": "kg",
+    "rate": 89,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.45",
+    "description": "Strengthening of Concrete Structure: Strengthening of concrete structure including",
+    "unit": "nos",
+    "rate": 4274,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "19.46",
+    "description": "supports for placing the jacks, props and necessary steel structure. Placing of the",
+    "unit": "nos",
+    "rate": 34487,
+    "category": "Bridge Repair"
+  },
+  {
+    "itemCode": "21.01",
+    "description": "BDA 1 Excavation for foundation in earth, soil of all types, sand, gravel and soft murum, Bd.A.1 Page One",
+    "unit": "m³",
+    "rate": 239,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.02",
+    "description": "BDA 1 Excavation for foundation in earth, soil of all types, sand, gravel and soft murum, Bd.A.1 Page One",
+    "unit": "m³",
+    "rate": 207,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.03",
+    "description": "BDA 1 Excavation for foundation in earth, soils of all types, sand,gravel and soft murum, Bd.A.1 Page One",
+    "unit": "m³",
+    "rate": 314,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.04",
+    "description": "BDA 1 Excavation for foundation in earth, soils of all types, sand,gravel and soft murum, Bd.A.1 Page One",
+    "unit": "m³",
+    "rate": 258,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.05",
+    "description": "BDA 2 Excavation for foundation in hard murum including removing the excavated material Bd.A.1 Page No.259",
+    "unit": "m³",
+    "rate": 365,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.06",
+    "description": "BDA 2 Excavation for foundation in hard murum including removing the excavated material Bd.A.2 Page One",
+    "unit": "m³",
+    "rate": 227,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.07",
+    "description": "BDA 2 Excavation for foundation in hard murum including removing the excavated material upto Bd.A.1 Page No.259",
+    "unit": "m³",
+    "rate": 414,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.08",
+    "description": "BDA 2 Excavation for foundation in Hard murum including removing the excavated material upto Bd.A.2 Page One",
+    "unit": "m³",
+    "rate": 284,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.10",
+    "description": "BDA 3 Excavation for foundation in hard murum and boulders including removing the Bd.A.3 Page One",
+    "unit": "m³",
+    "rate": 252,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.12",
+    "description": "BDA 3 Excavation for foundation in Hard murum and boulders including removing the Bd.A.3 Page One",
+    "unit": "m³",
+    "rate": 312,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.14",
+    "description": "BDA 4 Excavation for foundation in Soft rock and old cement or lime masonry foundations Bd.A.4 Page One",
+    "unit": "m³",
+    "rate": 429,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.16",
+    "description": "BDA 4 Excavation for foundation in Soft rock and old cement or lime masonry foundations Bd.A.4 Page One",
+    "unit": "m³",
+    "rate": 524,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.17",
+    "description": "BDA 5 Excavation for foundation in Hard rock by blasting including trimming and leveling the Bd.A.5 Page One",
+    "unit": "m³",
+    "rate": 869,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.18",
+    "description": "BDA 5 Excavation for foundation in Hard-rock by blasting including trimming and leveling the Bd.A.5 Page One",
+    "unit": "m³",
+    "rate": 1033,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.19",
+    "description": "BDA 5 B1 Excavation for foundation in Hard-rock by controlled blasting including trimming Bd.A.5 Page One",
+    "unit": "m³",
+    "rate": 1322,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.20",
+    "description": "BDA 6 Excavation for foundation in Hard rock by chiselling, wedging, line drilling, etc. Bd.A.6 Page One",
+    "unit": "m³",
+    "rate": 1307,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.21",
+    "description": "BDA 7 Excavation for foundation in laterite rock (soft or hard) including trimming and levelling Bd.A.7, Page One",
+    "unit": "m³",
+    "rate": 1465,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.23",
+    "description": "preconstructional antitermite treatment as per I.S. 6313 (Part-II) treatment",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.26",
+    "description": "antitermite treatment to the wooden frames of doors/windows of the",
+    "unit": "nos",
+    "rate": 74,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.27",
+    "description": "antitermite treatment to the joints of wooden beams/joist used for the roof work",
+    "unit": "nos",
+    "rate": 57,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.28",
+    "description": "antitermite treatment to the sides of flooring of the existing building as",
+    "unit": "nos",
+    "rate": 26,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.31",
+    "description": "general pest control services to small size of inspection chamber to",
+    "unit": "nos",
+    "rate": 184,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.32",
+    "description": "general pest control services to big size of inspection chamber to control",
+    "unit": "nos",
+    "rate": 365,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.37",
+    "description": "BDA 11 Filling in plinth and floors with contractors material/brought from outside and approved Bd.A.11 Page One",
+    "unit": "m³",
+    "rate": 599,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.39",
+    "description": "BDA 13 Providing and filling in the foundation with sand of approved quality including Bd.A.13 Page One",
+    "unit": "m³",
+    "rate": 2160,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "21.40",
+    "description": "BDA Providing soling using 80 mm size trap metal in 15 cm. layer including filling",
+    "unit": "m³",
+    "rate": 1454,
+    "category": "Excavation"
+  },
+  {
+    "itemCode": "22.43",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 105513,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.44",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 127987,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.45",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 176736,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.46",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 222412,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.47",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 268147,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.48",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 311479,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.49",
+    "description": "Bd/B-8 P-271 Carrying out load test for 1.5 times the proposed safe working load on the pile in",
+    "unit": "nos",
+    "rate": 388752,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.55",
+    "description": "Chipping and dressing of the R.C.C. piles upto 0.60 meterincluding cleaning",
+    "unit": "nos",
+    "rate": 744,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.57",
+    "description": "Providing placing and Driving in position 6 millimeter mild steel liner for R.C.C. Piles",
+    "unit": "mt",
+    "rate": 100890,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.58",
+    "description": "Providing placing and Driving in position 6 millimeter mild steel liner for R.C.C. Piles",
+    "unit": "mt",
+    "rate": 104801,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.59",
+    "description": "Providing and laying Cast in situ/Ready Mix cement concrete M-20 of trap metal for",
+    "unit": "m³",
+    "rate": 7534,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.60",
+    "description": "Providing and laying Cast in situ/Ready Mix cement concrete M-25 of trap metal for",
+    "unit": "m³",
+    "rate": 7505,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "22.61",
+    "description": "Providing and laying Cast in situ/Ready Mix cement concrete M-30 of trap metal for",
+    "unit": "m³",
+    "rate": 7695,
+    "category": "Pile Foundation"
+  },
+  {
+    "itemCode": "23.01",
+    "description": "Providing and fabricating structural steel work in rolled sections like joists, channels, Bd.C.2 Page",
+    "unit": "mt",
+    "rate": 101844,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.02",
+    "description": "Providing and fabricating structural steel work in rolled sections, fixed with connecting Bd.C.3 Page",
+    "unit": "mt",
+    "rate": 97759,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.03",
+    "description": "Providing structural steel work in single stanchions composed of R.S.J. Channel Bd.C.6 Page",
+    "unit": "mt",
+    "rate": 98009,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.04",
+    "description": "Providing structural steel work in trusses, other similar trussed purlins and members with Bd.C.8 Page",
+    "unit": "mt",
+    "rate": 119459,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.06",
+    "description": "and erecting structural steel for sakav with all bracing gusset plates etc.",
+    "unit": "mt",
+    "rate": 123398,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.07",
+    "description": ", fabricating and erecting at site of work the tubular steel structure (shed) B-18 Page",
+    "unit": "mt",
+    "rate": 114831,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.09",
+    "description": "Providing and fixing mild steel grill gate as per the detailed drawing including hinges, Spec.",
+    "unit": "nos",
+    "rate": 2100,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.11",
+    "description": "Providing structural steel work of rectangular hollow steel section for steel trusses, Spec. One Number",
+    "unit": "mt",
+    "rate": 118790,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "23.12",
+    "description": "Providing structural steel work in hollow section of various thickness and sizes in Spec. One Number",
+    "unit": "mt",
+    "rate": 118790,
+    "category": "Structural Steel Work"
+  },
+  {
+    "itemCode": "24.01",
+    "description": "BDE 1 Providing and laying Cast in situ/Ready Mix cement concrete in M-10 of trap/ Bd. E. 1 Page One",
+    "unit": "m³",
+    "rate": 5830,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.04",
+    "description": "BDE 2 Providing and laying Cast in situ/Ready Mix cement concrete in M15 of Bd.E.2 Page One",
+    "unit": "m³",
+    "rate": 6359,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.06",
+    "description": "BDE 2 Providing and laying Cast in situ/Ready Mixcement concrete in M20 of Bd.E.2 Page One",
+    "unit": "m³",
+    "rate": 6721,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.08",
+    "description": "BDE 4 Providing and laying Cast in situ/Ready Mix cement concrete in M15 of Bd.E.4 Page One",
+    "unit": "m³",
+    "rate": 6359,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.10",
+    "description": "BDE 4 Providing and laying Cast in situ/Ready Mix cement concrete in M20 of Bd.E.4 Page One",
+    "unit": "m³",
+    "rate": 6721,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.12",
+    "description": "BDE 7 Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap / Bd.E.7 Page No 291",
+    "unit": "m³",
+    "rate": 12940,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.14",
+    "description": "BDE 5 Providing and laying Cast in situ/Ready Mix cement concrete in M15 of Bd.E. 5/Page One",
+    "unit": "m³",
+    "rate": 6359,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.15",
+    "description": "BDE 5 Providing and laying Cast in situ/Ready Mix cement concrete in M20 of Bd.E. 5/Page One",
+    "unit": "m³",
+    "rate": 6721,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "24.16",
+    "description": "BDE 3 Providing and laying Cast in situ/Ready Mix cement concrete M-15 of Bd.E. 3/Page One",
+    "unit": "m³",
+    "rate": 6359,
+    "category": "Plain Cement Concrete (PCC)"
+  },
+  {
+    "itemCode": "25.11",
+    "description": "BDF 3 Providing and laying in situ /Ready Mix cement concrete M-20 of trap / granite Bd.F.3 Page One",
+    "unit": "m³",
+    "rate": 7104,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.13",
+    "description": "BDF 3 Providing and laying Cast in situ/Ready Mix cement concrete M-25 of trap / Bd.F.3 Page One",
+    "unit": "m³",
+    "rate": 7287,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.15",
+    "description": "BDF 3 Providing and laying Cast in situ/Ready Mix cement concrete M-30 of trap / Bd.F.3 Page One",
+    "unit": "m³",
+    "rate": 7471,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.17",
+    "description": "BDF 3 Providing and laying Cast in situ/Ready Mix cement concrete M-35 of trap / Bd.F.3 Page One",
+    "unit": "m³",
+    "rate": 7562,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.19",
+    "description": "BDF 3 Providing and laying Cast in situ/Ready Mix cement concrete M-40 of trap / Bd.F.3 Page One",
+    "unit": "m³",
+    "rate": 7801,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.31",
+    "description": "BDF 5 Providing and laying Cast in situ/Ready Mix cement concrete M-20 of trap / Bd.F.5 Page One",
+    "unit": "m³",
+    "rate": 13783,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.33",
+    "description": "BDF 5 Providing and laying Cast in situ/Ready Mix cement concrete M-25 of trap / Bd.F.5 Page One",
+    "unit": "m³",
+    "rate": 13967,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.35",
+    "description": "BDF 5 Providing and laying Cast in situ/Ready Mix cement concrete M-30 of trap / Bd.F.5 Page One",
+    "unit": "m³",
+    "rate": 14150,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.37",
+    "description": "BDF 5 Providing and laying Cast in situ/Ready Mix cement concrete M-35 of trap / Bd.F.5 Page One",
+    "unit": "m³",
+    "rate": 14242,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.39",
+    "description": "BDF 5 Providing and laying Cast in situ/Ready Mix cement concrete M-40 of trap / Bd.F.5 Page One",
+    "unit": "m³",
+    "rate": 14333,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.50",
+    "description": "BDF 6 Providing and laying Cast in situ/Ready Mix cement concrete M-20 of trap / Bd.F.6 Page One",
+    "unit": "m³",
+    "rate": 12269,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.52",
+    "description": "BDF 6 Providing and laying Cast in situ/Ready Mix cement concrete in M-25 of trap/ Bd.F.6 Page One",
+    "unit": "m³",
+    "rate": 12452,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.54",
+    "description": "BDF 6 Providing and laying Cast in situ/Ready Mix cement concrete M-30 of trap / Bd.F.6 Page One",
+    "unit": "m³",
+    "rate": 12635,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.56",
+    "description": "BDF 6 Providing and laying Cast in situ/Ready Mixcement concrete M-35 of trap / granite Bd.F.6 Page One",
+    "unit": "m³",
+    "rate": 12727,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.58",
+    "description": "BDF 6 Providing and laying Cast in situ/Ready Mix cement concrete M-40 of trap / Bd.F.6 Page One",
+    "unit": "m³",
+    "rate": 13002,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.70",
+    "description": "BDF 8 Providing and laying Cast in situ/Ready Mix cement concrete M-20 of trap/ Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 13932,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.72",
+    "description": "BDF 8 Providing and laying Cast in situ/Ready Mix cement concrete M-25 of trap/ Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 14116,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.74",
+    "description": "BDF 8 Providing and laying Cast in situ/Ready Mix cement concrete M-30 of trap/ Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 14299,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.76",
+    "description": "BDF 8 Providing and laying Cast in situ/Ready Mix cement concrete M-35 of trap/ Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 14391,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "25.78",
+    "description": "BDF 8 Providing and laying Cast in situ/Ready Mix cement concrete M-40 of trap/ Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 14666,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.05",
+    "description": "BDF 9 Providing and laying Cast in situ/Ready Mixcement concrete M-20 of trap/ granite/ Bd.F.9 Page One",
+    "unit": "m³",
+    "rate": 13932,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.07",
+    "description": "BDF 9 Providing and laying Cast in situ/Ready Mixcement concrete M-25 of trap/ granite/ Bd.F.9 Page One",
+    "unit": "m³",
+    "rate": 14116,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.09",
+    "description": "BDF10 Providing and laying Cast in situ/Ready Mix cement concrete M-20 of trap / Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 13932,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.11",
+    "description": "BDF10 Providing and laying Cast in situ/Ready Mix cement concrete M-25 of trap / Bd.F.8 Page One",
+    "unit": "m³",
+    "rate": 14116,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.17",
+    "description": "BDF 11 Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap/ Bd.F.11 Page One",
+    "unit": "m³",
+    "rate": 15567,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.19",
+    "description": "BDF 11 Providing and laying Cast in situ/Ready Mix cement concrete in M-25 of trap/ Bd.F.11 Page One",
+    "unit": "m³",
+    "rate": 15750,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.23",
+    "description": "BDF 12 Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap/ Bd. F. 12 Page One",
+    "unit": "m³",
+    "rate": 7190,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.25",
+    "description": "BDF 13A Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap / Bd. F. 13 Page One",
+    "unit": "m³",
+    "rate": 12060,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.26",
+    "description": "BDF 13A Providing and laying Cast in situ/Ready Mix cement concrete in M-25 of trap / Bd. F. 13 Page One",
+    "unit": "m³",
+    "rate": 12244,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.27",
+    "description": "BDF 14A Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap / Bd. F. 14 Page One",
+    "unit": "m³",
+    "rate": 12805,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.28",
+    "description": "BDF 14A Providing and laying Cast in situ/Ready Mix cement concrete in M-25 of trap / Bd. F. 14 Page One",
+    "unit": "m³",
+    "rate": 12989,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.29",
+    "description": "BDF 15A Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap Bd. F. 15 Page One",
+    "unit": "m³",
+    "rate": 14136,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.30",
+    "description": "BDF 15A Providing and laying Cast in situ/Ready Mix cement concrete in M-25 of trap Bd. F. 15 Page One",
+    "unit": "m³",
+    "rate": 14319,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.31",
+    "description": "BDF 16 Providing and laying Cast in situ/Ready Mix cement concrete in M-20 of trap / Bd. F. 16 Page One",
+    "unit": "m³",
+    "rate": 17601,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.32",
+    "description": "BDF 16 Providing and laying Cast in situ/Ready Mix cement concrete in M-25 of trap / Bd. F. 16 Page One",
+    "unit": "m³",
+    "rate": 17785,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.33",
+    "description": "BDF 17 Providing and fixing in position TMT - FE - 500 bar reinforcement of various diameters Bd.F.17, Page",
+    "unit": "mt",
+    "rate": 89703,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.34",
+    "description": "BDF 17 Providing and fixing in position HCRM / CRS (Corrosion Resistant Steel) bar Bd.F.17, Page",
+    "unit": "mt",
+    "rate": 94136,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.36",
+    "description": "Providing and applying Anti corrosive treatment to reinforcement as per cement",
+    "unit": "mt",
+    "rate": 11287,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.37",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 8mm diameter as",
+    "unit": "mt",
+    "rate": 24710,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.38",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 10mm diameter",
+    "unit": "mt",
+    "rate": 19640,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.39",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 12mm diameter",
+    "unit": "mt",
+    "rate": 16896,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.40",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 16mm diameter",
+    "unit": "mt",
+    "rate": 13108,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.41",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 20mm diameter",
+    "unit": "mt",
+    "rate": 10841,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.42",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 25mm diameter",
+    "unit": "mt",
+    "rate": 9051,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.44",
+    "description": "MORT and H 1600 Providing Fusion Bonded Epoxy Coating (FBEC) to reinforced bars of 32mm diameter",
+    "unit": "mt",
+    "rate": 7411,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.58",
+    "description": "BDF 41 Providing and laying Cast in situ/Ready Mix C.C. M-20 of trap metal for RCC rectangular Bd.F.6, Page One",
+    "unit": "m³",
+    "rate": 15094,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.60",
+    "description": "BDF 41 Providing and laying Cast in situ/Ready Mix C.C. M-25 of trap metal for RCC rectangular Bd.F.6, Page One",
+    "unit": "m³",
+    "rate": 15277,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.62",
+    "description": "BDF 41 Providing and laying Cast in situ/Ready Mix C.C. M-30 of trap metal for RCC rectangular Bd.F.6, Page One",
+    "unit": "m³",
+    "rate": 15461,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.64",
+    "description": "BDF Providing and laying Cast in situ/Ready Mix C.C. M-35 of trap metal for RCC rectangular Bd.E.2 Page One",
+    "unit": "m³",
+    "rate": 15549,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.66",
+    "description": "BDF 41 Providing and laying Cast in situ/Ready Mix C.C. M-40 of trap metal for RCC rectangular Bd.E.4 Page One",
+    "unit": "m³",
+    "rate": 15827,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "26.68",
+    "description": "BDF Providing and fixing during laying in RCC Slab rectangular 2 mm thick M.S. sheet fan",
+    "unit": "nos",
+    "rate": 397,
+    "category": "Reinforced Cement Concrete (RCC)"
+  },
+  {
+    "itemCode": "27.01",
+    "description": "BDG 1 Providing second class Burnt Brick masonry with conventional/ I.S. type bricks in Bd.G. 1 Page",
+    "unit": "m³",
+    "rate": 7755,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.02",
+    "description": "BDG 2 Providing first class Burnt Brick masonry with conventional/ I.S. type bricks in Bd.G.2 Page One",
+    "unit": "m³",
+    "rate": 7928,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.03",
+    "description": "BDG 3 Providing second class Burnt Brick masonry with conventional/ I.S. type bricks in Bd.G.3 Page One",
+    "unit": "m³",
+    "rate": 7514,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.05",
+    "description": "BDG 5 Providing second class Burnt Brick masonry with conventional/ I.S. type bricks in Bd.G.5 Page One",
+    "unit": "m³",
+    "rate": 7994,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.08",
+    "description": "BDG 9 Providing first class Burnt Brick masonry with conventional / I.S. type bricks in Bd.G.9 (a) Page One",
+    "unit": "m³",
+    "rate": 9525,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.09",
+    "description": "BDG 9 Providing first class Brick masonry with conventional / IS. type bricks in cement mortar Bd.G.9 (b) Page One",
+    "unit": "m³",
+    "rate": 11311,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.10",
+    "description": "BDG 10 Providing second class Burnt Brick masonry with conventional / I.S. type bricks in Bd.G.10 (a)",
+    "unit": "m³",
+    "rate": 8419,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.11",
+    "description": "BDG 10 Providing second class Burnt Brick masonry with conventional / I.S. type bricks in Bd.G.10 (b)",
+    "unit": "m³",
+    "rate": 10163,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.12",
+    "description": "BDG Providing fly ash brick masonry with conventional / I.S. type fly ash bricks in C.M. 1:6 in As director by",
+    "unit": "m³",
+    "rate": 6884,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.13",
+    "description": "BDG Providing fly ash brick masonry with conventional/ I.S. type bricks in cement mortar 1:6 As director by",
+    "unit": "m³",
+    "rate": 7106,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "27.15",
+    "description": "BDG Providing Autoclaved Aerated Concrete Block masonary of conforming to IS:2185",
+    "unit": "m³",
+    "rate": 7340,
+    "category": "Brick Masonry"
+  },
+  {
+    "itemCode": "28.01",
+    "description": "BDH 1 Providing uncoursed rubble masonry of trap / granite / quartzite / gneiss stones in Bd.H.1 Page One",
+    "unit": "m³",
+    "rate": 5025,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.02",
+    "description": "BDH 2 Providing uncoursed rubble masonry of trap / granite / quartzite / gneiss stones in Bd.H.2 Page One",
+    "unit": "m³",
+    "rate": 5157,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.03",
+    "description": "BDH 3 Providing uncoursed rubble masonry of trap / granite / quartzite / gneiss stone in Bd.H.3 Page One",
+    "unit": "m³",
+    "rate": 5530,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.04",
+    "description": "BDH 4 Providing uncoursed rubble masonry of trap / granite / quartzite / gneiss stones in Bd.H.4 Page One",
+    "unit": "m³",
+    "rate": 5534,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.05",
+    "description": "BDH 5 Providing random rubble masonry second sort of trap / granite / quartzite / gneiss /jamba Bd.H.5 Page One",
+    "unit": "m³",
+    "rate": 4734,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.06",
+    "description": "BDH 6 Providing random rubble masonry second sort of trap / granite / quartzite / gneiss /jamba Bd.H.6 Page One",
+    "unit": "m³",
+    "rate": 5423,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.07",
+    "description": "BDH 7 Providing random rubble masonry first sort of trap / granite / quartzite / gneiss Bd.H.7 Page One",
+    "unit": "m³",
+    "rate": 5940,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.08",
+    "description": "BDH 8 Providing random rubble masonry first sort of trap /granite / quartzite / gneiss Bd.H.8 Page One",
+    "unit": "m³",
+    "rate": 6288,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.09",
+    "description": "BDH 11 Providing coursed rubble masonry second sort of trap / granite / quartzite / gneiss stones Bd. H.11 Page One",
+    "unit": "m³",
+    "rate": 11703,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.10",
+    "description": "BDH 12 Providing coursed rubble masonry second sort of trap / granite / quartzite / gneiss stones Bd.H.12 Page One",
+    "unit": "m³",
+    "rate": 12303,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.11",
+    "description": "BDH 13 Providing coursed rubble masonry first sort of trap / granite / quartzite / gneiss Bd.H.13 Page One",
+    "unit": "m³",
+    "rate": 12427,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.12",
+    "description": "BDH 14 Providing coursed rubble masonry first sort of trap / granite / quartzite / gneiss Bd.H.14 Page One",
+    "unit": "m³",
+    "rate": 13274,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "28.13",
+    "description": "BDH 40 Providing coursed rubble masonry first sort for pillars of trap / granite / quartzite Bd.H.40 Page One",
+    "unit": "m³",
+    "rate": 12485,
+    "category": "Stone Masonry"
+  },
+  {
+    "itemCode": "29.03",
+    "description": "BDI Providing and constructing masonry in precast solid Concrete Block (Grade D-50 As per",
+    "unit": "m³",
+    "rate": 7638,
+    "category": "Concrete Block Masonry"
+  },
+  {
+    "itemCode": "29.04",
+    "description": "BDI Providing and constructing masonry in Autoclaved Areaclaved ( Celluar) Concrete Block",
+    "unit": "m³",
+    "rate": 7682,
+    "category": "Concrete Block Masonry"
+  },
+  {
+    "itemCode": "29.05",
+    "description": "BDI Providing and constructing masonry in Autoclaved Areaclaved ( Celluar) Concrete Block",
+    "unit": "m³",
+    "rate": 7765,
+    "category": "Concrete Block Masonry"
+  },
+  {
+    "itemCode": "31.02",
+    "description": "BDJ 3 Providing and applying Bitumen VG30/VG40 layer at 2 Kilogram. per",
+    "unit": "m²",
+    "rate": 246,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "31.03",
+    "description": "BDJ Providing leak proof treatment by Injection grouting method to old floor without",
+    "unit": "ltr",
+    "rate": 40,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "31.17",
+    "description": "Providing water proofing treatment as per IS : 1346-1966 to generally inaccessible",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "31.26",
+    "description": "BDJ Providing waterproofing in W.C. and bath including brick bat coba in all position",
+    "unit": "m³",
+    "rate": 6195,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "33.02",
+    "description": "BDM 1A Providing and laying Rough Shahabad Stone Flooring 40m",
+    "unit": "mt",
+    "rate": 791,
+    "category": "Paving & Flooring"
+  },
+  {
+    "itemCode": "33.37",
+    "description": "BDM 35 Providing and fixing machine cut mirror polished 18 mm to 20 mm thick telephone black Bd.M.35 B/Page One Square 4010 332 and dado / Amba White / Cat bary brown / RBI red / Ocean Brown granite stone partition",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Paving & Flooring"
+  },
+  {
+    "itemCode": "34.11",
+    "description": "BDN Providing and applying coal tar in two coats on new wood work including",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Wood Finishing"
+  },
+  {
+    "itemCode": "35.15",
+    "description": "BDO Providing and applying three coats of water proof cement paint of approved manufacture Spec.",
+    "unit": "nos",
+    "rate": 104,
+    "category": "Oil Painting"
+  },
+  {
+    "itemCode": "35.16",
+    "description": "BDO Providing and applying three coats of water proof cement paint of approved manufacture Spec.",
+    "unit": "nos",
+    "rate": 97,
+    "category": "Oil Painting"
+  },
+  {
+    "itemCode": "35.26",
+    "description": "BDO Providing and applying two coats of exterior weather shield paint of approved",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Oil Painting"
+  },
+  {
+    "itemCode": "37.03",
+    "description": "BDQ 2 Providing and fixing Indian teak wood joists and girders in timber floors of single, double Bd.Q.2 Page One",
+    "unit": "m³",
+    "rate": 121421,
+    "category": "Wood Work"
+  },
+  {
+    "itemCode": "37.04",
+    "description": "BDQ 2A Providing and fixing Jungle (hard) wood of approved species joists and girders in timber Bd.Q.2 Page One",
+    "unit": "m³",
+    "rate": 64243,
+    "category": "Wood Work"
+  },
+  {
+    "itemCode": "37.06",
+    "description": "BDQ 4 Providing and fixing Indian teak wood framed collar beam / king post / queen post truss, Bd.Q.4, Page One",
+    "unit": "m³",
+    "rate": 163386,
+    "category": "Wood Work"
+  },
+  {
+    "itemCode": "37.07",
+    "description": "BDQ 4A Providing and fixing in teak wood framed collar beam / king post / queen post truss, with Bd.Q.4, Page One",
+    "unit": "m³",
+    "rate": 92901,
+    "category": "Wood Work"
+  },
+  {
+    "itemCode": "37.08",
+    "description": "BDQ 5 Providing and fixing country teak wood common rafters, purlins and purlin cleats, hip Bd.Q.5, Page One",
+    "unit": "m³",
+    "rate": 147080,
+    "category": "Wood Work"
+  },
+  {
+    "itemCode": "37.09",
+    "description": "BDQ 5A Providing and fixing teak wood common rafters, purlins and purlin cleats, hip rafters, Bd.Q.5, Page One",
+    "unit": "m³",
+    "rate": 75542,
+    "category": "Wood Work"
+  },
+  {
+    "itemCode": "38.11",
+    "description": "BDR 11 Providing and fixing glass tiles of Mangalore type at required places in Mangalore tile Bd. R. 11, Page",
+    "unit": "nos",
+    "rate": 627,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "38.12",
+    "description": "BDR 13 Providing and fixing Mangalore pattern cowl ventilator tiles in the required places Bd. R. 13, Page One",
+    "unit": "nos",
+    "rate": 367,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "38.27",
+    "description": "BDR Removing and lowering the roof truss carefully without damaging the members and",
+    "unit": "nos",
+    "rate": 774,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "38.28",
+    "description": "BDR Removing R.S. girders of any size and span lowering the same and stacking neatly",
+    "unit": "mt",
+    "rate": 2408,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "38.32",
+    "description": "BDR Providing and fixing 12 mm dia. mild steel bar upto 0.5 M. length for anchor",
+    "unit": "nos",
+    "rate": 140,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "38.34",
+    "description": "BDR Providing and fixing colour coated Zincalume ( R ) AZ150 ( min 150 gms/sq.mt.",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "39.01",
+    "description": "BDT Providing and fixing frame with / without ventilator of size as specified with Country cut",
+    "unit": "m³",
+    "rate": 200050,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.02",
+    "description": "BDT Providing and fixing frame with / without ventilator of size as specified with Country",
+    "unit": "m³",
+    "rate": 107112,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.24",
+    "description": "BDT-55 Providing and fixing rolling shutter fabricated from steel laths of minimum thickness 0.9 BD-T-55 Page One Square 4829 846 Windows mm with lock plate of 3.15 mm thickness reinforced with 35 x 35 x 5 mm angle section",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.30",
+    "description": "BDT-53 Providing and fixing steel ventilator fully glazed partly fixed as per detailed drawing with BD-T-53 Page One Square 4827 1537 Windows hot dip zinc coating including fabricating glazing with plain / obscured glass pans 5",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.31",
+    "description": "BDT Providing and fixing M.S. grill door 24 Kilogram/",
+    "unit": "m²",
+    "rate": 3258,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.38",
+    "description": "BDT Providing and fixing in position. (as per I.S.1868 / 1982) Aluminium sliding window of",
+    "unit": "rmt",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.40",
+    "description": "BDT Providing and fixing in position. (as per I.S.1868 / 1982) Aluminium sliding window of",
+    "unit": "rmt",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.42",
+    "description": "BDT Providing and fixing in position (as per 1868 / 1982) Aluminium sliding window of",
+    "unit": "rmt",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.44",
+    "description": "BDT Providing and fixing in position (as per 1868 / 1982) Aluminium sliding window of",
+    "unit": "rmt",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.50",
+    "description": "BDT Providing and fixing in position aluminium openable window of any size as per",
+    "unit": "m²",
+    "rate": 5700,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "39.87",
+    "description": "BDT Providing and fixing in position C.C.T.W. brackets for weather sheds of section 70 x 45",
+    "unit": "m³",
+    "rate": 135716,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "40.09",
+    "description": "and fixing mild steel grill railing weighing 15Kilogram/",
+    "unit": "m²",
+    "rate": 2889,
+    "category": "Iron Work"
+  },
+  {
+    "itemCode": "40.10",
+    "description": "and fixing mild steel grill railing weighing 15Kilogram/",
+    "unit": "m²",
+    "rate": 2664,
+    "category": "Iron Work"
+  },
+  {
+    "itemCode": "40.11",
+    "description": "and fixing mild steel grill railing weighing 20Kilogram/",
+    "unit": "m²",
+    "rate": 3342,
+    "category": "Iron Work"
+  },
+  {
+    "itemCode": "41.04",
+    "description": "BDV 2 Providing and making lead joints for 80mm diameter cast iron pipe line including lead Bd.V.2 Page One",
+    "unit": "nos",
+    "rate": 752,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.05",
+    "description": "BDV 2A Providing and making lead joints for 100mm diameter cast iron pipes line including lead Bd.V.2 Page One",
+    "unit": "nos",
+    "rate": 819,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.06",
+    "description": "BDV 2B Providing and making lead joints for 150mm diameter cast iron pipe line including lead Bd.V.2 Page One",
+    "unit": "nos",
+    "rate": 892,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.07",
+    "description": "BDV 3 Providing and making flanged connection for the 80mm diameter cast iron pipe line Bd.V.3 Page One",
+    "unit": "nos",
+    "rate": 235,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.08",
+    "description": "BDV 3A Providing and making flanged connection for the 100mm diameter cast iron pipe Bd.V.3 Page One",
+    "unit": "nos",
+    "rate": 297,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.09",
+    "description": "BDV 3B Providing and making flanged connection for the 150mm diameter cast iron pipe Bd.V.3 Page One",
+    "unit": "nos",
+    "rate": 350,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.26",
+    "description": "BDV 7 Providing and fixing 15mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 3770,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.27",
+    "description": "BDV 7 Providing and fixing 20mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 5034,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.28",
+    "description": "BDV 7 Providing and fixing 25mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 7129,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.29",
+    "description": "BDV 7 Providing and fixing 40mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 11831,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.30",
+    "description": "BDV 7 Providing and fixing 50mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 15551,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.31",
+    "description": "BDV 7 Providing and fixing 80mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 25685,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.32",
+    "description": "BDV 7 Providing and fixing 100mm diameter water meter with non-return valve including Bd.V.7 Page One",
+    "unit": "nos",
+    "rate": 36538,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.40",
+    "description": "BDV 8 Providing and fixing 15 mm dia. screw down bib/ stop tap of brass including necessary Bd.V.8 Page One",
+    "unit": "nos",
+    "rate": 671,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.41",
+    "description": "BDV 8 Providing and fixing 20 mm dia. screw down bib/ stop tap of brass including necessary Bd.V.8 Page One",
+    "unit": "nos",
+    "rate": 970,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.42",
+    "description": "BDV 8 Providing and fixing 25 mm dia. screw down bib/ stop tap of brass including necessary Bd.V.8 Page One",
+    "unit": "nos",
+    "rate": 1366,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.43",
+    "description": "BDV 9 Providing and fixing screw down 15 mm dia. wheeled stop tap of brass including Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 516,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.44",
+    "description": "BDV 9 Providing and fixing screw down for 20 mm dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 640,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.45",
+    "description": "BDV 9 Providing and fixing screw down for 25 mm dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 878,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.46",
+    "description": "BDV 9 Providing and fixing screw down for 32 mm dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 981,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.47",
+    "description": "BDV 9 Providing and fixing screw down for 40 mm dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 1171,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.48",
+    "description": "BDV 9 Providing and fixing screw down for 50 mm dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 1993,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.49",
+    "description": "BDV 9 Providing and fixing screw down for 65 mm dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 2713,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.50",
+    "description": "BDV 9 Providing and fixing screw down for 80 mm. dia. wheeled stop tap of brass Bd.V.9 Page One",
+    "unit": "nos",
+    "rate": 4290,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.51",
+    "description": "BDV 12 Providing and fixing 100 mm dia. chromium plated brass showers rose to 15mm dia. Bd.V. 12 Page",
+    "unit": "nos",
+    "rate": 528,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.52",
+    "description": "BDV 14 Providing and fixing 15mm diameter concussion push button type brass/gun metal Bd.V.14 Page One",
+    "unit": "nos",
+    "rate": 464,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.53",
+    "description": "BDV 14 Providing and fixing 25mm diameter concussion push button type brass/gun metal Bd.V. 14 Page",
+    "unit": "nos",
+    "rate": 539,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.54",
+    "description": "BDV Providing and fixing push cock (Self closing tap) symet type of 15 mm dia.",
+    "unit": "nos",
+    "rate": 454,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.55",
+    "description": "BDV Providing and fixing push cock (Self closing tap) symet type of 20 mm dia.",
+    "unit": "nos",
+    "rate": 466,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.57",
+    "description": "BDV 23 Providing and fixing White Glazed Earthenware full stall type Urinal with P.V.C. Bd.V.23 Page One",
+    "unit": "nos",
+    "rate": 9774,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.58",
+    "description": "BDV 23 Providing and fixing White Glazed Earthenware Squatting plate (Ladies Urinal) with Bd.V.23 Page One",
+    "unit": "nos",
+    "rate": 4173,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.59",
+    "description": "BDV 23 Providing and fixing coloured glazed earthenware full stall type Urinal with P.V.C. Bd.V.23 Page One",
+    "unit": "nos",
+    "rate": 10194,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.60",
+    "description": "BDV 26 Providing and fixing white glazed earthenware lipped flat back/corner type Urinal with Bd.V.26 Page One",
+    "unit": "nos",
+    "rate": 4788,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.61",
+    "description": "BDV 27 Providing and fixing coloured glazed earthenware lipped flat back/corner type Bd.V.27 Page One",
+    "unit": "nos",
+    "rate": 4788,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.63",
+    "description": "BDV 30 Providing and fixing white glazed earthenware Wash Hand Basin of 55cm. x 40 Bd.V.30 Page One",
+    "unit": "nos",
+    "rate": 5599,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.64",
+    "description": "BDV 30 Providing and fixing white glazed earthenware Wash Hand Basin of 45cm x 30cm Bd.V.30 Page One",
+    "unit": "nos",
+    "rate": 5750,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.65",
+    "description": "BDV 30 Providing and fixing white glazed earthenware Wash Hand Basin of 63cm x 45cm Bd.V.30 Page One",
+    "unit": "nos",
+    "rate": 7015,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.66",
+    "description": "BDV 30 Providing and fixing coloured glazed earthenware Wash Hand Basin of 55cm x 40 cm Bd.V.30 Page One",
+    "unit": "nos",
+    "rate": 5986,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.67",
+    "description": "BDV 30 Providing and fixing coloured glazed earthenware Wash Hand Basin of 45 cm x 30 cm Bd.V.30 Page One",
+    "unit": "nos",
+    "rate": 5634,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.69",
+    "description": "BDV Providing and fixing White glazed with bottle trap earthenware Wash Hand Basin of BDV.-30 Page",
+    "unit": "nos",
+    "rate": 6473,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.70",
+    "description": "BDV Providing and fixing White glazed with bottle trap earthenware Wash Hand BDV.-30 Page",
+    "unit": "nos",
+    "rate": 7113,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.72",
+    "description": "BDV Providing and fixing Coloured glazed with bottle trap earthenware Wash Hand BDV.-30 Page",
+    "unit": "nos",
+    "rate": 6089,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.74",
+    "description": "BDV 30 Providing and fixing coloured glazed earthenware Wash Hand Basin of 63 cm x 45 cm Bd.V.30 Page One",
+    "unit": "nos",
+    "rate": 6075,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.75",
+    "description": "BDV 31 Providing and fixing white glazed earthenware sink 600mm x 200mm x 450mm including Bd.V.31 Page One",
+    "unit": "nos",
+    "rate": 5675,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.76",
+    "description": "BDV 31 Providing and fixing white glazed earthenware sink 450mm x 200mm x 300mm including Bd.V.31 Page One",
+    "unit": "nos",
+    "rate": 4243,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.77",
+    "description": "BDV Providing and fixing Autoclosing pillar cock of pressmatic tap of approved make",
+    "unit": "nos",
+    "rate": 2612,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.79",
+    "description": "BDV 32 Providing and fixing 8 cm C.I. Nahani Trap including C.I. grating bend and piece of C.I. Bd.V.32 Page One",
+    "unit": "nos",
+    "rate": 811,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "41.80",
+    "description": "BDV 32 Providing and fixing 10cm C.I. Nahani Trap including C.I. grating bend and piece of Bd.V.32 Page One",
+    "unit": "nos",
+    "rate": 1127,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.02",
+    "description": "BDV 38 Providing and fixing 15cm x 10cm salt glazed stoneware gully trap in cement concrete Bd.V.38, Page One",
+    "unit": "nos",
+    "rate": 1600,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.10",
+    "description": "BDV 43 Providing and constructing Brick Masonry Inspection Chamber 60cm x 45cm x Bd.V.43, Page One",
+    "unit": "nos",
+    "rate": 13472,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.11",
+    "description": "BDV 43 Providing and constructing Brick Masonry Inspection Chamber 90cm x 45cm x Bd.V.43 Page One",
+    "unit": "nos",
+    "rate": 14570,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.12",
+    "description": "BDV 43 Providing and constructing Brick Masonry Inspection Chamber 60cm x 45cm x Bd.V.43, Page One",
+    "unit": "nos",
+    "rate": 9160,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.13",
+    "description": "BDV 43 Providing and constructing Brick Masonry Inspection Chamber 90cm x 45cm x Bd.V.43, Page One",
+    "unit": "nos",
+    "rate": 10777,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.14",
+    "description": "BDV 44 Providing and constructing Brick Masonry inspection Chamber 90cm x 45cm including Bd.V.44, Page One",
+    "unit": "nos",
+    "rate": 15181,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.15",
+    "description": "BDV 44 Providing and constructing Brick Masonry inspection trap Chamber 90cm x 45cm Bd.V.44, Page One",
+    "unit": "nos",
+    "rate": 11284,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.16",
+    "description": "BDV Providing and constructing Brick Masonry Inspection Chamber 60cm x 45cm With Bd.V.43 Page One",
+    "unit": "nos",
+    "rate": 9953,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.17",
+    "description": "BDV Providing and constructing Brick Masonry Inspection Chamber 90cm x 45cm With Bd.V.43 Page One",
+    "unit": "nos",
+    "rate": 12130,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.18",
+    "description": "BDV 45 Providing and fixing hume pipe septic tank 900mm diameter with vent pipe and cap Bd.V.45, Page One",
+    "unit": "nos",
+    "rate": 16726,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.19",
+    "description": "BDV 46 Providing soak pit of size 120cm x 120cm x 120cm including excavating and filling Bd.V.46, Page One",
+    "unit": "nos",
+    "rate": 2952,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.20",
+    "description": "BDV Providing and fixing 450mm x 550mm size superior type Belgium mirror with 16mm",
+    "unit": "nos",
+    "rate": 861,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.30",
+    "description": "BDV Providing and fixing Orissa type white glazed earthenware 575 mm water closet",
+    "unit": "nos",
+    "rate": 4007,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.31",
+    "description": "BDV Providing and fixing chromium plated towel rod 16 mm dia and 75 cm. in length",
+    "unit": "nos",
+    "rate": 299,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.32",
+    "description": "BDV Providing and Fixing half turn 25 mm dia gun metal flushing cock including all",
+    "unit": "nos",
+    "rate": 953,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.33",
+    "description": "BDV Providing and fixing 1st class white glazed earthenware Orissa Type W.C. Pan 580 mm",
+    "unit": "nos",
+    "rate": 7388,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.34",
+    "description": "BDV Providing and fixing European type white glazed earthenware coupled closet symphonic",
+    "unit": "nos",
+    "rate": 11200,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.35",
+    "description": "BDV Providing and fixing orissa type colour glazed earthenware 625 x 450 mm. w.c. pan",
+    "unit": "nos",
+    "rate": 10140,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.36",
+    "description": "BDV Providing and fixing 40 mm. dia Ball cock medium type with PVC float including",
+    "unit": "nos",
+    "rate": 1210,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.37",
+    "description": "BDV Providing and fixing 15 mm. dia Ball cock medium type with PVC float including",
+    "unit": "nos",
+    "rate": 487,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.38",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 488,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.39",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 615,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.40",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 646,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.41",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 813,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.42",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 975,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.43",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 1537,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.44",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 2408,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.45",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 2640,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.46",
+    "description": "BDV Cleaning elevated water storage Reservoir within a given period, by using bleaching",
+    "unit": "nos",
+    "rate": 3607,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.53",
+    "description": "BDV Providing and fixing H.D.P container one piece moulded water tank made out of high",
+    "unit": "ltr",
+    "rate": 14,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.54",
+    "description": "BDV Providing and fixing H.D.P container one piece moulded water tank made out of low",
+    "unit": "ltr",
+    "rate": 11,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.67",
+    "description": "BDV 32 Providing and fixing 10 cm PVC nahani trap with grating etc. complete. BD.V 32 A page",
+    "unit": "nos",
+    "rate": 539,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.68",
+    "description": "BDV Providing and fixing reinforced cement concrete cover of size 90 cm x 45 cm with frame",
+    "unit": "nos",
+    "rate": 5641,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.69",
+    "description": "BDV Providing and fixing reinforced cement concrete cover of size 90 cm x 45 cm with frame",
+    "unit": "nos",
+    "rate": 4072,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.70",
+    "description": "BDV Providing and fixing reinforced cement concrete cover of size 60 cm x 45 cm with frame",
+    "unit": "nos",
+    "rate": 5336,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.71",
+    "description": "BDV Providing and fixing reinforced cement concrete cover of size 60 cm x 45 cm with frame",
+    "unit": "nos",
+    "rate": 3575,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.78",
+    "description": "BDV 4 Providing and fixing stainless steel sink of size 600 x 510 x 200 mm incluidng",
+    "unit": "nos",
+    "rate": 19900,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.79",
+    "description": "BDV Providing and fixing C.P. Angular stop clock with wall flange of approved make",
+    "unit": "nos",
+    "rate": 2687,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.80",
+    "description": "BDV Providing and fixing C.P.Two way BIB cock of approved make continental",
+    "unit": "nos",
+    "rate": 1459,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.81",
+    "description": "BDV Providing and fixing C.P. wall mixer with provision for overhead shower with 115mm",
+    "unit": "nos",
+    "rate": 4738,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.82",
+    "description": "BDV Providing and fixing C.P. pillar cock long neck with aerator of approed make",
+    "unit": "nos",
+    "rate": 1625,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.83",
+    "description": "BDV Providing and fixing C.P. BIB cock with wall flange of approved make including",
+    "unit": "nos",
+    "rate": 1108,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.84",
+    "description": "BDV Providing and fixing C.P. sink cock with raised J\" shaped swinging casted spout",
+    "unit": "nos",
+    "rate": 2145,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.86",
+    "description": "BDV Providing and fixing European type wall-hung white water closet of approved",
+    "unit": "nos",
+    "rate": 15026,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "42.88",
+    "description": "BDV Providing and fixing oval type under counter wash hand basin of 16 inch x 22 inch size",
+    "unit": "nos",
+    "rate": 8799,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.17",
+    "description": "BDV 23 Providing and fixing 8 cm rigid PVC Nahani trap including PVC grating ,bend, Specfications",
+    "unit": "nos",
+    "rate": 528,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.18",
+    "description": "BDV 24 Providing and fixing 15 cm rigid PVC Nahani trap including PVC Specfications",
+    "unit": "nos",
+    "rate": 571,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.19",
+    "description": "BDV 21 Providing and fixing European type white glazed earthenware water closet pan with Specfications",
+    "unit": "nos",
+    "rate": 11596,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.20",
+    "description": "BDV 21 Providing and fixing European type white glazed earthenware water closet pan with Specfications",
+    "unit": "nos",
+    "rate": 10768,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.21",
+    "description": "BDV 22 Providing and fixing European type Colour glazed earthenware water closet pan with Specfications",
+    "unit": "nos",
+    "rate": 11577,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.22",
+    "description": "BDV 23 Providing and fixing European type Colour glazed earthenware water closet pan with Specfications",
+    "unit": "nos",
+    "rate": 10749,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.23",
+    "description": "BDV 20 Providing and fixing Anglo Indian type white glazed earthenware water closet pan with Specfications",
+    "unit": "nos",
+    "rate": 6498,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.24",
+    "description": "BDV 22 Providing and fixing high level 10 liter capacity with fittings inlet PVC pipe with stop Specfications",
+    "unit": "nos",
+    "rate": 1271,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.25",
+    "description": "BDV 23 Providing and fixing in position UPVC ultra violet stabilized 110 mm outer diameter Specfications",
+    "unit": "nos",
+    "rate": 169,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.26",
+    "description": "BDV 23 Providing and fixing Glass self 125 mm wide and 600 mm long with necessary Specfications",
+    "unit": "nos",
+    "rate": 423,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.27",
+    "description": "BDV 23 Providing , constructing and fixing 250 mm dia. Inspection chamber made up of Specfications",
+    "unit": "nos",
+    "rate": 4085,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.28",
+    "description": "Bd-V Providing , constructing and fixing 450 mm dia. Inspection chamber made As Directected By",
+    "unit": "nos",
+    "rate": 10170,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.29",
+    "description": "Bd-V Providing , constructing and fixing 600 mm dia. Inspection chamber made As Directected By",
+    "unit": "nos",
+    "rate": 19915,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.35",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super bib As Directected By",
+    "unit": "nos",
+    "rate": 442,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.36",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super As Directected",
+    "unit": "nos",
+    "rate": 716,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.37",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super As Directected By",
+    "unit": "nos",
+    "rate": 468,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.38",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super wall As Directected",
+    "unit": "nos",
+    "rate": 1015,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.39",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super jet As Directected",
+    "unit": "nos",
+    "rate": 770,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.40",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super As Directected By",
+    "unit": "nos",
+    "rate": 468,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.41",
+    "description": "BDV Providing and fixing 15 mm diameter PVC Aqua kraft type of approved make super Pillar As Directected By",
+    "unit": "nos",
+    "rate": 636,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "43.44",
+    "description": "BDV Providing and fixing Wall Mounted European type white glazed earthenware water closet As Directected By",
+    "unit": "nos",
+    "rate": 13692,
+    "category": "Water Supply & Sanitary"
+  },
+  {
+    "itemCode": "44.11",
+    "description": "Providing and fixing 90 cm x 60 cm Marble plate engraving 10 cm. height letter, Bd.W.7 Page One",
+    "unit": "nos",
+    "rate": 7644,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "44.12",
+    "description": "Providing and fixing 90 cm x 60 cm Granite plate engraving 10 cm. Height letter, Bd.W.7 Page One",
+    "unit": "nos",
+    "rate": 8627,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "44.13",
+    "description": "and erecting 1.2 meter high wire fencing with five rows of barbed wire Bd.W.3 Page",
+    "unit": "rmt",
+    "rate": 838,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.03",
+    "description": "Removing Queen Post truss from roof and stacking the materials",
+    "unit": "nos",
+    "rate": 1787,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.04",
+    "description": "Removing King Post truss from roof and stacking the materials",
+    "unit": "nos",
+    "rate": 1166,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.05",
+    "description": "Removing other type truss below 5 metres span from roof and stacking the Bd.W.8 Page",
+    "unit": "nos",
+    "rate": 875,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.08",
+    "description": "Dismantling brick masonry in Mud and stacking the materials",
+    "unit": "m³",
+    "rate": 260,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.09",
+    "description": "Dismantling brick masonry in lime or cement mortar and stacking the materils as",
+    "unit": "m³",
+    "rate": 335,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.10",
+    "description": "Dismantling stone masonry in Mud including stacking the materials",
+    "unit": "m³",
+    "rate": 268,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.11",
+    "description": "Dismantling stone masonry in lime or cement mortar including stacking the",
+    "unit": "m³",
+    "rate": 380,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.12",
+    "description": "Removing lime or lean cement concrete including stacking the spoils",
+    "unit": "m³",
+    "rate": 558,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.13",
+    "description": "Removing rich mix cement concrete including stacking the spoils",
+    "unit": "m³",
+    "rate": 930,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.14",
+    "description": "Removing brick bat coba including stacking the spoils",
+    "unit": "m³",
+    "rate": 633,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.15",
+    "description": "Removing doors and windows with frames and stacking the materials",
+    "unit": "nos",
+    "rate": 156,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.16",
+    "description": "Removing ventilators and small windows with frame and stacking the materials with all",
+    "unit": "nos",
+    "rate": 132,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.29",
+    "description": "Dismantling the R.C.C. Work 1:2:4 and sorting out the materials such as steel etc. as",
+    "unit": "m³",
+    "rate": 1451,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.40",
+    "description": "urinal pans or wash hand basins with frame including disconnecting the",
+    "unit": "nos",
+    "rate": 96,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.41",
+    "description": "W.C. pans including disconnecting the sanitary and water supply",
+    "unit": "nos",
+    "rate": 207,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.46",
+    "description": "of damaged alluminium Butt Hinges of 125 mm of approved quality and",
+    "unit": "nos",
+    "rate": 295,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.47",
+    "description": "of damaged Mortise Lock of approved quality and make to door",
+    "unit": "nos",
+    "rate": 1236,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.48",
+    "description": "of damaged Aldrop 300 mm Chromium plated of approved quality and make",
+    "unit": "nos",
+    "rate": 375,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.49",
+    "description": "of damaged Aldrop 300 mm Iron Oxidised of approved quality and",
+    "unit": "nos",
+    "rate": 322,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.50",
+    "description": "of damaged Tower Bolt 300 mm Chromium plated of approved",
+    "unit": "nos",
+    "rate": 190,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.51",
+    "description": "of damaged Alluminium Handle 125 mm of approved quality and",
+    "unit": "nos",
+    "rate": 178,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.52",
+    "description": "of damaged Lock of approved quality and make to cupboard and",
+    "unit": "nos",
+    "rate": 247,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.53",
+    "description": "chockes and leakages from down take G.I/CI/PVC pipe line on walls floor",
+    "unit": "nos",
+    "rate": 313,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.55",
+    "description": "clearing by removeing the chockes from Nahni Trap, Gully Trap, Wash basin",
+    "unit": "nos",
+    "rate": 186,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.58",
+    "description": "of plants / ficus grown by pulling out root system embedded in masnory,",
+    "unit": "nos",
+    "rate": 228,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "46.59",
+    "description": "down the debris obtained from breaking and removing the cement plaster /",
+    "unit": "m³",
+    "rate": 752,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "47.02",
+    "description": "BDSS Providing and grouting the holes by Poly Ceramic Cementitious i.e NicGrout G 06 +",
+    "unit": "kg",
+    "rate": 80,
+    "category": "Structural Works"
+  },
+  {
+    "itemCode": "47.13",
+    "description": "BDSS Providing and applying Poly Ironite Ceramic Cementitious (PICC) of self curing, a",
+    "unit": "kg",
+    "rate": 57,
+    "category": "Bitumen & Tar Works"
+  },
+  {
+    "itemCode": "47.14",
+    "description": "BDSS Providing and applying Poly Ironite Ceramic Cementitious (PICC) of self curing, a",
+    "unit": "kg",
+    "rate": 150,
+    "category": "Bitumen & Tar Works"
+  },
+  {
+    "itemCode": "47.18",
+    "description": "BDSS Providing protection of unexposed old reinforcement on non spalled concrete by insertion",
+    "unit": "nos",
+    "rate": 352,
+    "category": "Structural Works"
+  },
+  {
+    "itemCode": "48.25",
+    "description": "As directed by Providing and fixing sink cock with regular swinging spout (Wall / floor Mounted",
+    "unit": "nos",
+    "rate": 3043,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.27",
+    "description": "AsEngineer directedin by Providing and fixing C.P. 2 Way BIB cock with wall flange of approved make AsEngineer directedin by",
+    "unit": "nos",
+    "rate": 2399,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.28",
+    "description": "As directed by Providing and fixing C.P. BIB cock with wall flange of approved make including",
+    "unit": "nos",
+    "rate": 1193,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.30",
+    "description": "As directed by Providing and fixing white european type wall-hung, Size 360mm x 360mm x 575 mm",
+    "unit": "nos",
+    "rate": 17844,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.31",
+    "description": "As directed by Providing and fixing white glazed urinal with Pressmatic auto closing valve having flow",
+    "unit": "nos",
+    "rate": 10391,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.32",
+    "description": "As directed by Providing and fixing wall hung white wash basin of size 550 x 400 x 195 mm with pillar",
+    "unit": "nos",
+    "rate": 6055,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.33",
+    "description": "As directed by Providing and fixing divertor with overhead shower,shower arm,spout,hand shower with",
+    "unit": "nos",
+    "rate": 14866,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.34",
+    "description": "As directed by Providing and fixing wall mixer with overhead shower,shower arm,hand shower with wall",
+    "unit": "nos",
+    "rate": 5485,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.35",
+    "description": "As directed by Providing and fixing Oval Type Under Counter Wash Hand Basin of 420 x 590 x 195mm",
+    "unit": "nos",
+    "rate": 19889,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.36",
+    "description": "As directed by Providing and fixing Table top white wash basin of size 120x635x405mm rubber plugs",
+    "unit": "nos",
+    "rate": 24356,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.37",
+    "description": "As directed by Providing and fixing white Opal series European type wall-hung, of size",
+    "unit": "nos",
+    "rate": 23429,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.38",
+    "description": "As directed by Providing and fixing Orissa Pan of size 580x445x260 mm with approved make flush",
+    "unit": "nos",
+    "rate": 7234,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.39",
+    "description": "As directed by Providing and fixing C.P. a 2-Way BIB cock with wall flange of approved make",
+    "unit": "nos",
+    "rate": 2364,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.40",
+    "description": "As directed by Providing and fixing white wash basin with half pedestal of size",
+    "unit": "nos",
+    "rate": 11081,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.41",
+    "description": "As directed by Providing and fixing white european type wall-hung pan, of size 350mm x 355mm x",
+    "unit": "nos",
+    "rate": 30447,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.42",
+    "description": "As directed by Providing and fixing Orissa type white glazed earthenware water closet pan of size",
+    "unit": "nos",
+    "rate": 3358,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.43",
+    "description": "As directed by Providing and fixing white glazed urinal of size 710x460x300mm with",
+    "unit": "nos",
+    "rate": 18575,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.44",
+    "description": "As directed by Providing and fixing of approved make white aquafree Waterless Urinal of with cartride",
+    "unit": "nos",
+    "rate": 18037,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.45",
+    "description": "As directed by Providing and fixing wall-hung white wash basin of size 470x575x190mm of",
+    "unit": "nos",
+    "rate": 18013,
+    "category": "Plumbing"
+  },
+  {
+    "itemCode": "48.46",
+    "description": "As directed by RWH - Shallow Percolation Pit providing, constructing 2.0m deep shallow depth",
+    "unit": "nos",
+    "rate": 51500,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "48.47",
+    "description": "As directed by RWH - Recharge Pit",
+    "unit": "nos",
+    "rate": 91300,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "48.50",
+    "description": "As directed by Supplying, assembling, lowering and fixing in vertical position in bore well,",
+    "unit": "nos",
+    "rate": 339,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "48.51",
+    "description": "As directed by Supplying, filling, spreading & leveling stone boulders of size range 5cm to 20cm in",
+    "unit": "m³",
+    "rate": 1309,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "48.52",
+    "description": "As directed by Supplying, filling, spreading & leveling gravels of size range 5mm to 10mm, in the",
+    "unit": "m³",
+    "rate": 1457,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "48.53",
+    "description": "As directed by Supplying, filling, spreading & leveling coarse fine aggregate (crushed sand VSI grade",
+    "unit": "m³",
+    "rate": 1457,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "48.54",
+    "description": "As directed by Gravel packing in tubewell construction in accordance with IS:4097, including",
+    "unit": "m³",
+    "rate": 1494,
+    "category": "Rain Water Harvesting"
+  },
+  {
+    "itemCode": "49.01",
+    "description": "Supplying and spreading geofabric filter layer of Geotextile of Polypropylene",
+    "unit": "m²",
+    "rate": 435,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.03",
+    "description": "Rd - 19; Rd - 29; Supplying and laying trap stones upto 20 kilogram for Filter / Core layer including Spec.One Number-",
+    "unit": "m³",
+    "rate": 894,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.04",
+    "description": "Rd - 19; Rd - 29; Supplying and laying laterite stones upto 20 kilogram for Filter / Core layer including Spec.One Number-",
+    "unit": "m³",
+    "rate": 574,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.05",
+    "description": "Rd - 19; Rd - 29; Supplying and laying trap stone weighing 20 to 50 kilogram for Core / Sub armour layer Spec.One Number-",
+    "unit": "m³",
+    "rate": 907,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.06",
+    "description": "Rd - 19; Rd - 29; Supplying and laying laterite stone weighing 20 to 50 kilogram for Core / Sub armour Spec.One Number-",
+    "unit": "m³",
+    "rate": 599,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.07",
+    "description": "Laying of trap / laterite stones by rearrangement of stones displaced from existing",
+    "unit": "m³",
+    "rate": 152,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.08",
+    "description": "Rd - 19; Rd - 29; Supplying and laying trap stone weighing 50 to 100 kilogram for Core / Sub armour / Spec.One Number-",
+    "unit": "m³",
+    "rate": 974,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.09",
+    "description": "Rd - 19; Rd - 29; Supplying and laying laterite stone weighing 50 to 100 kilogram for Core / Sub armour / Spec.One Number-",
+    "unit": "m³",
+    "rate": 670,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.10",
+    "description": "Laying of trap / laterite stones by rearrangement of stones displaced from existing",
+    "unit": "m³",
+    "rate": 230,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.11",
+    "description": "Rd - 19; Rd - 29; Providing and laying trap stones weighing 100 to 200 kilogram for Core / Sub armour / Spec.One Number-",
+    "unit": "m³",
+    "rate": 1206,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.12",
+    "description": "Laying of trap stones by rearrangement of stones displaced from existing protection bund",
+    "unit": "m³",
+    "rate": 460,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.13",
+    "description": "Rd - 19; Rd - 29; Providing and laying trap stones weighing 200 to 300 kilogram for Apron / Armour layer Spec.One Number-",
+    "unit": "m³",
+    "rate": 1261,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.14",
+    "description": "Laying of trap stones by rearrangement of stones displaced from existing protection bund",
+    "unit": "m³",
+    "rate": 522,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.15",
+    "description": "Rd - 19; Rd - 29; Providing and laying trap stones weighing 300 to 500 kilogram for Sub armour / Apron / Spec.One Number-",
+    "unit": "m³",
+    "rate": 1316,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.16",
+    "description": "Laying of trap stones by rearrangement of stones displaced from existing protection bund",
+    "unit": "m³",
+    "rate": 584,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.17",
+    "description": "Rd - 19; Rd - 29; Providing and laying trap stones weighing 500 to 1000 kilogram for Apron / Armour layer Spec.One Number-",
+    "unit": "m³",
+    "rate": 1371,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.18",
+    "description": "Laying of trap stones by rearrangement of stones displaced from existing protection bund",
+    "unit": "m³",
+    "rate": 646,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.19",
+    "description": "Rd - 19; Rd - 29; Providing and laying trap stones weighing above 1000 kilogram for Apron / Armour layer Spec.One Number-",
+    "unit": "m³",
+    "rate": 1429,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.20",
+    "description": "Laying of trap stones by rearrangement of stones displaced from existing protection bund",
+    "unit": "m³",
+    "rate": 708,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.23",
+    "description": "Bd.E.5 Providing and laying precast tetrapods / blocks of plain cement concrete of M-30 grade, Spec. One",
+    "unit": "nos",
+    "rate": 9387,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.24",
+    "description": "Bd.E.5 Providing and laying precast tetrapods / blocks of plain cement concrete of M-30 grade, Spec. One",
+    "unit": "nos",
+    "rate": 12688,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.26",
+    "description": "Bd.E.5 Providing and laying in situ M-20 cement concrete of trap / granite / quartzite / gneiss Spec. One",
+    "unit": "m³",
+    "rate": 6213,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "49.27",
+    "description": "Bd.E.5 Providing and laying in situ M-25 cement concrete of trap / granite / quartzite / gneiss Spec. One",
+    "unit": "m³",
+    "rate": 6377,
+    "category": "Coastal Works"
+  },
+  {
+    "itemCode": "50.10",
+    "description": "Clean the surface to remove dirt, loose particles. Examine the surface closely for any",
+    "unit": "nos",
+    "rate": 105,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "50.20",
+    "description": "Providing hot dip galvanizing conforming to IS 12594-1988 to reinforcement bars, having",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Oil Painting"
+  },
+  {
+    "itemCode": "50.23",
+    "description": "BD-I Providing and constructing non load bearing wall with 200 mm Horizontally perforated",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Block Masonry"
+  },
+  {
+    "itemCode": "50.26",
+    "description": "Providing and constructing non load bearing wall with 200 mm Grinded Horizontally",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Block Masonry"
+  },
+  {
+    "itemCode": "50.30",
+    "description": "BD-V Providing and fixing Ductile iron manhole cover of light/medium/heavy duty with frame",
+    "unit": "kg",
+    "rate": 75,
+    "category": "Waret supply and"
+  },
+  {
+    "itemCode": "50.31",
+    "description": "BD-V Providing and constructing Ductile Iron circular manhole 45 cm dia. At top 90 cm at",
+    "unit": "nos",
+    "rate": 12000,
+    "category": "Waret supply and"
+  },
+  {
+    "itemCode": "50.32",
+    "description": "Providing and laying CE Marked Woven Polypropylene Geotextile indigenously",
+    "unit": "m²",
+    "rate": 1846,
+    "category": "Geosynthetic Works"
+  },
+  {
+    "itemCode": "50.47",
+    "description": "RD organosilance Nanotechnology for Bituminous organosilance nanotechnology such as",
+    "unit": "kg",
+    "rate": 1400,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.51",
+    "description": "RD Construction of stabilised soil base with organo silance by providing locally available",
+    "unit": "m³",
+    "rate": 1613,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.52",
+    "description": "RD Construction of stabilised soil base with organo silance by providing locally available",
+    "unit": "m³",
+    "rate": 1701,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.53",
+    "description": "RD Construction of stabilised soil base with organo silance by providing locally available",
+    "unit": "m³",
+    "rate": 1789,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.54",
+    "description": "RD Supplying trap/granite/quartzite/gneiss stone metal of required size by bringing the",
+    "unit": "m³",
+    "rate": 730,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.55",
+    "description": "RD Supplying trap/granite/quartzite/gneiss stone metal of required size by bringing the",
+    "unit": "m³",
+    "rate": 780,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.56",
+    "description": "RD Supplying trap/granite/quartzite/gneiss stone metal of required size by bringing the",
+    "unit": "m³",
+    "rate": 700,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.57",
+    "description": "RD Supplying trap/granite/quartzite/gneiss stone metal of required size by bringing the",
+    "unit": "m³",
+    "rate": 750,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.58",
+    "description": "RD Spreading 80/40 mm metal for road work including sectionong etc complete",
+    "unit": "m³",
+    "rate": 85,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "50.80",
+    "description": "BD-W Supply of ready mix patch repairing compound as per section 3000.2.2(filling pothole and",
+    "unit": "kg",
+    "rate": 25,
+    "category": "Miscellaneous"
+  },
+  {
+    "itemCode": "51.14",
+    "description": "Providing & Fixing in position, 1000 mm wide Auto-glow Aluminium extruded strips on",
+    "unit": "nos",
+    "rate": 1410,
+    "category": "Accoustic"
+  },
+  {
+    "itemCode": "51.16",
+    "description": "Providing & Fixing in position, MS fabrication work using angles, sqr tubes, c channels",
+    "unit": "kg",
+    "rate": 85,
+    "category": "Accoustic"
+  },
+  {
+    "itemCode": "51.18",
+    "description": "Providing & fixing in position, heavy duty fully upholstered Auditorium chairs 520 mm c",
+    "unit": "nos",
+    "rate": 6000,
+    "category": "Accoustic"
+  },
+  {
+    "itemCode": "51.21",
+    "description": "Executive's Table @ 1800Lx900Dx750HT",
+    "unit": "nos",
+    "rate": 17231,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.22",
+    "description": "Pedestal Unit @ 420Lx450Dx650HT",
+    "unit": "nos",
+    "rate": 9004,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.23",
+    "description": "Credestal @ 1200Lx450Lx650HT",
+    "unit": "nos",
+    "rate": 17498,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.24",
+    "description": "Executive Table @ 2250Lx2100Dx750HT including Low Height Credestal @",
+    "unit": "nos",
+    "rate": 42635,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.26",
+    "description": "Free Standing Table @ 1500Lx600Dx750HT",
+    "unit": "nos",
+    "rate": 16893,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.27",
+    "description": "Free Standing Table @ 1350Lx600Dx750HT",
+    "unit": "nos",
+    "rate": 16411,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.28",
+    "description": "Free Standing Table @ 1200Lx600Dx750HT",
+    "unit": "nos",
+    "rate": 14436,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.29",
+    "description": "Library Area Table @ 1350Lx750Dx750HT",
+    "unit": "nos",
+    "rate": 10897,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.30",
+    "description": "Providing & Fixing Curviliner Workstation @ 1500/1500Lx600/600Dx750HT",
+    "unit": "nos",
+    "rate": 15767,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.31",
+    "description": "Conference Table @ 3600Lx1400Dx750HT",
+    "unit": "nos",
+    "rate": 99105,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.32",
+    "description": "Conference Table @ 1800 x 900 x 750 mm Ht.",
+    "unit": "nos",
+    "rate": 21108,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.35",
+    "description": "Low Height Openable Storage @ 900Lx450x750HT",
+    "unit": "nos",
+    "rate": 12646,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.36",
+    "description": "Medium Height Steel Storage @ 750Lx450Dx1200HT",
+    "unit": "nos",
+    "rate": 15452,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.37",
+    "description": "Full Height Steel Storage @ 750Lx450Dx2100HT",
+    "unit": "nos",
+    "rate": 18925,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.38",
+    "description": "Multiple Compartment Lockers @ 1140Lx 457D x 1830 mm. Ht.",
+    "unit": "nos",
+    "rate": 43427,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.39",
+    "description": "Book Case with Glass Shutter @ 825Lx300Dx1650HT",
+    "unit": "nos",
+    "rate": 26727,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.40",
+    "description": "Providing & Arrangemnt of High Back, Synchronized Mechanism with Multiple Locking,",
+    "unit": "nos",
+    "rate": 17371,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.41",
+    "description": "Providing & Arrangemnt of High Back Chair - TILT MECHANISM WITH",
+    "unit": "nos",
+    "rate": 15474,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.42",
+    "description": "Providing & Arrangemnt of MId Back, Normal Syncro Mechanism , Fixed Armrest ,",
+    "unit": "nos",
+    "rate": 9563,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.43",
+    "description": "Providing & Arrangemnt of Mid Back, ECO CTS Mechanism , Fixed Armrest , Gaslift",
+    "unit": "nos",
+    "rate": 6520,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.44",
+    "description": "Public Seating Chair. - 3 Seater",
+    "unit": "nos",
+    "rate": 18056,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.45",
+    "description": "Double Faced Mobile Unit for Compactor 2150mmH x 2745mmW x 900mmD",
+    "unit": "nos",
+    "rate": 135808,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.46",
+    "description": "Single Faced Mobile Unit for Compactor 2150mmH x 2745mmW x 457mmD",
+    "unit": "nos",
+    "rate": 99768,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.47",
+    "description": "Single Faced Fixed Unit for Compactor 2150mmH x 2745mmW x 457mmD",
+    "unit": "nos",
+    "rate": 64014,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.48",
+    "description": "Double Faced Mobile Unit for Compactor 2150mmH x 1830mmW x 900mmD",
+    "unit": "nos",
+    "rate": 95652,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.49",
+    "description": "Single Faced Mobile Unit for Compactor 2150mmH x 1830mmW x 457mmD",
+    "unit": "nos",
+    "rate": 69900,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.50",
+    "description": "Single Faced Fixed Unit for Compactor 2150mmH x 1830mmW x 457mmD",
+    "unit": "nos",
+    "rate": 44223,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.51",
+    "description": "Stool for Lab and Class-IV",
+    "unit": "nos",
+    "rate": 2617,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.52",
+    "description": "Alluminium foldable ladder for store",
+    "unit": "nos",
+    "rate": 3961,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.54",
+    "description": "Tea Table 900mm X 750mm X 450mm for m.s. ante chamber",
+    "unit": "nos",
+    "rate": 11123,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.55",
+    "description": "Single Bed @ 2025LX 1000DX 650H",
+    "unit": "nos",
+    "rate": 19367,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.56",
+    "description": "Dressing Table @400LX 400DX 1800H",
+    "unit": "nos",
+    "rate": 17352,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.57",
+    "description": "Wardrobe with Mirror @ 900LX 600DX 1965H",
+    "unit": "nos",
+    "rate": 40389,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.58",
+    "description": "Bed Side Table @ 400LX 400DX 415H",
+    "unit": "nos",
+    "rate": 6401,
+    "category": "Furniture Works"
+  },
+  {
+    "itemCode": "51.63",
+    "description": "BDV Providing and Fixing toilet set for differently Abled persons consist of Floor Mounted",
+    "unit": "nos",
+    "rate": 70780,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.65",
+    "description": "Providing and applying blue and white coloured thermoplastic road marking paints for",
+    "unit": "nos",
+    "rate": 1575,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.66",
+    "description": "Acrylic tactile audio map",
+    "unit": "nos",
+    "rate": 20790,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.67",
+    "description": "RD Directional signage",
+    "unit": "nos",
+    "rate": 1633,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.68",
+    "description": "Floor Directories Providing and fixing acrylic multilingual Braille (raised dots)ADA",
+    "unit": "nos",
+    "rate": 17418,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.69",
+    "description": "Providing an ADA compliant Disability Service Desk having a lowered portion (800mm",
+    "unit": "nos",
+    "rate": 22000,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.70",
+    "description": "Providing and fixing SS-304 studs having 35mm dia. of the approved brand and make",
+    "unit": "nos",
+    "rate": 59,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.71",
+    "description": "Providing and fixing SS-304 strips of size 280mm x 35mm of the approved brand and",
+    "unit": "nos",
+    "rate": 293,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.72",
+    "description": "Providing and fixing Braille indicators for handrails of the approved design and make",
+    "unit": "nos",
+    "rate": 1500,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.73",
+    "description": "Providing and fixing stainless steel (Grade 304) railing made of hollow tubes, channels,",
+    "unit": "kg",
+    "rate": 694,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.74",
+    "description": "ADA compliant modular Multilingual and tactile Emergency evacuation map of each floor",
+    "unit": "nos",
+    "rate": 19750,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.75",
+    "description": "Fire exit and floor identification signage as per manufacturer's specifications, ADA",
+    "unit": "nos",
+    "rate": 7500,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.76",
+    "description": "Supplying and installing of in position the signages \" FIRE ORDER\" it should contain the",
+    "unit": "nos",
+    "rate": 19780,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.77",
+    "description": "Providing an emergency evacuation chair of the approved design, weight and loading",
+    "unit": "nos",
+    "rate": 73500,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.78",
+    "description": "Providing and fixing the reader of the approved brand and make as per the manufacturers",
+    "unit": "nos",
+    "rate": 23100,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.79",
+    "description": "Providing and fixing the transmitter of the approved brand and make on each floor as per",
+    "unit": "nos",
+    "rate": 3675,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.80",
+    "description": "Providing and fixing SS Braille buttons in the elevator of the approved brand and make to",
+    "unit": "nos",
+    "rate": 189,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.82",
+    "description": "Providing a folding wheelchair of Pioneer Surgicals Brand, model",
+    "unit": "nos",
+    "rate": 8950,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.83",
+    "description": "Design, supply, fabrication and fixing of SS, non glare Signage board (2 ft. x 2 ft.- 1 One",
+    "unit": "nos",
+    "rate": 23100,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.84",
+    "description": "Design, supply, fabrication and fixing of SS, non glare multilingual Braille (raised dots)",
+    "unit": "nos",
+    "rate": 5969,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.87",
+    "description": "Design, supply, fabrication and fixing acrylic multilingual Braille (raised dots) signboards",
+    "unit": "nos",
+    "rate": 1633,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.88",
+    "description": "BDM Providing and fixing in place 300mm x 300mm x 3mm polyurethane stick on tactile",
+    "unit": "nos",
+    "rate": 3545,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.89",
+    "description": "Grab bars-Providing SS grab bars set for accessible toilets comprising of 4 nos. Grab",
+    "unit": "nos",
+    "rate": 19500,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.90",
+    "description": "Providing and Fixing Accessible Wayfinding and navigation signage systems - Providing",
+    "unit": "nos",
+    "rate": 85640,
+    "category": "PWD Personnel Rates"
+  },
+  {
+    "itemCode": "51.92",
+    "description": "BDT Providing & fixing factory-made steel door of Single leaf External Plain Wood finish type",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "51.94",
+    "description": "BDT Providing & fixing factory-made steel door of Single leaf Internal Plain Wood finish type",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "51.111",
+    "description": "and fixing 50mm diameter and 1.5 mm thick vertical and top Stainless steel",
+    "unit": "m²",
+    "rate": 678,
+    "category": "Iron Work"
+  },
+  {
+    "itemCode": "51.127",
+    "description": "RD Supplying and fixing of Plastic body studs with two shanks and without shanks of",
+    "unit": "nos",
+    "rate": 477,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "51.128",
+    "description": "RD Supplying and fixing of Swareflex or equivalent Metal Road studs with shank, made of",
+    "unit": "nos",
+    "rate": 562,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "51.129",
+    "description": "RD Supplying and fixing of Plastic body of Swaro Warn or equivalent 184*81*60 mm,",
+    "unit": "nos",
+    "rate": 3446,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "51.130",
+    "description": "RD Stabilization of Soil or Sub-Base/Base Course or Existing Pavement Crust upto the",
+    "unit": "m³",
+    "rate": 3627,
+    "category": "Road Sub Grade"
+  },
+  {
+    "itemCode": "51.131",
+    "description": "RD Rehabilitation of existing damaged asphalt pavement by Cold In-Place Recycling (CIPR)",
+    "unit": "m³",
+    "rate": 7370,
+    "category": "Road"
+  },
+  {
+    "itemCode": "51.133",
+    "description": "Providing and laying Stone Matrix Asphalt with 100-120 TPH batch type hot mix plant",
+    "unit": "m³",
+    "rate": 11689,
+    "category": "Road Surfacing (BT)"
+  },
+  {
+    "itemCode": "51.145",
+    "description": "cleaning and pier cap cleaning for the proper movement of bearing etc. complete",
+    "unit": "nos",
+    "rate": 9605,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "51.146",
+    "description": "and applying “high strength, non shrink free flow grout material” i. e. micro",
+    "unit": "m³",
+    "rate": 67000,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "51.148",
+    "description": "to the Dowel bars with epoxy of resin+hardner to ensure the proper fixing of",
+    "unit": "nos",
+    "rate": 429,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "51.154",
+    "description": ", drilling and fixing Nipples for pressure injection grouting of polymer cement",
+    "unit": "nos",
+    "rate": 266,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "51.155",
+    "description": "voids/honeycomb with high pressure injection grouting of Polymer Cement Grout",
+    "unit": "kg",
+    "rate": 219,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "51.156",
+    "description": "and laying in situ / ready mix M35 grade RCC jacketing work around the",
+    "unit": "nos",
+    "rate": 9280,
+    "category": "Bridge Works"
+  },
+  {
+    "itemCode": "51.167",
+    "description": "Supply and installation of ZMS (Nylon) cubicles of width and depth as per specifications/",
+    "unit": "kg",
+    "rate": 112,
+    "category": "Cubical Toilet"
+  },
+  {
+    "itemCode": "51.175",
+    "description": "BD-T Panic Bar: (For 2 Hr fire Rated single Panic bar)",
+    "unit": "nos",
+    "rate": 10189,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "51.176",
+    "description": "BD-T Door Closure: (For 2 Hr fire Rated EN-3 Door Closure)",
+    "unit": "nos",
+    "rate": 3908,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "51.177",
+    "description": "BD-T 12\"SS Handle: (For 2 Hr fire Rated 12\"SS Handle)",
+    "unit": "nos",
+    "rate": 2041,
+    "category": "Doors & Windows"
+  },
+  {
+    "itemCode": "51.178",
+    "description": "Rd Providing and laying White Topping as per IRC-SP 76-2015 over bituminous surface",
+    "unit": "m³",
+    "rate": 7424,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "51.179",
+    "description": "Rd Standard Metal Delineator IRC 79:1981",
+    "unit": "nos",
+    "rate": 1352,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "51.180",
+    "description": "Rd Flexible Median Marker IRC 67:2012",
+    "unit": "nos",
+    "rate": 405,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "51.181",
+    "description": "BITUMNOUS CONCRETE :- Providing and laying Bituminous concrete using crushed",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Road Works"
+  },
+  {
+    "itemCode": "51.187",
+    "description": "Supply and Installation of translucent roof with DPI Flux standing seam multicell",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "51.188",
+    "description": "Supply and Installation of Dpi Flux translucent roof with standing seam multicell",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Roofing"
+  },
+  {
+    "itemCode": "51.233",
+    "description": "As directed by CHANNELLED WALL PANELLING OF SIZE: 192X2400X15MM",
+    "unit": "mt",
+    "rate": 23,
+    "category": "Ceiling Works"
+  },
+  {
+    "itemCode": "51.237",
+    "description": "As directed by Providing and Laying of 2 or more sets (6 Nos. each set) Dual Ribs Pattern Rumble",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "52.04",
+    "description": "Detailed survey for bandhara -",
+    "unit": "m³",
+    "rate": 9650,
+    "category": "Bridge cum Bhandara"
+  },
+  {
+    "itemCode": "52.24",
+    "description": "Providing & mixing liquid internal curing compound which is based on water soluble",
+    "unit": "ltr",
+    "rate": 528,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "52.25",
+    "description": "Clean the existing surface / terrace thoroughly to remove dirt, loose particles, laitance etc.",
+    "unit": "days",
+    "rate": 23,
+    "category": "Water Proofing"
+  },
+  {
+    "itemCode": "53.01",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 243,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.02",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 436,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.03",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 541,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.04",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 791,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.05",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 1179,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.06",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 3285,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.07",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 6240,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.08",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 218,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.09",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 392,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.10",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 480,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.11",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 663,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.12",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 892,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.13",
+    "description": "Supplying, Drilling/Cleaning hole and injecting chemical. Application to be designed Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 2240,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.14",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 149,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.15",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 379,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.16",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 224,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.17",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 467,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.18",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 238,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.19",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 716,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.20",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 464,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.21",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 1112,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.22",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 785,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.23",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 2581,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.24",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 144,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.25",
+    "description": "Supplying, drilling/cleaning hole and fixing of Torque Controlled Expansion Anchor Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 3326,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.26",
+    "description": "Suppling, Drilling/Cleaning hole and fixing make heavy duty ETA Approved Chemical Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 390,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.27",
+    "description": "Suppling, Drilling/Cleaning hole and fixing make heavy duty ETA Approved Chemical Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 584,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.28",
+    "description": "Suppling, Drilling/Cleaning hole and fixing make heavy duty ETA Approved Chemical Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 926,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.29",
+    "description": "Suppling, Drilling/Cleaning hole and fixing make heavy duty ETA Approved Chemical Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 1561,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.30",
+    "description": "Suppling, Drilling/Cleaning hole and fixing make heavy duty ETA Approved Chemical Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 2132,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.31",
+    "description": "Suppling, Drilling/Cleaning hole and fixing make heavy duty ETA Approved Chemical Bd.C.2 Page No. 275",
+    "unit": "nos",
+    "rate": 6300,
+    "category": "Rebar Work"
+  },
+  {
+    "itemCode": "53.38",
+    "description": "As directed by ACOUSTICAL GLASS FIBRE FALSE CEILING CLOUDS & SHAPES : Providing and",
+    "unit": "nos",
+    "rate": 23,
+    "category": "Ceiling Works"
+  },
+  {
+    "itemCode": "53.51",
+    "description": "As directed by Supplying and providing various materials for REED BED filter media of 1 meter depth",
+    "unit": "m³",
+    "rate": 15319,
+    "category": "Building Works"
+  },
+  {
+    "itemCode": "53.58",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ______ mm",
+    "unit": "nos",
+    "rate": 5895,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.59",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ______ mm",
+    "unit": "nos",
+    "rate": 7928,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.60",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ______ mm",
+    "unit": "nos",
+    "rate": 10157,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.61",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ______ mm",
+    "unit": "nos",
+    "rate": 15581,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.62",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ___mm dia",
+    "unit": "nos",
+    "rate": 6428,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.63",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ___mm dia",
+    "unit": "nos",
+    "rate": 8765,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.64",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ___mm dia",
+    "unit": "nos",
+    "rate": 12147,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.65",
+    "description": "Providing and fixing Mandatory/Regulatory sign boards in circular shape of ___mm dia",
+    "unit": "nos",
+    "rate": 17730,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.66",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 4668,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.67",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 5456,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.68",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 7017,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.69",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 10084,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.70",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 4965,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.71",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 5859,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.72",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 7684,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.73",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Equilateral Triangle size of",
+    "unit": "nos",
+    "rate": 11271,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.74",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Octagone size of _____mm",
+    "unit": "nos",
+    "rate": 9269,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.75",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Octagone size of _____mm",
+    "unit": "nos",
+    "rate": 12011,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.76",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Octagone size of ______ mm",
+    "unit": "nos",
+    "rate": 10340,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.77",
+    "description": "Providing and fixing Cautionary/Warning sign boards in Octagone size of ______ mm",
+    "unit": "nos",
+    "rate": 13551,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.78",
+    "description": "Providing and fixing of retro- reflectorised informatory sign board rectangular/Square in MORTH 801 One Square 14187 312 shape having area less than 0.9",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.79",
+    "description": "Providing and fixing of retro- reflectorised informatory sign board rectangular/Square in MORTH 801 One Square 16983 312 shape having area less than 0.9",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.80",
+    "description": "Providing and fixing of retro- reflectorised informatory sign board rectangular/Square in MORTH 801 One Square 16089 128 shape having area greater than 0.9",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "53.81",
+    "description": "Providing and fixing of retro- reflectorised informatory sign board rectangular/Square in MORTH 801 One Square 18885 380 shape having area greater than 0.9",
+    "unit": "m²",
+    "rate": 23,
+    "category": "Road Furniture"
+  },
+  {
+    "itemCode": "54.16",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation of required height Sign Board to",
+    "unit": "nos",
+    "rate": 15222,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.17",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation of required height Sign Board to",
+    "unit": "nos",
+    "rate": 14152,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.18",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation of required height Sign Board to",
+    "unit": "nos",
+    "rate": 16103,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.19",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation of required height Sign Board to",
+    "unit": "nos",
+    "rate": 13972,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.20",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation (upto 20kms lead within city",
+    "unit": "nos",
+    "rate": 12903,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.21",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation (upto 20kms lead within city",
+    "unit": "nos",
+    "rate": 14854,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.22",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation (upto 20kms lead within city",
+    "unit": "nos",
+    "rate": 12746,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.23",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation (upto 20kms lead within city",
+    "unit": "nos",
+    "rate": 11677,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.24",
+    "description": "As directed by Procurement, Supply, Fabrication, Erection, Installation (upto 20kms lead within city",
+    "unit": "nos",
+    "rate": 13628,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.25",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 11731,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.26",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 10891,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.27",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 12572,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.28",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 10892,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.29",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 10052,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.30",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 11732,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.31",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 10052,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.32",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 9212,
+    "category": "New Items 2022-23"
+  },
+  {
+    "itemCode": "54.33",
+    "description": "As directed by Procurement, Supply, Installation of required height Sign Board to have a clear and legible",
+    "unit": "nos",
+    "rate": 10892,
+    "category": "New Items 2022-23"
+  }
+]

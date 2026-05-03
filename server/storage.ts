@@ -1,3 +1,6 @@
+import { readFileSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 import { 
   SSRItem, 
   InsertSSRItem, 
@@ -60,14 +63,44 @@ export class MemStorage implements IStorage {
       description: "State Schedule of Rates for Maharashtra PWD 2022-23",
       effectiveDate: new Date("2022-07-25"),
       isActive: 1,
-      totalItems: 40,
+      totalItems: 0,
       createdAt: new Date(),
     };
     this.ssrVersions.set(1, defaultVersion);
     this.ssrVersionIdCounter = 2;
 
-    // Create default SSR items based on Maharashtra PWD SSR 2022-23
-    const defaultItems: SSRItem[] = [
+    // Load all SSR items from the parsed seed file (Maharashtra PWD SSR 2022-23)
+    try {
+      const seedPath = join(dirname(fileURLToPath(import.meta.url)), "ssr-seed.json");
+      const seedRaw: Array<{ itemCode: string; description: string; unit: string; rate: number; category: string }> =
+        JSON.parse(readFileSync(seedPath, "utf8"));
+
+      let id = 1;
+      for (const item of seedRaw) {
+        const ssrItem: SSRItem = {
+          id,
+          itemCode: item.itemCode,
+          description: item.description,
+          unit: item.unit,
+          rate: item.rate,
+          category: item.category,
+          ssrVersion: "SSR 2022-23",
+          createdAt: new Date(),
+        };
+        this.ssrItems.set(id, ssrItem);
+        id++;
+      }
+      this.ssrItemIdCounter = id;
+      defaultVersion.totalItems = seedRaw.length;
+      this.ssrVersions.set(1, defaultVersion);
+      console.log(`[SSR] Loaded ${seedRaw.length} items from seed file.`);
+    } catch (err) {
+      console.error("[SSR] Failed to load seed data:", err);
+      this.ssrItemIdCounter = 1;
+    }
+
+    // legacy array removed — seed file handles all items above
+    if (false) { const defaultItems: SSRItem[] = [
       {
         id: 1,
         itemCode: "21.01",
@@ -482,12 +515,7 @@ export class MemStorage implements IStorage {
         ssrVersion: "SSR 2022-23",
         createdAt: new Date(),
       },
-    ];
-
-    defaultItems.forEach(item => {
-      this.ssrItems.set(item.id, item);
-    });
-    this.ssrItemIdCounter = 41;
+    ]; defaultItems.forEach(item => { this.ssrItems.set(item.id, item); }); } // end if(false) dead-code block
   }
 
   // SSR Items
@@ -495,7 +523,7 @@ export class MemStorage implements IStorage {
     return Array.from(this.ssrItems.values());
   }
 
-  async searchSSRItems(query: string, limit = 10): Promise<SSRItem[]> {
+  async searchSSRItems(query: string, limit = 20): Promise<SSRItem[]> {
     const lowercaseQuery = query.toLowerCase();
     const items = Array.from(this.ssrItems.values());
     

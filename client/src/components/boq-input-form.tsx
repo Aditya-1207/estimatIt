@@ -28,6 +28,7 @@ const UOM_CONFIG: Record<string, UomDef> = {
   // Length
   "rmt":     { label: "Rmt — Running Metre",       group: "Length",      category: "length"  },
   "rft":     { label: "Rft — Running Feet",        group: "Length",      category: "length"  },
+  "km":      { label: "Km — Kilometre",            group: "Length",      category: "length"  },
   // Count
   "nos":     { label: "Nos — Numbers",             group: "Count",       category: "count"   },
   // Weight
@@ -46,7 +47,7 @@ const UOM_CONFIG: Record<string, UomDef> = {
 const UOM_GROUPS = [
   { group: "Volume",      units: ["m³", "ft³", "brass"]   },
   { group: "Area",        units: ["m²", "sqft"]            },
-  { group: "Length",      units: ["rmt", "rft"]            },
+  { group: "Length",      units: ["rmt", "rft", "km"]      },
   { group: "Count",       units: ["nos"]                   },
   { group: "Weight",      units: ["kg", "mt", "quintal"]  },
   { group: "Liquid",      units: ["ltr"]                   },
