@@ -60,7 +60,7 @@ export class MemStorage implements IStorage {
       description: "State Schedule of Rates for Maharashtra PWD 2022-23",
       effectiveDate: new Date("2022-07-25"),
       isActive: 1,
-      totalItems: 20,
+      totalItems: 40,
       createdAt: new Date(),
     };
     this.ssrVersions.set(1, defaultVersion);
@@ -241,7 +241,7 @@ export class MemStorage implements IStorage {
       {
         id: 18,
         itemCode: "3.02",
-        description: "Wet mix macadam 150mm thick",
+        description: "Wet mix macadam 150mm thick including spreading, rolling, and compaction",
         unit: "m²",
         rate: 165.00,
         category: "Road Sub Base and Base Course",
@@ -268,12 +268,226 @@ export class MemStorage implements IStorage {
         ssrVersion: "SSR 2022-23",
         createdAt: new Date(),
       },
+
+      // ── Volume / m³ ─────────────────────────────────────────────────────────
+      {
+        id: 21,
+        itemCode: "21.04",
+        description: "Excavation for foundation in earth, soils of all types, sand, gravel and soft murum, including removal of excavated material up to a lead of 50m",
+        unit: "m³",
+        rate: 195.00,
+        category: "Excavation",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 22,
+        itemCode: "24.04",
+        description: "Providing and laying in situ plain cement concrete (PCC) of grade M15 (1:2:4) for foundation and bedding, including curing and formwork",
+        unit: "m³",
+        rate: 4850.00,
+        category: "Plain Cement Concrete",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 23,
+        itemCode: "27.03",
+        description: "Providing second-class burnt brick masonry in cement mortar 1:6 in foundation and plinth",
+        unit: "m³",
+        rate: 5200.00,
+        category: "Brick Work",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 24,
+        itemCode: "25.13",
+        description: "Providing and laying Ready Mix Concrete (RMC) of grade M25 for RCC slabs and beams",
+        unit: "m³",
+        rate: 6800.00,
+        category: "Reinforcement Cement Concrete",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+
+      // ── Area / m² ───────────────────────────────────────────────────────────
+      {
+        id: 25,
+        itemCode: "32.03",
+        description: "Providing and applying internal cement plaster 12mm thick in single coat in cement mortar 1:4",
+        unit: "m²",
+        rate: 120.00,
+        category: "Plastering and Pointing",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 26,
+        itemCode: "33.04",
+        description: "Providing and fixing vitrified floor tiles (600x600mm) with cement-based synthetic adhesive including grouting",
+        unit: "m²",
+        rate: 650.00,
+        category: "Paving, Flooring and Dado",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 27,
+        itemCode: "40.01",
+        description: "Providing and applying two coats of 100% acrylic flat exterior paint over a coat of primer on external surfaces",
+        unit: "m²",
+        rate: 85.00,
+        category: "Painting",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+
+      // ── Length / Rmt ─────────────────────────────────────────────────────────
+      {
+        id: 28,
+        itemCode: "50.01",
+        description: "Providing and laying 110mm diameter PVC rigid pipes (Class 3) for drainage lines including jointing with solvent cement",
+        unit: "rmt",
+        rate: 380.00,
+        category: "Drainage and Sewerage",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 29,
+        itemCode: "50.02",
+        description: "Providing and fixing 25mm dia. G.I. pipes (B-Class) for internal water supply lines with necessary specials and clamps",
+        unit: "rmt",
+        rate: 220.00,
+        category: "Water Supply",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 30,
+        itemCode: "60.01",
+        description: "Providing and fixing 100mm high wooden skirting on the wall matched with flooring including finishing",
+        unit: "rmt",
+        rate: 145.00,
+        category: "Carpentry and Joinery",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+
+      // ── Count / Nos ──────────────────────────────────────────────────────────
+      {
+        id: 31,
+        itemCode: "61.01",
+        description: "Providing and fixing factory-made solid core flush door shutters 35mm thick with commercial veneer on both faces",
+        unit: "nos",
+        rate: 4500.00,
+        category: "Doors and Windows",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 32,
+        itemCode: "62.01",
+        description: "Providing and fixing white vitreous china wash basin (630x450mm) with C.P. brass pillar tap and PVC waste pipe complete",
+        unit: "nos",
+        rate: 3200.00,
+        category: "Sanitary Fittings",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 33,
+        itemCode: "63.01",
+        description: "Providing and erecting street light LED luminaire (45 Watt) with driver on existing poles including wiring",
+        unit: "nos",
+        rate: 8500.00,
+        category: "Electrical Works",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+
+      // ── Weight / MT and kg ───────────────────────────────────────────────────
+      {
+        id: 34,
+        itemCode: "26.01",
+        description: "Providing and fixing Thermo Mechanically Treated (TMT) Fe-500 steel reinforcement bars for RCC work including cutting, bending and tying with binding wire",
+        unit: "mt",
+        rate: 62000.00,
+        category: "Steel Work",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 35,
+        itemCode: "26.02",
+        description: "Providing and fabricating structural steel work in rolled sections like joists, channels and angles for roof trusses including painting one coat of red oxide primer",
+        unit: "mt",
+        rate: 72000.00,
+        category: "Steel Work",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 36,
+        itemCode: "26.03",
+        description: "Supplying and fixing MS grills for windows as per approved design including painting one coat of red oxide primer",
+        unit: "kg",
+        rate: 72.00,
+        category: "Steel Work",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+
+      // ── Brass ────────────────────────────────────────────────────────────────
+      {
+        id: 37,
+        itemCode: "22.01",
+        description: "Supplying standard quality river sand for masonry and plastering works at site including unloading",
+        unit: "brass",
+        rate: 1800.00,
+        category: "Raw Materials",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 38,
+        itemCode: "22.02",
+        description: "Supplying crushed stone metal (aggregate) of 20mm nominal size conforming to IS specifications at site",
+        unit: "brass",
+        rate: 2200.00,
+        category: "Raw Materials",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+
+      // ── Lump Sum ─────────────────────────────────────────────────────────────
+      {
+        id: 39,
+        itemCode: "01.01",
+        description: "Site clearance including uprooting of rank vegetation, grass and bushes, and levelling of the area before layout",
+        unit: "ls",
+        rate: 25000.00,
+        category: "Miscellaneous",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
+      {
+        id: 40,
+        itemCode: "99.01",
+        description: "Maintenance of Reverse Osmosis (RO) plant machinery and pump sets for a period of one month including consumables",
+        unit: "ls",
+        rate: 18000.00,
+        category: "Miscellaneous",
+        ssrVersion: "SSR 2022-23",
+        createdAt: new Date(),
+      },
     ];
 
     defaultItems.forEach(item => {
       this.ssrItems.set(item.id, item);
     });
-    this.ssrItemIdCounter = 21;
+    this.ssrItemIdCounter = 41;
   }
 
   // SSR Items
