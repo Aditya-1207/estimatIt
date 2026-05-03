@@ -105,9 +105,10 @@ export default function LivePreviewTable({ project, onEditItem, editingItem }: L
                     key={item.id}
                     className={`transition-colors group ${
                       isSelected
-                        ? "bg-amber-50 border-l-4 border-l-amber-400"
-                        : "hover:bg-blue-50/40 border-l-4 border-l-transparent"
+                        ? "bg-amber-50"
+                        : "hover:bg-blue-50/40"
                     }`}
+                    style={isSelected ? { outline: "2px solid #f59e0b", outlineOffset: "-1px" } : undefined}
                   >
                     <td className={`px-4 py-3.5 font-medium text-center ${isSelected ? "text-amber-600" : "text-gray-400"}`}>
                       {index + 1}
