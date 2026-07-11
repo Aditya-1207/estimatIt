@@ -1,6 +1,19 @@
 node_modules
 dist
 .DS_Store
-server/public
-vite.config.ts.*
 *.tar.gz
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+Thumbs.db
+
+# Vite
+vite.config.ts.timestamp-*
