@@ -1,9 +1,11 @@
 import { type ReactNode } from "react";
 import { Link, useLocation } from "wouter";
-import { HardHat, LayoutDashboard, BookOpen, Menu, X } from "lucide-react";
+import { HardHat, LayoutDashboard, BookOpen, Menu, X, LogOut } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { APP_NAME } from "@estimatit/shared";
+import { auth } from "../../lib/auth";
+import { useAuthStore } from "../../store/auth";
 
 interface AppLayoutProps {
   children: ReactNode;
@@ -17,11 +19,21 @@ const navItems = [
 export function AppLayout({ children }: AppLayoutProps) {
   const [location] = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { session } = useAuthStore();
 
-  // Don't show layout on login page
-  if (location === "/login") {
+  // Don't show layout on auth pages
+  const authRoutes = ["/login", "/forgot-password", "/reset-password"];
+  if (authRoutes.includes(location)) {
     return <>{children}</>;
   }
+
+  const handleSignOut = async () => {
+    try {
+      await auth.signOut();
+    } catch (error) {
+      console.error("Failed to sign out", error);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -65,14 +77,24 @@ export function AppLayout({ children }: AppLayoutProps) {
             })}
           </nav>
 
-          {/* Connection Status (placeholder) */}
-          <div className="hidden items-center gap-2 md:flex">
+          {/* Connection Status & Auth */}
+          <div className="hidden items-center gap-4 md:flex">
             <div className="flex items-center gap-1.5 rounded-full bg-emerald-50 px-2.5 py-1">
               <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
               <span className="text-xs font-medium text-emerald-700">
                 Online
               </span>
             </div>
+            {session && (
+              <button
+                onClick={handleSignOut}
+                className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-destructive/10 hover:text-destructive"
+                aria-label="Sign out"
+              >
+                <LogOut className="h-4 w-4" />
+                Sign out
+              </button>
+            )}
           </div>
 
           {/* Mobile Menu Toggle */}
@@ -112,6 +134,19 @@ export function AppLayout({ children }: AppLayoutProps) {
                   </Link>
                 );
               })}
+              
+              {session && (
+                <button
+                  onClick={() => {
+                    handleSignOut();
+                    setMobileMenuOpen(false);
+                  }}
+                  className="mt-2 flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-sm font-medium text-destructive transition-colors hover:bg-destructive/10"
+                >
+                  <LogOut className="h-4 w-4" />
+                  Sign out
+                </button>
+              )}
             </nav>
             {/* Mobile connection status */}
             <div className="mt-3 flex items-center gap-1.5 border-t border-border pt-3">

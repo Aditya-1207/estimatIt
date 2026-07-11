@@ -1,7 +1,53 @@
-import { HardHat, Mail, Lock } from "lucide-react";
+import { useState } from "react";
+import { useLocation, Link } from "wouter";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
+import { HardHat, Mail, Lock, Loader2, AlertCircle } from "lucide-react";
 import { APP_NAME } from "@estimatit/shared";
+import { auth } from "../lib/auth";
+import { useAuthStore } from "../store/auth";
+
+const loginSchema = z.object({
+  email: z.string().email("Please enter a valid email address"),
+  password: z.string().min(5, "Password must be at least 5 characters"),
+});
+
+type LoginFormValues = z.infer<typeof loginSchema>;
 
 export function Login() {
+  const [, setLocation] = useLocation();
+  const { session, isInitialized } = useAuthStore();
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting },
+  } = useForm<LoginFormValues>({
+    resolver: zodResolver(loginSchema),
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+
+  // Redirect if already logged in
+  if (isInitialized && session) {
+    setLocation("/");
+    return null;
+  }
+
+  const onSubmit = async (data: LoginFormValues) => {
+    try {
+      setErrorMsg("");
+      await auth.signIn(data.email, data.password);
+      setLocation("/");
+    } catch (err: any) {
+      setErrorMsg(err.message || "Failed to sign in. Please check your credentials.");
+    }
+  };
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="w-full max-w-sm space-y-8">
@@ -27,7 +73,14 @@ export function Login() {
             Enter your credentials to continue
           </p>
 
-          <form className="mt-6 space-y-4" onSubmit={(e) => e.preventDefault()}>
+          <form className="mt-6 space-y-4" onSubmit={handleSubmit(onSubmit)}>
+            {errorMsg && (
+              <div className="flex items-center gap-2 rounded-lg bg-destructive/15 px-3 py-2 text-sm text-destructive">
+                <AlertCircle className="h-4 w-4" />
+                <p>{errorMsg}</p>
+              </div>
+            )}
+
             {/* Email */}
             <div className="space-y-2">
               <label
@@ -42,44 +95,69 @@ export function Login() {
                   id="email"
                   type="email"
                   placeholder="engineer@example.com"
-                  disabled
-                  className="h-11 w-full rounded-lg border border-input bg-background pl-10 pr-4 text-sm placeholder:text-muted-foreground focus:border-primary focus:ring-1 focus:ring-primary disabled:cursor-not-allowed disabled:opacity-50"
+                  className={`h-11 w-full rounded-lg border bg-background pl-10 pr-4 text-sm placeholder:text-muted-foreground focus:ring-1 disabled:cursor-not-allowed disabled:opacity-50 ${errors.email
+                    ? "border-destructive focus:border-destructive focus:ring-destructive"
+                    : "border-input focus:border-primary focus:ring-primary"
+                    }`}
+                  {...register("email")}
+                  disabled={isSubmitting}
                 />
               </div>
+              {errors.email && (
+                <p className="text-xs text-destructive">{errors.email.message}</p>
+              )}
             </div>
 
             {/* Password */}
             <div className="space-y-2">
-              <label
-                htmlFor="password"
-                className="text-sm font-medium text-foreground"
-              >
-                Password
-              </label>
+              <div className="flex items-center justify-between">
+                <label
+                  htmlFor="password"
+                  className="text-sm font-medium text-foreground"
+                >
+                  Password
+                </label>
+                <Link
+                  href="/forgot-password"
+                  className="text-xs font-medium text-primary hover:underline"
+                >
+                  Forgot password?
+                </Link>
+              </div>
               <div className="relative">
                 <Lock className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                 <input
                   id="password"
                   type="password"
                   placeholder="••••••••"
-                  disabled
-                  className="h-11 w-full rounded-lg border border-input bg-background pl-10 pr-4 text-sm placeholder:text-muted-foreground focus:border-primary focus:ring-1 focus:ring-primary disabled:cursor-not-allowed disabled:opacity-50"
+                  className={`h-11 w-full rounded-lg border bg-background pl-10 pr-4 text-sm placeholder:text-muted-foreground focus:ring-1 disabled:cursor-not-allowed disabled:opacity-50 ${errors.password
+                    ? "border-destructive focus:border-destructive focus:ring-destructive"
+                    : "border-input focus:border-primary focus:ring-primary"
+                    }`}
+                  {...register("password")}
+                  disabled={isSubmitting}
                 />
               </div>
+              {errors.password && (
+                <p className="text-xs text-destructive">{errors.password.message}</p>
+              )}
             </div>
 
             <button
               type="submit"
-              disabled
-              className="h-11 w-full rounded-lg bg-primary text-sm font-medium text-primary-foreground opacity-50 cursor-not-allowed"
+              disabled={isSubmitting}
+              className="flex h-11 w-full items-center justify-center rounded-lg bg-primary text-sm font-medium text-primary-foreground hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              Sign in
+              {isSubmitting ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  Signing in...
+                </>
+              ) : (
+                "Sign in"
+              )}
             </button>
           </form>
-
-          <p className="mt-4 rounded-lg bg-muted px-3 py-2 text-center text-xs font-medium text-muted-foreground">
-            🚧 Authentication coming in Phase 2
-          </p>
         </div>
       </div>
     </div>
