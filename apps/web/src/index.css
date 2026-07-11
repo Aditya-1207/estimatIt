@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design System Tokens ─────────────────────────── */
+@layer base {
+  :root {
+    /* Background & Foreground */
+    --background: 210 40% 98%;          /* slate-50 */
+    --foreground: 222 47% 11%;          /* slate-900 */
+
+    /* Card */
+    --card: 0 0% 100%;                  /* white */
+    --card-foreground: 222 47% 11%;
+
+    /* Primary (blue-600) */
+    --primary: 221 83% 53%;             /* #2563eb */
+    --primary-foreground: 210 40% 98%;
+
+    /* Muted */
+    --muted: 210 40% 96%;              /* slate-100 */
+    --muted-foreground: 215 16% 47%;   /* slate-500 */
+
+    /* Accent */
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;          /* red-500 */
+    --destructive-foreground: 210 40% 98%;
+
+    /* Border & Input */
+    --border: 214 32% 91%;             /* slate-200 */
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;               /* matches primary */
+
+    /* Radius */
+    --radius: 0.75rem;                 /* 12px — rounded-xl cards */
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 217 33% 17%;
+    --card-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 224 76% 48%;
+  }
+}
+
+/* ── Base Styles ──────────────────────────────────── */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Focus ring for accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+/* ── Utilities ────────────────────────────────────── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
