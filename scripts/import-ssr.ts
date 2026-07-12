@@ -69,6 +69,18 @@ async function importSSRData() {
     console.log("Old data wiped successfully.");
   }
 
+  // Deactivate any other stale active versions to ensure only one is ever active
+  const { error: deactivateError } = await supabase
+    .from("ssr_versions")
+    .update({ is_active: false })
+    .eq("is_active", true);
+
+  if (deactivateError) {
+    console.warn("Warning: could not deactivate old active versions:", deactivateError);
+  } else {
+    console.log("Deactivated any previous active versions.");
+  }
+
   // 2. Insert the new SSR Version with metadata
   const { data: newVersion, error: versionError } = await supabase
     .from("ssr_versions")
