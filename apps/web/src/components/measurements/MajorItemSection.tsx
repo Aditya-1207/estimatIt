@@ -57,8 +57,9 @@ export function MajorItemSection({
     const nextSeq = majorItem.dimension_rows.length > 0
       ? Math.max(...majorItem.dimension_rows.map(r => r.sequence_number)) + 1
       : 1;
+    const newId = crypto.randomUUID();
     addDimensionRow(blockId, majorItem.id, {
-      id: crypto.randomUUID(),
+      id: newId,
       major_item_id: majorItem.id,
       sequence_number: nextSeq,
       description: "",
@@ -69,6 +70,12 @@ export function MajorItemSection({
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
     });
+
+    // Auto-focus the newly created description field
+    setTimeout(() => {
+      const el = document.querySelector(`[data-row-id="${newId}"] [data-field="description"]`) as HTMLInputElement;
+      if (el) el.focus();
+    }, 50);
   };
 
   return (

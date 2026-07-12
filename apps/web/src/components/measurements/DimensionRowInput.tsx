@@ -56,12 +56,27 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
 
   // Helper to trigger save on blur
   const handleBlur = () => {
+    const pNum = parseFloat(num) || 0;
+    const pLen = parseFloat(len) || 0;
+    const pBre = parseFloat(bre) || 0;
+    const pDep = parseFloat(dep) || 0;
+
+    if (
+      desc === row.description &&
+      pNum === row.number &&
+      pLen === row.length &&
+      pBre === row.breadth &&
+      pDep === row.depth
+    ) {
+      return; // No changes, prevent unnecessary undo/redo states
+    }
+
     onChange(row.id, {
       description: desc,
-      number: parseFloat(num) || 0,
-      length: parseFloat(len) || 0,
-      breadth: parseFloat(bre) || 0,
-      depth: parseFloat(dep) || 0,
+      number: pNum,
+      length: pLen,
+      breadth: pBre,
+      depth: pDep,
     });
   };
 
@@ -110,7 +125,7 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
   };
 
   return (
-    <div ref={setNodeRef} style={style} className="group flex items-center gap-2 rounded-md transition-colors hover:bg-muted/50 py-1 pl-2 pr-2">
+    <div data-row-id={row.id} ref={setNodeRef} style={style} className="group flex items-center gap-2 rounded-md transition-colors hover:bg-muted/50 py-1 pl-2 pr-2">
       
       <div 
         {...attributes} 
