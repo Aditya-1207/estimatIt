@@ -16,5 +16,10 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.110.2",
+    "@types/node": "^26.1.1",
+    "dotenv": "^17.4.2"
   }
 }
