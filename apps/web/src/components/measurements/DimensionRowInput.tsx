@@ -80,6 +80,13 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
     });
   };
 
+  // Block 'e', 'E', '+', '-' from number inputs (HTML number allows scientific notation)
+  const blockInvalidChars = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (["e", "E", "+", "-"].includes(e.key)) {
+      e.preventDefault();
+    }
+  };
+
   // Keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>, fieldName: string) => {
     if (e.key === "Escape") {
@@ -156,7 +163,7 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
             value={num}
             onChange={(e) => setNum(e.target.value)}
             onBlur={handleBlur}
-            onKeyDown={(e) => handleKeyDown(e, "number")}
+            onKeyDown={(e) => { blockInvalidChars(e); handleKeyDown(e, "number"); }}
             placeholder="No"
             className="h-8 w-16 text-right rounded border border-transparent bg-transparent px-2 text-sm transition-colors hover:border-input focus:border-primary focus:bg-background focus:outline-none focus:ring-1 focus:ring-primary [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
           />
@@ -167,7 +174,7 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
             value={len}
             onChange={(e) => setLen(e.target.value)}
             onBlur={handleBlur}
-            onKeyDown={(e) => handleKeyDown(e, "length")}
+            onKeyDown={(e) => { blockInvalidChars(e); handleKeyDown(e, "length"); }}
             placeholder="L"
             className="h-8 w-20 text-right rounded border border-transparent bg-transparent px-2 text-sm transition-colors hover:border-input focus:border-primary focus:bg-background focus:outline-none focus:ring-1 focus:ring-primary [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
           />
@@ -178,7 +185,7 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
             value={bre}
             onChange={(e) => setBre(e.target.value)}
             onBlur={handleBlur}
-            onKeyDown={(e) => handleKeyDown(e, "breadth")}
+            onKeyDown={(e) => { blockInvalidChars(e); handleKeyDown(e, "breadth"); }}
             placeholder="B"
             className="h-8 w-20 text-right rounded border border-transparent bg-transparent px-2 text-sm transition-colors hover:border-input focus:border-primary focus:bg-background focus:outline-none focus:ring-1 focus:ring-primary [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
           />
@@ -189,7 +196,7 @@ export function DimensionRowInput({ row, onChange, onDelete, onEnterNext }: Dime
             value={dep}
             onChange={(e) => setDep(e.target.value)}
             onBlur={handleBlur}
-            onKeyDown={(e) => handleKeyDown(e, "depth")}
+            onKeyDown={(e) => { blockInvalidChars(e); handleKeyDown(e, "depth"); }}
             placeholder="D"
             className="h-8 w-20 text-right rounded border border-transparent bg-transparent px-2 text-sm transition-colors hover:border-input focus:border-primary focus:bg-background focus:outline-none focus:ring-1 focus:ring-primary [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
           />

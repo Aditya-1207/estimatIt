@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
 import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff } from "lucide-react";
@@ -28,28 +28,8 @@ export function MeasurementSheet() {
 
   const { undo, redo, pastStates, futureStates } = useStore(useMeasurementStore.temporal, (state) => state);
 
-  // Global Undo/Redo Hotkeys
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't intercept if user is typing in an input (let browser handle text undo)
-      const isInput = document.activeElement?.tagName === "INPUT" || document.activeElement?.tagName === "TEXTAREA";
-      
-      if ((e.ctrlKey || e.metaKey) && !isInput) {
-        if (e.key === "z" && !e.shiftKey) {
-          e.preventDefault();
-          undo();
-        } else if (e.key === "z" && e.shiftKey) {
-          e.preventDefault();
-          redo();
-        } else if (e.key === "y") {
-          e.preventDefault();
-          redo();
-        }
-      }
-    };
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [undo, redo]);
+  // Undo/Redo is available via toolbar buttons only.
+  // Global Ctrl+Z is left to browser native (text-level undo inside inputs).
 
   // Initial Data Fetching
   const { data: project } = useQuery({
