@@ -1,30 +1,18 @@
-import { Plus, Trash2 } from "lucide-react";
+import { Plus, Trash2, GripVertical } from "lucide-react";
 import type { MeasurementBlockWithDetails } from "../../lib/api/measurements";
-import type { DimensionRow } from "@estimatit/shared";
 import { MajorItemSection } from "./MajorItemSection";
+import { useMeasurementStore } from "../../store/measurementStore";
+import { DndContext, closestCenter } from "@dnd-kit/core";
+import { SortableContext, verticalListSortingStrategy, useSortable } from "@dnd-kit/sortable";
+import { CSS } from "@dnd-kit/utilities";
 
 interface MeasurementBlockCardProps {
   block: MeasurementBlockWithDetails;
-  onDelete: (id: string) => void;
-  onAddMajorItem: (blockId: string) => void;
-  onUpdateMajorItem: (majorItemId: string, description: string) => void;
-  onDeleteMajorItem: (majorItemId: string) => void;
-  onAddDimensionRow: (majorItemId: string) => void;
-  onUpdateDimensionRow: (rowId: string, updates: Partial<DimensionRow>) => void;
-  onDeleteDimensionRow: (rowId: string) => void;
 }
 
-export function MeasurementBlockCard({
-  block,
-  onDelete,
-  onAddMajorItem,
-  onUpdateMajorItem,
-  onDeleteMajorItem,
-  onAddDimensionRow,
-  onUpdateDimensionRow,
-  onDeleteDimensionRow,
-}: MeasurementBlockCardProps) {
-  
+export function MeasurementBlockCard({ block }: MeasurementBlockCardProps) {
+  const { deleteMeasurementBlock, addMajorItem, reorderMajorItems } = useMeasurementStore();
+
   // Calculate Block Total Quantity
   let blockTotal = 0;
   block.major_items.forEach((mi) => {
@@ -45,14 +33,61 @@ export function MeasurementBlockCard({
   const unit = isCustom ? block.custom_unit : block.ssr_item?.unit;
   const itemNo = isCustom ? "Custom" : block.ssr_item?.item_no;
   
-  // Actually calculate the Amount (Total * Rate)
   const rate = isCustom ? block.custom_rate : block.ssr_item?.completed_rate_inr;
   const blockAmount = blockTotal * (rate || 0);
 
+  const {
+    attributes,
+    listeners,
+    setNodeRef,
+    transform,
+    transition,
+    isDragging,
+  } = useSortable({ id: block.id, data: { type: "Block" } });
+
+  const style = {
+    transform: CSS.Transform.toString(transform),
+    transition,
+    opacity: isDragging ? 0.5 : 1,
+  };
+
+  const handleDragEndMajorItems = (event: any) => {
+    const { active, over } = event;
+    if (active.id !== over.id) {
+      const oldIndex = block.major_items.findIndex(mi => mi.id === active.id);
+      const newIndex = block.major_items.findIndex(mi => mi.id === over.id);
+      reorderMajorItems(block.id, oldIndex, newIndex);
+    }
+  };
+
+  const handleAddMajorItem = () => {
+    const nextSeq = block.major_items.length > 0 
+      ? Math.max(...block.major_items.map(m => m.sequence_number)) + 1 
+      : 1;
+
+    addMajorItem(block.id, {
+      id: crypto.randomUUID(),
+      block_id: block.id,
+      description: "",
+      sequence_number: nextSeq,
+      created_at: new Date().toISOString(),
+      dimension_rows: []
+    });
+  };
+
   return (
-    <div className="group/block relative overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-all hover:shadow-md mb-6">
+    <div ref={setNodeRef} style={style} className="group/block relative overflow-hidden rounded-xl border border-border bg-card shadow-sm transition-all hover:shadow-md mb-6">
+      
       {/* Header */}
-      <div className="flex items-start justify-between border-b border-border bg-muted/30 px-5 py-4">
+      <div className="flex items-start justify-between border-b border-border bg-muted/30 px-5 py-4 pl-12">
+        <div 
+          {...attributes} 
+          {...listeners}
+          className="absolute left-4 top-5 cursor-grab hover:text-primary text-muted-foreground/30 opacity-0 group-hover/block:opacity-100 transition-opacity p-1"
+        >
+          <GripVertical className="h-5 w-5" />
+        </div>
+
         <div className="flex items-start gap-4 flex-1">
           <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/10 font-bold text-primary">
             {block.sequence_number}
@@ -74,7 +109,7 @@ export function MeasurementBlockCard({
         </div>
         
         <button
-          onClick={() => onDelete(block.id)}
+          onClick={() => deleteMeasurementBlock(block.id)}
           className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md text-muted-foreground opacity-0 transition-all hover:bg-destructive/10 hover:text-destructive group-hover/block:opacity-100 focus:opacity-100"
           aria-label="Delete block"
         >
@@ -90,24 +125,24 @@ export function MeasurementBlockCard({
             <p className="text-xs text-muted-foreground mt-1">Start by adding a major item.</p>
           </div>
         ) : (
-          <div className="space-y-2">
-            {block.major_items.map((mi) => (
-              <MajorItemSection
-                key={mi.id}
-                majorItem={mi}
-                onUpdate={onUpdateMajorItem}
-                onDelete={onDeleteMajorItem}
-                onAddRow={onAddDimensionRow}
-                onUpdateRow={onUpdateDimensionRow}
-                onDeleteRow={onDeleteDimensionRow}
-              />
-            ))}
-          </div>
+          <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEndMajorItems}>
+            <SortableContext items={block.major_items.map(m => m.id)} strategy={verticalListSortingStrategy}>
+              <div className="space-y-2">
+                {block.major_items.map((mi) => (
+                  <MajorItemSection
+                    key={mi.id}
+                    blockId={block.id}
+                    majorItem={mi}
+                  />
+                ))}
+              </div>
+            </SortableContext>
+          </DndContext>
         )}
 
-        <div className="mt-4">
+        <div className="mt-4 pl-4">
           <button
-            onClick={() => onAddMajorItem(block.id)}
+            onClick={handleAddMajorItem}
             className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/10"
           >
             <Plus className="h-4 w-4" />
