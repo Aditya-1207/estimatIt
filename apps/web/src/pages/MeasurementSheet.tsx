@@ -1,21 +1,27 @@
 import { useState } from "react";
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff } from "lucide-react";
+import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet } from "lucide-react";
 import type { SSRItem } from "@estimatit/shared";
 import { getProject } from "../lib/api/projects";
 import { getActiveSSRVersion } from "../lib/api/ssr";
 import { getMeasurementSheet } from "../lib/api/measurements";
 import { MeasurementBlockCard } from "../components/measurements/MeasurementBlockCard";
 import { SSRCombobox } from "../components/measurements/SSRCombobox";
+import { ExportValidationDialog } from "../components/measurements/ExportValidationDialog";
 import { useMeasurementStore } from "../store/measurementStore";
 import { useStore } from "zustand";
 import { DndContext, closestCenter } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
+import { validateForExport, generateMeasurementSheetExcel, type ExportWarning } from "../lib/excelExport";
+import { toast } from "../components/Toast";
 
 export function MeasurementSheet() {
   const { id } = useParams<{ id: string }>();
   const [isAddingBlock, setIsAddingBlock] = useState(false);
+  const [isExporting, setIsExporting] = useState(false);
+  const [showValidationDialog, setShowValidationDialog] = useState(false);
+  const [exportWarnings, setExportWarnings] = useState<ExportWarning[]>([]);
   
   // Zustand store
   const { 
@@ -116,6 +122,38 @@ export function MeasurementSheet() {
     grandTotal += blockTotal * (rate || 0);
   });
 
+  // ── Export flow ──────────────────────────────────────────────────────────
+  const handleExport = () => {
+    const warnings = validateForExport(blocks);
+    if (warnings.length > 0) {
+      setExportWarnings(warnings);
+      setShowValidationDialog(true);
+    } else {
+      performExport();
+    }
+  };
+
+  const performExport = async () => {
+    setShowValidationDialog(false);
+    setIsExporting(true);
+    try {
+      const filename = await generateMeasurementSheetExcel({
+        project: project!,
+        blocks,
+        ssrVersionLabel: activeVersion?.version,
+      });
+      toast(`Exported: ${filename}`, "success");
+    } catch (err) {
+      console.error("Export failed:", err);
+      toast("Export failed. Please try again.", "error", {
+        label: "Try again",
+        onClick: performExport,
+      });
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-[calc(100vh-8rem)]">
       <div className="flex-1 space-y-6 pb-24">
@@ -160,12 +198,25 @@ export function MeasurementSheet() {
               {project?.work_order_no ? `WO: ${project.work_order_no}` : "Draft Project"}
             </p>
           </div>
-          <button
-            disabled
-            className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white opacity-50 cursor-not-allowed"
-          >
-            Export to Excel
-          </button>
+          <div className="relative group">
+            <button
+              onClick={handleExport}
+              disabled={blocks.length === 0 || isExporting || !project}
+              className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-sm"
+            >
+              {isExporting ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <FileSpreadsheet className="h-4 w-4" />
+              )}
+              {isExporting ? "Exporting..." : "Export to Excel"}
+            </button>
+            {blocks.length === 0 && (
+              <div className="pointer-events-none absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs text-background opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
+                Add measurements before exporting
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Loading State */}
@@ -241,6 +292,14 @@ export function MeasurementSheet() {
             )}
           </>
         )}
+
+        {/* Export Validation Dialog */}
+        <ExportValidationDialog
+          warnings={exportWarnings}
+          isOpen={showValidationDialog}
+          onClose={() => setShowValidationDialog(false)}
+          onExportAnyway={performExport}
+        />
       </div>
 
       {/* Sticky Footer */}
