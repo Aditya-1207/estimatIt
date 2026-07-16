@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet } from "lucide-react";
+import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, LayoutList, TableProperties } from "lucide-react";
 import type { SSRItem } from "@estimatit/shared";
 import { getProject } from "../lib/api/projects";
 import { getActiveSSRVersion } from "../lib/api/ssr";
@@ -9,6 +9,7 @@ import { getMeasurementSheet } from "../lib/api/measurements";
 import { MeasurementBlockCard } from "../components/measurements/MeasurementBlockCard";
 import { SSRCombobox } from "../components/measurements/SSRCombobox";
 import { ExportValidationDialog } from "../components/measurements/ExportValidationDialog";
+import { AbstractSheet } from "../components/measurements/AbstractSheet";
 import { useMeasurementStore } from "../store/measurementStore";
 import { useStore } from "zustand";
 import { DndContext, closestCenter } from "@dnd-kit/core";
@@ -22,6 +23,7 @@ export function MeasurementSheet() {
   const [isExporting, setIsExporting] = useState(false);
   const [showValidationDialog, setShowValidationDialog] = useState(false);
   const [exportWarnings, setExportWarnings] = useState<ExportWarning[]>([]);
+  const [activeTab, setActiveTab] = useState<"measurement" | "abstract">("measurement");
   
   // Zustand store
   const { 
@@ -219,6 +221,32 @@ export function MeasurementSheet() {
           </div>
         </div>
 
+        {/* Tab Bar */}
+        <div className="flex items-center gap-1 rounded-lg border border-border bg-muted/40 p-1 w-fit">
+          <button
+            onClick={() => setActiveTab("measurement")}
+            className={`inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-all ${
+              activeTab === "measurement"
+                ? "bg-background text-foreground shadow-sm"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <LayoutList className="h-3.5 w-3.5" />
+            Measurement Sheet
+          </button>
+          <button
+            onClick={() => setActiveTab("abstract")}
+            className={`inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-all ${
+              activeTab === "abstract"
+                ? "bg-background text-foreground shadow-sm"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <TableProperties className="h-3.5 w-3.5" />
+            Abstract
+          </button>
+        </div>
+
         {/* Loading State */}
         {isLoadingSheet ? (
           <div className="flex h-64 items-center justify-center">
@@ -226,69 +254,79 @@ export function MeasurementSheet() {
           </div>
         ) : (
           <>
-            {/* Empty State */}
-            {blocks.length === 0 ? (
-              <div className="flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-border bg-card px-6 py-16 text-center">
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-                  <Ruler className="h-8 w-8" />
-                </div>
-                <h2 className="mt-4 text-lg font-semibold text-foreground">
-                  No measurements yet
-                </h2>
-                <p className="mt-2 max-w-md text-sm text-muted-foreground">
-                  Start by adding an SSR item to create your first measurement block.
-                </p>
-                <div className="mt-6 w-full max-w-md text-left">
-                  <SSRCombobox
-                    versionId={activeVersion?.id || ""}
-                    onSelect={handleSelectSSRItem}
-                    disabled={!activeVersion}
-                  />
-                  {!activeVersion && (
-                    <p className="mt-2 text-xs text-destructive text-center">No active SSR version found.</p>
-                  )}
-                </div>
-              </div>
-            ) : (
-              <div className="space-y-6">
-                <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEndBlocks}>
-                  <SortableContext items={blocks.map(b => b.id)} strategy={verticalListSortingStrategy}>
-                    {blocks.map((block) => (
-                      <MeasurementBlockCard
-                        key={block.id}
-                        block={block}
-                      />
-                    ))}
-                  </SortableContext>
-                </DndContext>
+            {/* ── Abstract Tab ── */}
+            {activeTab === "abstract" && (
+              <AbstractSheet />
+            )}
 
-                {/* Add new block section */}
-                <div className="rounded-xl border border-dashed border-primary/30 bg-primary/5 p-6 text-center">
-                  {isAddingBlock ? (
-                    <div className="mx-auto max-w-xl text-left animate-in fade-in slide-in-from-top-4">
-                      <label className="block text-sm font-medium text-foreground mb-2">Search SSR Item</label>
+            {/* ── Measurement Sheet Tab ── */}
+            {activeTab === "measurement" && (
+              <>
+                {/* Empty State */}
+                {blocks.length === 0 ? (
+                  <div className="flex flex-col items-center justify-center rounded-2xl border-2 border-dashed border-border bg-card px-6 py-16 text-center">
+                    <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+                      <Ruler className="h-8 w-8" />
+                    </div>
+                    <h2 className="mt-4 text-lg font-semibold text-foreground">
+                      No measurements yet
+                    </h2>
+                    <p className="mt-2 max-w-md text-sm text-muted-foreground">
+                      Start by adding an SSR item to create your first measurement block.
+                    </p>
+                    <div className="mt-6 w-full max-w-md text-left">
                       <SSRCombobox
                         versionId={activeVersion?.id || ""}
                         onSelect={handleSelectSSRItem}
+                        disabled={!activeVersion}
                       />
-                      <button 
-                        onClick={() => setIsAddingBlock(false)}
-                        className="mt-3 text-xs font-medium text-muted-foreground hover:text-foreground"
-                      >
-                        Cancel
-                      </button>
+                      {!activeVersion && (
+                        <p className="mt-2 text-xs text-destructive text-center">No active SSR version found.</p>
+                      )}
                     </div>
-                  ) : (
-                    <button
-                      onClick={() => setIsAddingBlock(true)}
-                      className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-                    >
-                      <Plus className="h-4 w-4" />
-                      Add Measurement Block
-                    </button>
-                  )}
-                </div>
-              </div>
+                  </div>
+                ) : (
+                  <div className="space-y-6">
+                    <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEndBlocks}>
+                      <SortableContext items={blocks.map(b => b.id)} strategy={verticalListSortingStrategy}>
+                        {blocks.map((block) => (
+                          <MeasurementBlockCard
+                            key={block.id}
+                            block={block}
+                          />
+                        ))}
+                      </SortableContext>
+                    </DndContext>
+
+                    {/* Add new block section */}
+                    <div className="rounded-xl border border-dashed border-primary/30 bg-primary/5 p-6 text-center">
+                      {isAddingBlock ? (
+                        <div className="mx-auto max-w-xl text-left animate-in fade-in slide-in-from-top-4">
+                          <label className="block text-sm font-medium text-foreground mb-2">Search SSR Item</label>
+                          <SSRCombobox
+                            versionId={activeVersion?.id || ""}
+                            onSelect={handleSelectSSRItem}
+                          />
+                          <button 
+                            onClick={() => setIsAddingBlock(false)}
+                            className="mt-3 text-xs font-medium text-muted-foreground hover:text-foreground"
+                          >
+                            Cancel
+                          </button>
+                        </div>
+                      ) : (
+                        <button
+                          onClick={() => setIsAddingBlock(true)}
+                          className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+                        >
+                          <Plus className="h-4 w-4" />
+                          Add Measurement Block
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </>
             )}
           </>
         )}
