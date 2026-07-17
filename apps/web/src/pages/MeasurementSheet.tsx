@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, LayoutList, TableProperties, Percent } from "lucide-react";
+import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, LayoutList, TableProperties, Percent, FileBadge } from "lucide-react";
 import type { SSRItem } from "@estimatit/shared";
-import { getProject } from "../lib/api/projects";
+import { getProject, markAsTemplate } from "../lib/api/projects";
 import { getActiveSSRVersion } from "../lib/api/ssr";
 import { getMeasurementSheet } from "../lib/api/measurements";
 import { getRecapItems } from "../lib/api/recapitulation";
@@ -23,6 +23,7 @@ export function MeasurementSheet() {
   const { id } = useParams<{ id: string }>();
   const [isAddingBlock, setIsAddingBlock] = useState(false);
   const [isExporting, setIsExporting] = useState(false);
+  const [isSavingTemplate, setIsSavingTemplate] = useState(false);
   const [showValidationDialog, setShowValidationDialog] = useState(false);
   const [exportWarnings, setExportWarnings] = useState<ExportWarning[]>([]);
   const [activeTab, setActiveTab] = useState<"measurement" | "abstract" | "recapitulation">("measurement");
@@ -166,6 +167,20 @@ export function MeasurementSheet() {
     }
   };
 
+  const handleSaveAsTemplate = async () => {
+    if (!project || project.is_template) return;
+    setIsSavingTemplate(true);
+    try {
+      await markAsTemplate(project.id);
+      toast("Project saved as template!", "success");
+      window.location.href = "/"; // Redirect to dashboard
+    } catch (err) {
+      console.error("Failed to mark as template:", err);
+      toast("Failed to save as template.", "error");
+      setIsSavingTemplate(false);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-[calc(100vh-8rem)]">
       <div className="flex-1 space-y-6 pb-24">
@@ -210,24 +225,41 @@ export function MeasurementSheet() {
               {project?.work_order_no ? `WO: ${project.work_order_no}` : "Draft Project"}
             </p>
           </div>
-          <div className="relative group">
-            <button
-              onClick={handleExport}
-              disabled={blocks.length === 0 || isExporting || !project}
-              className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-sm"
-            >
-              {isExporting ? (
-                <Loader2 className="h-4 w-4 animate-spin" />
-              ) : (
-                <FileSpreadsheet className="h-4 w-4" />
-              )}
-              {isExporting ? "Exporting..." : "Export to Excel"}
-            </button>
-            {blocks.length === 0 && (
-              <div className="pointer-events-none absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs text-background opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
-                Add measurements before exporting
-              </div>
+          <div className="flex items-center gap-3">
+            {!project?.is_template && (
+              <button
+                onClick={handleSaveAsTemplate}
+                disabled={isSavingTemplate || !project}
+                className="inline-flex items-center gap-2 rounded-lg bg-indigo-50 px-4 py-2.5 text-sm font-medium text-indigo-700 shadow-sm transition-all hover:bg-indigo-100 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isSavingTemplate ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <FileBadge className="h-4 w-4" />
+                )}
+                Save as Template
+              </button>
             )}
+
+            <div className="relative group">
+              <button
+                onClick={handleExport}
+                disabled={blocks.length === 0 || isExporting || !project}
+                className="inline-flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-emerald-700 hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-sm"
+              >
+                {isExporting ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <FileSpreadsheet className="h-4 w-4" />
+                )}
+                {isExporting ? "Exporting..." : "Export to Excel"}
+              </button>
+              {blocks.length === 0 && (
+                <div className="pointer-events-none absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs text-background opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
+                  Add measurements before exporting
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
