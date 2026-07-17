@@ -1,15 +1,17 @@
 import { useState } from "react";
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, LayoutList, TableProperties } from "lucide-react";
+import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, LayoutList, TableProperties, Percent } from "lucide-react";
 import type { SSRItem } from "@estimatit/shared";
 import { getProject } from "../lib/api/projects";
 import { getActiveSSRVersion } from "../lib/api/ssr";
 import { getMeasurementSheet } from "../lib/api/measurements";
+import { getRecapItems } from "../lib/api/recapitulation";
 import { MeasurementBlockCard } from "../components/measurements/MeasurementBlockCard";
 import { SSRCombobox } from "../components/measurements/SSRCombobox";
 import { ExportValidationDialog } from "../components/measurements/ExportValidationDialog";
 import { AbstractSheet } from "../components/measurements/AbstractSheet";
+import { RecapitulationSheet } from "../components/measurements/RecapitulationSheet";
 import { useMeasurementStore } from "../store/measurementStore";
 import { useStore } from "zustand";
 import { DndContext, closestCenter } from "@dnd-kit/core";
@@ -23,7 +25,7 @@ export function MeasurementSheet() {
   const [isExporting, setIsExporting] = useState(false);
   const [showValidationDialog, setShowValidationDialog] = useState(false);
   const [exportWarnings, setExportWarnings] = useState<ExportWarning[]>([]);
-  const [activeTab, setActiveTab] = useState<"measurement" | "abstract">("measurement");
+  const [activeTab, setActiveTab] = useState<"measurement" | "abstract" | "recapitulation">("measurement");
   
   // Zustand store
   const { 
@@ -58,6 +60,13 @@ export function MeasurementSheet() {
       setSheet(id!, data);
       return data;
     },
+    enabled: !!id,
+  });
+
+  // Fetch recap items so they can be passed to Excel export
+  const { data: recapItems = [] } = useQuery({
+    queryKey: ["recap_items", id],
+    queryFn: () => getRecapItems(id!),
     enabled: !!id,
   });
 
@@ -143,6 +152,7 @@ export function MeasurementSheet() {
         project: project!,
         blocks,
         ssrVersionLabel: activeVersion?.version,
+        recapItems,
       });
       toast(`Exported: ${filename}`, "success");
     } catch (err) {
@@ -245,6 +255,17 @@ export function MeasurementSheet() {
             <TableProperties className="h-3.5 w-3.5" />
             Abstract
           </button>
+          <button
+            onClick={() => setActiveTab("recapitulation")}
+            className={`inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium transition-all ${
+              activeTab === "recapitulation"
+                ? "bg-background text-foreground shadow-sm"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <Percent className="h-3.5 w-3.5" />
+            Recapitulation
+          </button>
         </div>
 
         {/* Loading State */}
@@ -257,6 +278,11 @@ export function MeasurementSheet() {
             {/* ── Abstract Tab ── */}
             {activeTab === "abstract" && (
               <AbstractSheet />
+            )}
+
+            {/* ── Recapitulation Tab ── */}
+            {activeTab === "recapitulation" && id && (
+              <RecapitulationSheet projectId={id} />
             )}
 
             {/* ── Measurement Sheet Tab ── */}
