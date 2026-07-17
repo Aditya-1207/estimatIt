@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import { APP_NAME } from "@estimatit/shared";
 import { auth } from "../../lib/auth";
 import { useAuthStore } from "../../store/auth";
+import { useIsMutating } from "@tanstack/react-query";
+import { useEffect } from "react";
 
 interface AppLayoutProps {
   children: ReactNode;
@@ -20,6 +22,45 @@ export function AppLayout({ children }: AppLayoutProps) {
   const [location] = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { session } = useAuthStore();
+  
+  // Network and Sync status
+  const [isOnline, setIsOnline] = useState(navigator.onLine);
+  const isMutating = useIsMutating();
+
+  useEffect(() => {
+    const handleOnline = () => setIsOnline(true);
+    const handleOffline = () => setIsOnline(false);
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
+
+  const getStatusDisplay = () => {
+    if (!isOnline) {
+      return {
+        label: "Offline - Local Save",
+        containerClass: "bg-red-50 text-red-700 ring-red-500/20",
+        dotClass: "bg-red-500",
+      };
+    }
+    if (isMutating > 0) {
+      return {
+        label: "Syncing...",
+        containerClass: "bg-amber-50 text-amber-700 ring-amber-500/20",
+        dotClass: "bg-amber-500 animate-pulse",
+      };
+    }
+    return {
+      label: "Online & Synced",
+      containerClass: "bg-emerald-50 text-emerald-700 ring-emerald-500/20",
+      dotClass: "bg-emerald-500",
+    };
+  };
+
+  const status = getStatusDisplay();
 
   // Don't show layout on auth pages
   const authRoutes = ["/login", "/forgot-password", "/reset-password"];
@@ -79,10 +120,10 @@ export function AppLayout({ children }: AppLayoutProps) {
 
           {/* Connection Status & Auth */}
           <div className="hidden items-center gap-4 md:flex">
-            <div className="flex items-center gap-1.5 rounded-full bg-emerald-50 px-2.5 py-1">
-              <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span className="text-xs font-medium text-emerald-700">
-                Online
+            <div className={cn("flex items-center gap-1.5 rounded-full px-2.5 py-1 ring-1 ring-inset", status.containerClass)}>
+              <div className={cn("h-2 w-2 rounded-full", status.dotClass)} />
+              <span className="text-xs font-medium">
+                {status.label}
               </span>
             </div>
             {session && (
@@ -150,10 +191,12 @@ export function AppLayout({ children }: AppLayoutProps) {
             </nav>
             {/* Mobile connection status */}
             <div className="mt-3 flex items-center gap-1.5 border-t border-border pt-3">
-              <div className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span className="text-xs font-medium text-emerald-700">
-                Online
-              </span>
+              <div className={cn("flex items-center gap-1.5 rounded-full px-2.5 py-1 ring-1 ring-inset", status.containerClass)}>
+                <div className={cn("h-2 w-2 rounded-full", status.dotClass)} />
+                <span className="text-xs font-medium">
+                  {status.label}
+                </span>
+              </div>
             </div>
           </div>
         )}
