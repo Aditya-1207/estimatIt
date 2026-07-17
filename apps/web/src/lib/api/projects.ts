@@ -98,3 +98,48 @@ export async function deleteProject(id: string): Promise<void> {
     throw error;
   }
 }
+
+/**
+ * Mark a project as a template.
+ */
+export async function markAsTemplate(id: string): Promise<Project> {
+  const { data, error } = await supabase
+    .from("projects")
+    .update({ is_template: true })
+    .eq("id", id)
+    .select()
+    .single();
+
+  if (error) {
+    console.error("Error marking project as template:", error);
+    throw error;
+  }
+
+  return data as Project;
+}
+
+/**
+ * Clone a project as a template.
+ */
+export async function cloneProject(
+  sourceProjectId: string,
+  newName: string,
+  newWorkOrderNo: string
+): Promise<string> {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) throw new Error("Not authenticated");
+
+  const { data, error } = await supabase.rpc("clone_project_as_template", {
+    source_project_id: sourceProjectId,
+    new_name: newName,
+    new_work_order_no: newWorkOrderNo,
+    user_id: user.id
+  });
+
+  if (error) {
+    console.error("Error cloning project:", error);
+    throw error;
+  }
+
+  return data as string; // returns the new project ID
+}

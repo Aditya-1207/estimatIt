@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Clock, HardHat, Trash2 } from "lucide-react";
+import { Clock, HardHat, Trash2, FileBadge } from "lucide-react";
 import type { Project } from "@estimatit/shared";
 
 interface ProjectCardProps {
@@ -25,27 +25,45 @@ export function ProjectCard({ project, onDeleteClick }: ProjectCardProps) {
   return (
     <div className="group relative flex flex-col justify-between rounded-xl border border-border bg-card p-5 shadow-sm transition-all hover:shadow-md">
       <div className="flex items-start justify-between gap-4">
-        <Link href={`/project/${project.id}`} className="flex-1 hover:underline">
-          <div className="flex items-center gap-2">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
-              <HardHat className="h-5 w-5" />
-            </div>
-            <div>
-              <h3 className="font-semibold leading-none tracking-tight text-foreground line-clamp-1">
-                {project.name}
-              </h3>
-              {project.work_order_no ? (
-                <p className="mt-1 text-xs text-muted-foreground">
-                  WO: {project.work_order_no}
-                </p>
-              ) : (
-                <p className="mt-1 text-xs text-muted-foreground">
-                  Draft Project
-                </p>
-              )}
+        {project.is_template ? (
+          <div className="flex-1">
+            <div className="flex items-center gap-2">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-500">
+                <FileBadge className="h-5 w-5" />
+              </div>
+              <div>
+                <h3 className="font-semibold leading-none tracking-tight text-foreground line-clamp-1">
+                  {project.name}
+                </h3>
+                <span className="mt-1 inline-flex items-center rounded-md bg-indigo-500/10 px-2 py-0.5 text-[10px] font-medium text-indigo-500 ring-1 ring-inset ring-indigo-500/20 uppercase tracking-wide">
+                  Template
+                </span>
+              </div>
             </div>
           </div>
-        </Link>
+        ) : (
+          <Link href={`/project/${project.id}`} className="flex-1 hover:underline group/link">
+            <div className="flex items-center gap-2">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover/link:bg-primary/20">
+                <HardHat className="h-5 w-5" />
+              </div>
+              <div>
+                <h3 className="font-semibold leading-none tracking-tight text-foreground line-clamp-1">
+                  {project.name}
+                </h3>
+                {project.work_order_no ? (
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    WO: {project.work_order_no}
+                  </p>
+                ) : (
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    Draft Project
+                  </p>
+                )}
+              </div>
+            </div>
+          </Link>
+        )}
 
         <button
           onClick={() => onDeleteClick(project)}
