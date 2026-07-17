@@ -11,10 +11,12 @@ export const DEFAULT_RECAP_ITEMS: Omit<
   CreateRecapItemInput,
   "project_id"
 >[] = [
-  { description: "Contingency charges",        percentage: 3,  sequence_number: 1 },
-  { description: "Quality Control charges",    percentage: 1,  sequence_number: 2 },
-  { description: "Insurance",                  percentage: 1,  sequence_number: 3 },
-  { description: "GST",                        percentage: 18, sequence_number: 4 },
+  { description: "Work portion",                               type: "abstract_total", percentage: 0,  amount: 0, sequence_number: 1 },
+  { description: "Quality control charges as per statement",   type: "lump_sum",       percentage: 0,  amount: 0, sequence_number: 2 },
+  { description: "Royalty charges as per statement",           type: "lump_sum",       percentage: 0,  amount: 0, sequence_number: 3 },
+  { description: "Insurance 1.0%",                             type: "percentage",     percentage: 1,  amount: 0, sequence_number: 4 },
+  { description: "G.S.T. 18%",                                 type: "percentage",     percentage: 18, amount: 0, sequence_number: 5 },
+  { description: "Technical sanction amount",                  type: "rounded_total",  percentage: 0,  amount: 0, sequence_number: 6 },
 ];
 
 // ─── CRUD ─────────────────────────────────────────────────────────────────────
@@ -60,7 +62,7 @@ export async function createRecapItem(
 }
 
 /**
- * Update description, percentage, or sequence_number of a recap item.
+ * Update a recap item.
  */
 export async function updateRecapItem(
   id: string,
@@ -97,8 +99,7 @@ export async function deleteRecapItem(id: string): Promise<void> {
 }
 
 /**
- * Seed the 4 default recap items for a project.
- * Called when the Recapitulation tab is first opened and no items exist.
+ * Seed the default recap items for a project.
  */
 export async function seedDefaultRecapItems(
   projectId: string,

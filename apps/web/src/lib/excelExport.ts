@@ -961,11 +961,39 @@ function buildRecapSheet(
 
   // ── Data rows (Row 7+) ────────────────────────────────────────────────────
   let currentRow = 7;
-  let recapTotal = 0;
+  let runningTotal = 0;
 
   for (const item of recapItems) {
-    const amount = (item.percentage / 100) * abstractTotal;
-    recapTotal += amount;
+    const isTotalRow = item.type === "rounded_total";
+
+    if (isTotalRow) {
+      // Inject "Total" visual separator
+      const sepRow = ws.getRow(currentRow);
+      sepRow.getCell(2).value = "Total";
+      sepRow.getCell(2).font = { name: FONT_NAME, size: FONT_SIZE, bold: true };
+      sepRow.getCell(2).alignment = { horizontal: "right", vertical: "middle" };
+      
+      sepRow.getCell(4).value = runningTotal;
+      sepRow.getCell(4).numFmt = "₹#,##0.00";
+      sepRow.getCell(4).font = { name: FONT_NAME, size: FONT_SIZE, bold: true };
+      sepRow.getCell(4).alignment = { horizontal: "right", vertical: "middle" };
+      currentRow++;
+    }
+
+    let computedAmount = 0;
+    if (item.type === "abstract_total") {
+      computedAmount = abstractTotal;
+    } else if (item.type === "percentage") {
+      computedAmount = (item.percentage / 100) * abstractTotal;
+    } else if (item.type === "lump_sum") {
+      computedAmount = item.amount;
+    } else if (item.type === "rounded_total") {
+      computedAmount = Math.round(runningTotal);
+    }
+
+    if (!isTotalRow) {
+      runningTotal += computedAmount;
+    }
 
     const row = ws.getRow(currentRow);
     for (let c = 1; c <= 4; c++) {
@@ -978,46 +1006,29 @@ function buildRecapSheet(
 
     row.getCell(2).value = item.description;
     row.getCell(2).alignment = { vertical: "top", wrapText: true };
+    if (isTotalRow) {
+      row.getCell(2).font = { name: FONT_NAME, size: FONT_SIZE, bold: true, italic: true };
+      row.getCell(2).alignment = { horizontal: "right", vertical: "middle" };
+    }
 
-    row.getCell(3).value = item.percentage;
-    row.getCell(3).numFmt = "0.00\"%\"";
-    row.getCell(3).alignment = { horizontal: "right", vertical: "top" };
+    if (item.type === "percentage") {
+      row.getCell(3).value = item.percentage;
+      row.getCell(3).numFmt = "0.00\"%\"";
+      row.getCell(3).alignment = { horizontal: "center", vertical: "top" };
+    } else {
+      row.getCell(3).value = "—";
+      row.getCell(3).alignment = { horizontal: "center", vertical: "top" };
+    }
 
-    row.getCell(4).value = amount;
+    row.getCell(4).value = computedAmount;
     row.getCell(4).numFmt = "₹#,##0.00";
     row.getCell(4).alignment = { horizontal: "right", vertical: "top" };
-    row.getCell(4).font = { name: FONT_NAME, size: FONT_SIZE, bold: true };
+    
+    if (isTotalRow) {
+      row.getCell(4).font = { name: FONT_NAME, size: FONT_SIZE, bold: true };
+      row.getCell(4).alignment = { horizontal: "right", vertical: "middle" };
+    }
 
     currentRow++;
   }
-
-  // ── Total Estimated Cost row ──────────────────────────────────────────────
-  const finalTotal = abstractTotal + recapTotal;
-  const totalRow = ws.getRow(currentRow);
-  applyRowBorders(ws, currentRow);
-  ws.mergeCells(`A${currentRow}:C${currentRow}`);
-  totalRow.getCell(1).value = "Total Estimated Cost";
-  totalRow.getCell(1).font = { name: FONT_NAME, size: 12, bold: true };
-  totalRow.getCell(1).alignment = { horizontal: "right", vertical: "middle" };
-  totalRow.getCell(1).fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF0FDF4" } };
-  totalRow.getCell(4).value = finalTotal;
-  totalRow.getCell(4).numFmt = "₹#,##0.00";
-  totalRow.getCell(4).font = { name: FONT_NAME, size: 12, bold: true };
-  totalRow.getCell(4).alignment = { horizontal: "right", vertical: "middle" };
-  totalRow.getCell(4).fill = { type: "pattern", pattern: "solid", fgColor: { argb: "FFF0FDF4" } };
-  ws.getRow(currentRow).height = POINTS_PER_LINE + 6;
-  currentRow++;
-
-  // ── Say (rounded) ─────────────────────────────────────────────────────────
-  const sayRow = ws.getRow(currentRow);
-  applyRowBorders(ws, currentRow);
-  ws.mergeCells(`A${currentRow}:C${currentRow}`);
-  sayRow.getCell(1).value = "Say";
-  sayRow.getCell(1).font = { name: FONT_NAME, size: FONT_SIZE, bold: true, italic: true };
-  sayRow.getCell(1).alignment = { horizontal: "right", vertical: "middle" };
-  sayRow.getCell(4).value = Math.round(finalTotal);
-  sayRow.getCell(4).numFmt = "₹#,##0";
-  sayRow.getCell(4).font = { name: FONT_NAME, size: FONT_SIZE, bold: true, italic: true };
-  sayRow.getCell(4).alignment = { horizontal: "right", vertical: "middle" };
-  ws.getRow(currentRow).height = POINTS_PER_LINE + 4;
 }

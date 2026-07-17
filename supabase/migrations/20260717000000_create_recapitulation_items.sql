@@ -1,16 +1,19 @@
 -- ─────────────────────────────────────────────────────────────────────────────
--- Phase 10: Recapitulation Items
+-- Phase 10: Recapitulation Items (Revised)
 --
--- One row per percentage-based addition per project.
--- Default items (Contingency 3%, QC 1%, Insurance 1%, GST 18%) are seeded
--- from the app when the Recapitulation tab is first opened on a project.
+-- One row per addition/item per project.
+-- Types: 'abstract_total', 'percentage', 'lump_sum', 'rounded_total'
+-- Default items are seeded from the app when the Recapitulation tab is first
+-- opened on a project.
 -- ─────────────────────────────────────────────────────────────────────────────
 
 CREATE TABLE IF NOT EXISTS recapitulation_items (
   id               uuid        PRIMARY KEY DEFAULT gen_random_uuid(),
   project_id       uuid        NOT NULL REFERENCES projects(id) ON DELETE CASCADE,
   description      text        NOT NULL,
+  type             text        NOT NULL DEFAULT 'percentage' CHECK (type IN ('abstract_total', 'percentage', 'lump_sum', 'rounded_total')),
   percentage       numeric(6,2) NOT NULL DEFAULT 0 CHECK (percentage >= 0),
+  amount           numeric(15,2) NOT NULL DEFAULT 0,
   sequence_number  integer     NOT NULL DEFAULT 1,
   created_at       timestamptz NOT NULL DEFAULT now(),
   updated_at       timestamptz NOT NULL DEFAULT now()
