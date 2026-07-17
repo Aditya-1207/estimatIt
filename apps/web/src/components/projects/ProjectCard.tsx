@@ -26,9 +26,9 @@ export function ProjectCard({ project, onDeleteClick }: ProjectCardProps) {
     <div className="group relative flex flex-col justify-between rounded-xl border border-border bg-card p-5 shadow-sm transition-all hover:shadow-md">
       <div className="flex items-start justify-between gap-4">
         {project.is_template ? (
-          <div className="flex-1">
+          <Link href={`/project/${project.id}`} className="flex-1 hover:underline group/link">
             <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-500">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500/10 text-indigo-500 transition-colors group-hover/link:bg-indigo-500/20">
                 <FileBadge className="h-5 w-5" />
               </div>
               <div>
@@ -40,7 +40,7 @@ export function ProjectCard({ project, onDeleteClick }: ProjectCardProps) {
                 </span>
               </div>
             </div>
-          </div>
+          </Link>
         ) : (
           <Link href={`/project/${project.id}`} className="flex-1 hover:underline group/link">
             <div className="flex items-center gap-2">
