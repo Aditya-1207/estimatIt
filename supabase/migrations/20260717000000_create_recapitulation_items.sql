@@ -7,6 +7,8 @@
 -- opened on a project.
 -- ─────────────────────────────────────────────────────────────────────────────
 
+DROP TABLE IF EXISTS recapitulation_items CASCADE;
+
 CREATE TABLE IF NOT EXISTS recapitulation_items (
   id               uuid        PRIMARY KEY DEFAULT gen_random_uuid(),
   project_id       uuid        NOT NULL REFERENCES projects(id) ON DELETE CASCADE,
