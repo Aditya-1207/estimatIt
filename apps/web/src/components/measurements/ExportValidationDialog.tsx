@@ -1,5 +1,5 @@
 import { AlertTriangle, FileSpreadsheet, X } from "lucide-react";
-import type { ExportWarning } from "../../lib/excelExport";
+import type { ExportWarning } from "../../lib/exports";
 
 interface ExportValidationDialogProps {
   warnings: ExportWarning[];

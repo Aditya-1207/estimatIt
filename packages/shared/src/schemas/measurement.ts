@@ -41,6 +41,7 @@ export type DimensionRow = z.infer<typeof dimensionRowSchema>;
 
 // Inputs for creating
 export const createMeasurementBlockSchema = measurementBlockSchema.pick({
+  id: true,
   project_id: true,
   sequence_number: true,
   ssr_item_id: true,
@@ -51,6 +52,7 @@ export const createMeasurementBlockSchema = measurementBlockSchema.pick({
 export type CreateMeasurementBlockInput = z.infer<typeof createMeasurementBlockSchema>;
 
 export const createMajorItemSchema = majorItemSchema.pick({
+  id: true,
   block_id: true,
   description: true,
   sequence_number: true,
@@ -58,6 +60,7 @@ export const createMajorItemSchema = majorItemSchema.pick({
 export type CreateMajorItemInput = z.infer<typeof createMajorItemSchema>;
 
 export const createDimensionRowSchema = dimensionRowSchema.pick({
+  id: true,
   major_item_id: true,
   description: true,
   sequence_number: true,
