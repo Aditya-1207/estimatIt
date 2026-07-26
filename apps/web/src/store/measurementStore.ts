@@ -14,6 +14,7 @@ import {
   updateMeasurementBlock as apiUpdateMeasurementBlock
 } from "../lib/api/measurements";
 import debounce from "lodash.debounce";
+import { toast } from "../components/Toast";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -144,9 +145,22 @@ export const useMeasurementStore = create<MeasurementState>()(
           }));
           try {
             setSyncStatus("saving");
-            await apiCreateDimensionRow(newRow);
+            await apiCreateDimensionRow({
+              id: newRow.id,
+              major_item_id: newRow.major_item_id,
+              description: newRow.description,
+              sequence_number: newRow.sequence_number,
+              number: newRow.number,
+              length: newRow.length,
+              breadth: newRow.breadth,
+              depth: newRow.depth,
+            });
             setSyncStatus("idle");
-          } catch { setSyncStatus("error"); }
+          } catch (err: any) { 
+            console.error(err);
+            setSyncStatus("error"); 
+            toast("Save Error: " + (err.message || "Unknown error"), "error"); 
+          }
         },
 
         deleteDimensionRow: async (blockId, majorItemId, rowId) => {
@@ -163,7 +177,11 @@ export const useMeasurementStore = create<MeasurementState>()(
             setSyncStatus("saving");
             await apiDeleteDimensionRow(rowId);
             setSyncStatus("idle");
-          } catch { setSyncStatus("error"); }
+          } catch (err: any) { 
+            console.error(err);
+            setSyncStatus("error"); 
+            toast("Save Error: " + (err.message || "Unknown error"), "error"); 
+          }
         },
 
         updateMajorItem: (blockId, majorItemId, description) => {
@@ -185,9 +203,18 @@ export const useMeasurementStore = create<MeasurementState>()(
           }));
           try {
             setSyncStatus("saving");
-            await apiCreateMajorItem(newMajorItem);
+            await apiCreateMajorItem({
+              id: newMajorItem.id,
+              block_id: newMajorItem.block_id,
+              description: newMajorItem.description,
+              sequence_number: newMajorItem.sequence_number,
+            });
             setSyncStatus("idle");
-          } catch { setSyncStatus("error"); }
+          } catch (err: any) { 
+            console.error(err);
+            setSyncStatus("error"); 
+            toast("Save Error: " + (err.message || "Unknown error"), "error"); 
+          }
         },
 
         deleteMajorItem: async (blockId, majorItemId) => {
@@ -201,7 +228,11 @@ export const useMeasurementStore = create<MeasurementState>()(
             setSyncStatus("saving");
             await apiDeleteMajorItem(majorItemId);
             setSyncStatus("idle");
-          } catch { setSyncStatus("error"); }
+          } catch (err: any) { 
+            console.error(err);
+            setSyncStatus("error"); 
+            toast("Save Error: " + (err.message || "Unknown error"), "error"); 
+          }
         },
 
         addMeasurementBlock: async (newBlock) => {
@@ -211,6 +242,7 @@ export const useMeasurementStore = create<MeasurementState>()(
           try {
             setSyncStatus("saving");
             await apiCreateMeasurementBlock({
+              id: newBlock.id,
               project_id: newBlock.project_id,
               sequence_number: newBlock.sequence_number,
               ssr_item_id: newBlock.ssr_item_id,
@@ -219,7 +251,11 @@ export const useMeasurementStore = create<MeasurementState>()(
               custom_unit: newBlock.custom_unit,
             });
             setSyncStatus("idle");
-          } catch { setSyncStatus("error"); }
+          } catch (err: any) { 
+            console.error(err);
+            setSyncStatus("error"); 
+            toast("Save Error: " + (err.message || "Unknown error"), "error"); 
+          }
         },
 
         deleteMeasurementBlock: async (blockId) => {
@@ -230,7 +266,11 @@ export const useMeasurementStore = create<MeasurementState>()(
             setSyncStatus("saving");
             await apiDeleteMeasurementBlock(blockId);
             setSyncStatus("idle");
-          } catch { setSyncStatus("error"); }
+          } catch (err: any) { 
+            console.error(err);
+            setSyncStatus("error"); 
+            toast("Save Error: " + (err.message || "Unknown error"), "error"); 
+          }
         },
 
         reorderBlocks: (startIndex, endIndex) => {

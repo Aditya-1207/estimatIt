@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useParams, Link } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, LayoutList, TableProperties, Percent, FileBadge } from "lucide-react";
+import { ArrowLeft, Loader2, Plus, Ruler, Undo2, Redo2, Cloud, CloudUpload, CloudOff, FileSpreadsheet, FileText, LayoutList, TableProperties, Percent, FileBadge } from "lucide-react";
 import type { SSRItem } from "@estimatit/shared";
 import { getProject, markAsTemplate } from "../lib/api/projects";
 import { getActiveSSRVersion } from "../lib/api/ssr";
@@ -16,17 +16,19 @@ import { useMeasurementStore } from "../store/measurementStore";
 import { useStore } from "zustand";
 import { DndContext, closestCenter } from "@dnd-kit/core";
 import { SortableContext, verticalListSortingStrategy } from "@dnd-kit/sortable";
-import { validateForExport, generateMeasurementSheetExcel, type ExportWarning } from "../lib/excelExport";
+import { validateForExport, generateMeasurementSheetExcel, generateEstimatePdf, type ExportWarning } from "../lib/exports";
 import { toast } from "../components/Toast";
 
 export function MeasurementSheet() {
   const { id } = useParams<{ id: string }>();
   const [isAddingBlock, setIsAddingBlock] = useState(false);
   const [isExporting, setIsExporting] = useState(false);
+  const [isExportingPdf, setIsExportingPdf] = useState(false);
   const [isSavingTemplate, setIsSavingTemplate] = useState(false);
   const [showValidationDialog, setShowValidationDialog] = useState(false);
   const [exportWarnings, setExportWarnings] = useState<ExportWarning[]>([]);
   const [activeTab, setActiveTab] = useState<"measurement" | "abstract" | "recapitulation">("measurement");
+  const pendingExportTypeRef = useRef<"excel" | "pdf">("excel");
   
   // Zustand store
   const { 
@@ -62,6 +64,8 @@ export function MeasurementSheet() {
       return data;
     },
     enabled: !!id,
+    gcTime: 0,
+    staleTime: 0,
   });
 
   // Fetch recap items so they can be passed to Excel export
@@ -140,6 +144,7 @@ export function MeasurementSheet() {
     if (warnings.length > 0) {
       setExportWarnings(warnings);
       setShowValidationDialog(true);
+      pendingExportTypeRef.current = "excel";
     } else {
       performExport();
     }
@@ -164,6 +169,41 @@ export function MeasurementSheet() {
       });
     } finally {
       setIsExporting(false);
+    }
+  };
+
+  // ── PDF Export flow ───────────────────────────────────────────────────
+  const handlePdfExport = () => {
+    const warnings = validateForExport(blocks);
+    if (warnings.length > 0) {
+      setExportWarnings(warnings);
+      setShowValidationDialog(true);
+      // Store that the pending export is PDF so the dialog can call the right function
+      pendingExportTypeRef.current = "pdf";
+    } else {
+      performPdfExport();
+    }
+  };
+
+  const performPdfExport = async () => {
+    setShowValidationDialog(false);
+    setIsExportingPdf(true);
+    try {
+      const filename = await generateEstimatePdf({
+        project: project!,
+        blocks,
+        ssrVersionLabel: activeVersion?.version,
+        recapItems,
+      });
+      toast(`Exported: ${filename}`, "success");
+    } catch (err) {
+      console.error("PDF export failed:", err);
+      toast("PDF export failed. Please try again.", "error", {
+        label: "Try again",
+        onClick: performPdfExport,
+      });
+    } finally {
+      setIsExportingPdf(false);
     }
   };
 
@@ -253,6 +293,26 @@ export function MeasurementSheet() {
                   <FileSpreadsheet className="h-4 w-4" />
                 )}
                 {isExporting ? "Exporting..." : "Export to Excel"}
+              </button>
+              {blocks.length === 0 && (
+                <div className="pointer-events-none absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs text-background opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
+                  Add measurements before exporting
+                </div>
+              )}
+            </div>
+
+            <div className="relative group">
+              <button
+                onClick={handlePdfExport}
+                disabled={blocks.length === 0 || isExportingPdf || !project}
+                className="inline-flex items-center gap-2 rounded-lg bg-rose-600 px-4 py-2.5 text-sm font-medium text-white shadow-sm transition-all hover:bg-rose-700 hover:shadow-md disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-sm"
+              >
+                {isExportingPdf ? (
+                  <Loader2 className="h-4 w-4 animate-spin" />
+                ) : (
+                  <FileText className="h-4 w-4" />
+                )}
+                {isExportingPdf ? "Exporting..." : "Export to PDF"}
               </button>
               {blocks.length === 0 && (
                 <div className="pointer-events-none absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-foreground px-2.5 py-1 text-xs text-background opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
@@ -394,7 +454,13 @@ export function MeasurementSheet() {
           warnings={exportWarnings}
           isOpen={showValidationDialog}
           onClose={() => setShowValidationDialog(false)}
-          onExportAnyway={performExport}
+          onExportAnyway={() => {
+            if (pendingExportTypeRef.current === "pdf") {
+              performPdfExport();
+            } else {
+              performExport();
+            }
+          }}
         />
       </div>
 
